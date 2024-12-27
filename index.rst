@@ -1,4 +1,4 @@
-Welcome to My Project Documentation
+Welcome to My Audioliz Documentation
 ===================================
 
 Contents:
