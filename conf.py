@@ -1,27 +1,12 @@
-# Configuration file for the Sphinx documentation builder.
-#
-# For the full list of built-in configuration values, see the documentation:
-# https://www.sphinx-doc.org/en/master/usage/configuration.html
+import os
 
-# -- Project information -----------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
+# Configurer la sortie correcte pour Read the Docs
+if os.getenv("READTHEDOCS", None) == "True":
+    html_output_dir = os.getenv("READTHEDOCS_OUTPUT", "_build")
+    html_static_path = []  # Optionnel si Read the Docs génère des erreurs sur les fichiers statiques
+else:
+    html_output_dir = "_build"
 
-project = 'ReadTheDocs'
-copyright = '2024, Me'
-author = 'Me'
-
-# -- General configuration ---------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
-
-extensions = []
-
-templates_path = ['_templates']
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
-
-language = 'fr'
-
-# -- Options for HTML output -------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
-
-html_theme = 'alabaster'
+# Répertoire de sortie HTML
 html_static_path = ['_static']
+
