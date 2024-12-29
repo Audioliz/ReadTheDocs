@@ -9,4 +9,3 @@ else:
 
 # Répertoire de sortie HTML
 html_static_path = ['_static']
-html_theme = "sphinx_rtd_theme"
