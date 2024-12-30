@@ -14,7 +14,7 @@ Principales fonctionnalités :
 Pourquoi utiliser [Nom du projet] ?
 - [Avantage 1]
 - [Avantage 2]
-- [Avantage 3]
+- [Avantage 4]
 
 Commencez par consulter les sections suivantes pour installer et utiliser le projet.
 
