@@ -1,7 +1,7 @@
 Introduction
 ============
 
-Bienvenue dans la documentation officielle de [Nom du projet].
+Bienvenue dans Audioliz. Bonjour
 
 [Nom du projet] est un [type de logiciel/bibliothèque/outil] qui permet de [fonctionnalité principale]. 
 Il est conçu pour [public cible] et vise à [résultat attendu ou problème résolu].
