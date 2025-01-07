@@ -1,22 +1,11 @@
 Introduction
 ============
 
-Bienvenue dans Audioliz. Bonjour
+Bienvenue sur Audioliz.
 
-[Nom du projet] est un [type de logiciel/bibliothèque/outil] qui permet de [fonctionnalité principale]. 
-Il est conçu pour [public cible] et vise à [résultat attendu ou problème résolu].
+Audioliz est une plateforme qui permet de fournir un service d'analyse vocale par Intelligence Artificielle à sa clientèle. Cette documentation a pour objectif de guider ses utilisateurs à travers l'interface et de les aider à comprendre et à mettre en pratique le processus d'"Audioliz", du chargement de l'audio à l'interprétation des résultats.
 
-Principales fonctionnalités :
-- [Fonctionnalité 1]
-- [Fonctionnalité 2]
-- [Fonctionnalité 3]
-
-Pourquoi utiliser [Nom du projet] ?
-- [Avantage 1]
-- [Avantage 2]
-- [Avantage 4]
-
-Commencez par consulter les sections suivantes pour installer et utiliser le projet.
+Commencez par consulter notre vidéo d'introduction à l'outil Audioliz.
 
 .. video:: static/vidéo2.0.mp4
    :width: 640
