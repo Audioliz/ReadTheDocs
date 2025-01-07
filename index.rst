@@ -1,11 +1,11 @@
-Welcome to THE Audioliz
+Welcome to Audioliz
 ===================
 
 Contents:
 
 .. toctree::
    :maxdepth: 2
-   :caption: Table of Contents:
+   :caption: Summary:
 
    intro
    installation
