@@ -8,4 +8,4 @@ else:
     html_output_dir = "_build"
 
 # Répertoire de sortie HTML
-html_static_path = ['_static']
+html_static_path = ['media']
