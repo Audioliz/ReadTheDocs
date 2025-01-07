@@ -18,3 +18,6 @@ Pourquoi utiliser [Nom du projet] ?
 
 Commencez par consulter les sections suivantes pour installer et utiliser le projet.
 
+.. video:: static/vidéo2.0.mp4
+   :width: 640
+   :height: 360
