@@ -14,6 +14,6 @@ Commencez par consulter notre vidéo d'introduction à l'outil Audioliz.
       Your browser does not support the video tag.
     </video>
 
-.. youtube:: -52rA3AXv6o&t=2436s
+.. youtube:: 52rA3AXv6o&t=2436s
    :width: 640
    :height: 360
