@@ -9,3 +9,5 @@ else:
 
 # Répertoire de sortie HTML
 html_static_path = ['static']
+
+extensions = ['sphinxcontrib.youtube']
