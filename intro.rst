@@ -7,6 +7,10 @@ Audioliz est une plateforme qui permet de fournir un service d'analyse vocale pa
 
 Commencez par consulter notre vidéo d'introduction à l'outil Audioliz.
 
-.. video:: static/video2.mp4
-   :width: 640
-   :height: 360
+.. raw:: html
+
+    <video controls>
+      <source src="_static/video2.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
