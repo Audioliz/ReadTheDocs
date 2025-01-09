@@ -5,7 +5,7 @@ Bienvenue sur Audioliz.
 
 Audioliz est une plateforme qui permet de fournir un service d'analyse vocale par Intelligence Artificielle à sa clientèle. Cette documentation a pour objectif de guider ses utilisateurs à travers l'interface et de les aider à comprendre et à mettre en pratique le processus d'"Audioliz", du chargement de l'audio à l'interprétation des résultats.
 
-<iframe src="https://www.youtube.com/watch?v=-52rA3AXv6o&t=2450s" width="640" height="360" allow="autoplay"></iframe>
+Youtube: https://www.youtube.com/watch?v=-52rA3AXv6o&t=2450s
 
 Commencez par consulter notre vidéo d'introduction à l'outil Audioliz.
 
