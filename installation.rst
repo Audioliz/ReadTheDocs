@@ -12,6 +12,7 @@ After every call is analyzed, you can see all the useful information about it:
 -The transcript of the call
 -The call audio file
 -Questions/responses with explanations on each response, and the possibility to listen exactly where the answers are given in the call.
+12341
 
 (Vidéo)
 
