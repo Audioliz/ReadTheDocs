@@ -9,4 +9,3 @@ Contents:
 
    intro
    installation
-   usage
