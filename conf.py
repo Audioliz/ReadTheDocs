@@ -7,7 +7,7 @@ release = '1.0'  # ou laisse vide si non versionné
 
 html_title = "Documentation Audioliz"
 html_short_title = "Audioliz"
-
+html_theme = "furo"
 # Configuration Read the Docs
 if os.getenv("READTHEDOCS", None) == "True":
     html_output_dir = os.getenv("READTHEDOCS_OUTPUT", "_build")
