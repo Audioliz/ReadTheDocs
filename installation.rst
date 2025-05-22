@@ -84,7 +84,7 @@ Let's see an example:
 
    <div style="text-align: center;">
      <video width="640" height="360" controls>
-       <source src="_static\create_question_MULTIPLE CHOICE.mp4" type="video/mp4">
+       <source src="_static\create_question_MULTIPLE CHOICES.mp4" type="video/mp4">
      </video>
    </div>
 
