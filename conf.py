@@ -16,7 +16,7 @@ else:
     html_output_dir = "_build"
 
 # Répertoire contenant les fichiers statiques (logos, CSS personnalisée, etc.)
-html_static_path = ['static']
+html_static_path = ['_static']
 html_css_files = ['custom.css']
 # Extensions Sphinx utilisées
 extensions = ['sphinxcontrib.youtube']
