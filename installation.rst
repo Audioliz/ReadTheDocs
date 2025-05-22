@@ -14,7 +14,13 @@ After every call is analyzed, you can see all the useful information about it:
 -Questions/responses with explanations on each response, and the possibility to listen exactly where the answers are given in the call.
 
 
-(Vidéo)
+.. raw:: html
+
+   <div style="text-align: center;">
+     <video width="640" height="360" controls>
+       <source src="_static\call_description.mp4" type="video/mp4">
+     </video>
+   </div>
 
 2. How to load a call
 ---------------------
@@ -23,8 +29,13 @@ To analyze the next calls, you should first load them.
 
 Let's load our first call:
 
-(Vidéo)
+.. raw:: html
 
+   <div style="text-align: center;">
+     <video width="640" height="360" controls>
+       <source src="_static\charger_call.mp4" type="video/mp4">
+     </video>
+   </div>
 3. Create a question
 --------------------
 
@@ -39,7 +50,13 @@ If you have a yes/no question, it is preferable not to select this type of quest
 
 Let's create a question text:
 
-(Vidéo)
+.. raw:: html
+
+   <div style="text-align: center;">
+     <video width="640" height="360" controls>
+       <source src="_static\create_question_text.mp4" type="video/mp4">
+     </video>
+   </div>
 
 3.2 One choice question
 ~~~~~~~~~~~~~~~~~
@@ -48,7 +65,13 @@ A single choice question is used when there is only one possible answer. It's us
 
 Let's try it:
 
-(Vidéo)
+.. raw:: html
+
+   <div style="text-align: center;">
+     <video width="640" height="360" controls>
+       <source src="_static\create_question_ONE CHOICE.mp4" type="video/mp4">
+     </video>
+   </div>
 
 3.3 Multiple choices question
 ~~~~~~~~~~~~~~~~~
@@ -57,7 +80,13 @@ A multiple choice question is used when the answer is not necessarily unique. In
 
 Let's see an example:
 
-(Vidéo)
+.. raw:: html
+
+   <div style="text-align: center;">
+     <video width="640" height="360" controls>
+       <source src="_static\create_question_MULTIPLE CHOICE.mp4" type="video/mp4">
+     </video>
+   </div>
 
 To modify a question, it's very simple. Just click on it and change the fields that you want to modify.
 
@@ -66,7 +95,13 @@ To modify a question, it's very simple. Just click on it and change the fields t
 
 If you change a question in the monitoring sheet, and you want to re run an analysis on a call, here's how to do it:
 
-(Vidéo)
+.. raw:: html
+
+   <div style="text-align: center;">
+     <video width="640" height="360" controls>
+       <source src="_static\rerun.mp4" type="video/mp4">
+     </video>
+   </div>
 
 5. Search a call
 ----------------
@@ -75,14 +110,26 @@ For a large number of loaded calls, it becomes useful to have filters. In the 'S
 
 Let's search for the call in the previous video:
 
-(Vidéo)
+.. raw:: html
+
+   <div style="text-align: center;">
+     <video width="640" height="360" controls>
+       <source src="_static\search.mp4" type="video/mp4">
+     </video>
+   </div>
 
 6. Change monitoring sheet parameters
 -------------------------------------
 
 You can change many parameters in your monitoring grid. Let's see how:
 
-(Vidéo)
+.. raw:: html
+
+   <div style="text-align: center;">
+     <video width="640" height="360" controls>
+       <source src="_static\action.mp4" type="video/mp4">
+     </video>
+   </div>
 
 7.How to visualize the questions with or without a score ?
 ----------------------------------------------------------
