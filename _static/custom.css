@@ -5,6 +5,23 @@ body {
     line-height: 1.6;
     color: #111518;
 }
+/* Masquer l'icône "Afficher le code source" dans le thème Furo */
+button.headerlink {
+    display: none !important;
+}
+
+div.document > div > a.headerlink {
+    display: none !important;
+}
+
+div.theme-toggle, .rst-footer-buttons .show-source {
+    display: none !important;
+}
+
+/* Masquer spécifiquement l’icône "œil avec chevron" */
+html body button[title="View source"] {
+    display: none !important;
+}
 
 /* Titres principaux plus visibles */
 h1,
