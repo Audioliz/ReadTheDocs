@@ -5,7 +5,7 @@ project = 'Audioliz'
 author = 'Audioliz Team'
 release = '1.0'  # ou laisse vide si non versionné
 
-html_title = "Documentation Audioliz"
+html_title = "Audioliz Documentation"
 html_short_title = "Audioliz"
 html_theme = "furo"
 # Configuration Read the Docs
