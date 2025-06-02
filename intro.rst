@@ -1,16 +1,15 @@
 Introduction
 ============
 
-Bienvenue sur Audioliz.
+Welcome to Audioliz.
 
-Audioliz est une plateforme qui permet de fournir un service d'analyse vocale par Intelligence Artificielle à sa clientèle. Cette documentation a pour objectif de guider ses utilisateurs à travers l'interface et de les aider à comprendre et à mettre en pratique le processus d'"Audioliz", du chargement de l'audio à l'interprétation des résultats.
+Audioliz is a platform that provides voice analysis services powered by Artificial Intelligence to its customers. This documentation aims to guide users through the interface and help them understand and implement the Audioliz process, from uploading audio to interpreting the results.
 
 Modification
 
 Youtube: https://www.youtube.com/watch?v=-52rA3AXv6o&t=2450s
 
-Commencez par consulter notre vidéo d'introduction à l'outil Audioliz.
-
+Start by watching our introductory video to the Audioliz tool.
 .. raw:: html
 
     <video controls>
