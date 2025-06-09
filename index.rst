@@ -9,3 +9,4 @@ Contents:
 
    intro
    installation
+   fedia
