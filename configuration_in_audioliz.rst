@@ -96,7 +96,9 @@ For each metadata field, you can define:
 
 - Whether it's required or optional
 
-💡 **Tip**: If you want the question to be asked even when the metadata is missing, set the **default value to a single space (`" "`)**. This prevents the system from skipping the question entirely.
+ 💡 **Tip**: If you want the question to be asked — that is, *included in the prompt sent to the AI* — even when the metadata is present but its value is empty (i.e. the field is defined for the call but has no value), then set the **default value to a single space (`` ``)**.
+
+   This ensures that the metadata placeholder will be replaced by an empty string, and the question will not be skipped during analysis.
 
 
 3.2 Why Metadata Matters in Questions
