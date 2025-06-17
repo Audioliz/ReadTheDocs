@@ -77,7 +77,9 @@ Some metadata is automatically stored in the `crm_metadata` field in the databas
 To manage metadata for a specific action:
 
 - Go to the **Actions** page  
+
 - Select the action you want to configure  
+
 - Open the **Metadata** tab
 
 There, you can:
@@ -87,8 +89,11 @@ There, you can:
 - ✏️ **Edit existing metadata** by clicking directly on the metadata line
 
 For each metadata field, you can define:
+
 - The key (e.g., `CAMPAIGN_NAME`)  
+
 - A default value  
+
 - Whether it's required or optional
 
 💡 **Tip**: If you want the question to be asked even when the metadata is missing, set the **default value to a single space (`" "`)**. This prevents the system from skipping the question entirely.
