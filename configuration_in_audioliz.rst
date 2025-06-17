@@ -90,11 +90,13 @@ There, you can:
 
 For each metadata field, you can define:
 
-- The key (e.g., `CAMPAIGN_NAME`)  
+- **Name**: The internal name of the metadata, displayed in the **Actions** page.
 
-- A default value  
+- **Label**: The display name shown in the **Call Page**.
 
-- Whether it's required or optional
+- **Group**: The section of the **Call Page** where this metadata will appear.
+
+- **Default value**: The fallback value used if the metadata is missing or empty in the call data.  
 
  💡 **Tip**: If you want the question to be asked — that is, *included in the prompt sent to the AI* — even when the metadata is present but its value is empty (i.e. the field is defined for the call but has no value), then set the **default value to a single space (`` ``)**.
 
