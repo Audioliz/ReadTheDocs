@@ -71,7 +71,8 @@ You can change many parameters in your monitoring grid. Let's see how:
 
 3.1 Adding or Modifying Metadata
 ~~~~~~~~~~~~~~~~~
-Metadata refers to additional contextual information attached to a call (such as campaign name, CRM ID, or channel). Some metadata is automatically stored in the `crm_metadata` field in the database, but you can also define and manage **custom metadata fields** for specific actions.
+Metadata refers to additional contextual information attached to a call (such as campaign name, CRM ID, or channel). 
+Some metadata is automatically stored in the `crm_metadata` field in the database, but you can also define and manage **custom metadata fields** for specific actions.
 
 To manage metadata for a specific action:
 
@@ -80,7 +81,9 @@ To manage metadata for a specific action:
 - Open the **Metadata** tab
 
 There, you can:
+
 - ➕ **Add a new metadata** by clicking the plus icon (`+`)  
+
 - ✏️ **Edit existing metadata** by clicking directly on the metadata line
 
 For each metadata field, you can define:
