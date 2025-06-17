@@ -39,7 +39,7 @@ You can choose between the following actions:
 .. raw:: html
 
    <div style="text-align: center;">
-     <img src="_static/ADD TO MY FAVORITES.png" width="300" alt="Add to my favorites">
+     <img src="_static/ADD_TO_MY_FAVORITES.png" width="300" alt="Add to my favorites">
    </div>
 
 - **Duplicate**  
