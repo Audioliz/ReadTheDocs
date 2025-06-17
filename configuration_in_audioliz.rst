@@ -104,5 +104,4 @@ For each metadata field, you can define:
 Some data needed for a question (like a campaign name or product type) varies from one call to another. Instead of creating multiple versions of the same question, you can **insert metadata dynamically** using the `$` symbol in the question text.
 
 Example:
-```text
 What arguments were given for campaign $CAMPAIGN_NAME?
