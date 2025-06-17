@@ -28,7 +28,7 @@ Once inside the dashboard, you will find several options in the top-right corner
 .. raw:: html
 
    <div style="text-align: center;">
-     <img src="_static/Type_Dashbord.png" width="500" alt="Dashboard list">
+     <img src="_static/Dashbord.png" width="500" alt="Dashboard list">
    </div>
 
 You can choose between the following actions:
