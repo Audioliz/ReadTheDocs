@@ -65,6 +65,16 @@ You can choose between the following actions:
 
 
 
+
+
+
+
+
+
+
+
+
+
 5. How to manage and respond to comments ?
 -------------------------------------------
 
