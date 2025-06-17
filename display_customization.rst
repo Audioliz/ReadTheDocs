@@ -14,6 +14,8 @@ In the analysis grid, you can choose to display all the questions, those with a 
 You can choose to display either a dark mode or a light mode.
 
 (vidéo)
+
+
 4. Access and reuse an existing dashboard
 -----------------------------------------
 
