@@ -66,3 +66,36 @@ You can change many parameters in your monitoring grid. Let's see how:
        <source src="_static\action.mp4" type="video/mp4">
      </video>
    </div>
+3.Managing Metadata in Audioliz
+3.1 Adding or Modifying Metadata
+--------------------------------
+
+Metadata refers to additional contextual information attached to a call (such as campaign name, CRM ID, or channel). Some metadata is automatically stored in the `crm_metadata` field in the database, but you can also define and manage **custom metadata fields** for specific actions.
+
+To manage metadata for a specific action:
+
+- Go to the **Actions** page  
+- Select the action you want to configure  
+- Open the **Metadata** tab
+
+There, you can:
+- ➕ **Add a new metadata** by clicking the plus icon (`+`)  
+- ✏️ **Edit existing metadata** by clicking directly on the metadata line
+
+For each metadata field, you can define:
+- The key (e.g., `CAMPAIGN_NAME`)  
+- A default value  
+- Whether it's required or optional
+
+💡 **Tip**: If you want the question to be asked even when the metadata is missing, set the **default value to a single space (`" "`)**. This prevents the system from skipping the question entirely.
+
+---
+
+3.2 Why Metadata Matters in Questions
+-------------------------------------
+
+Some data needed for a question (like a campaign name or product type) varies from one call to another. Instead of creating multiple versions of the same question, you can **insert metadata dynamically** using the `$` symbol in the question text.
+
+Example:
+```text
+What arguments were given for campaign $CAMPAIGN_NAME?
