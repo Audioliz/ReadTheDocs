@@ -1,7 +1,7 @@
 Manage Comments and Feedback
 ============================
 
-9.How to add a comment to an analyzed record ?
+1.How to add a comment to an analyzed record ?
 ----------------------------------------------
 
 You can add a comment either at the level of the responses to each question or in the comment field located right after the transcript.and you need to follow the following steps: 
@@ -17,7 +17,7 @@ You can add a comment either at the level of the responses to each question or i
 
 (vidéo)
 
-10. How to find and respond to comments left on an analyzed call ?
+2. How to find and respond to comments left on an analyzed call ?
 ------------------------------------------------------------------
 
 You need to click on the "comment" field, a tab will open where you can filter by call date, agent, CRM ID. 
