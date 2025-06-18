@@ -80,7 +80,7 @@ To ensure the quality and accuracy of AI-based analyses, supervisors on the clie
 
 To help our team better understand the corrections, it is strongly encouraged to add a comment in the following format:
 
-question_name: incorrect AI answer → correct answer | reason for the change
+- question_name: incorrect AI answer → correct answer | reason for the change
 
 .. raw:: html
 
