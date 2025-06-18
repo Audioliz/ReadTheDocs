@@ -109,6 +109,7 @@ There, you can:
 - ✏️ **Edit existing metadata** by clicking directly on the metadata line
 
 For each metadata field, you can define:
+
 .. raw:: html
 
    <div style="text-align: center;">
