@@ -35,8 +35,6 @@ To find the comments left, click on the "DEBUG STATUS" field and select the "OPE
 3.1. Continuous Improvement of Question Formulation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Since call analysis is performed by an AI system, it is expected that some answers may be incorrect. These inaccuracies can often be traced back to unclear or poorly formulated questions.
-
 As part of our continuous improvement process, we aim to refine the way questions are written. This effort involves both our internal team and the client, as misunderstandings about the client's actual needs can also lead to discrepancies.
 
 To address this, we have implemented a parallel procedure on the client’s side:
@@ -64,21 +62,13 @@ To ensure the quality and accuracy of AI-based analyses, supervisors on the clie
 
 - Fill in the **Counter evaluation by** field with the supervisor’s name.
 
-- Specify the evaluation date in the **Counter evaluation date** field.
-
-- Review the scoring section and enter the value in **Score before counter evaluation**.
-
 .. raw:: html
 
    <div style="text-align: center;">
      <img src="_static/champs_a _remplir.png" width="600" alt="Dashboard list">
    </div>
 
-.. raw:: html
 
-   <div style="text-align: center;">
-     <img src="_static/partie_score.png" width="600" alt="Dashboard list">
-   </div>
 
 To help our team better understand the corrections, it is strongly encouraged to add a comment in the following format:
 
