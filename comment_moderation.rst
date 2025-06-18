@@ -28,8 +28,10 @@ To find the comments left, click on the "DEBUG STATUS" field and select the "OPE
 - Reply to the comments and questions in the "ANSWER" field.
 
 (vidéo)
+
 3. Supervision and Question Adjustment Process
 ---------------------------------------------------------
+
 3.1. Continuous Improvement of Question Formulation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
