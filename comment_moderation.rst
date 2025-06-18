@@ -45,7 +45,7 @@ To address this, we have implemented a parallel procedure on the client’s side
 
 - They are also encouraged to add comments explaining the corrections made.
 
-On our side, we are committed to adjusting the relevant questions based on the supervisors’ feedback, with the goal of minimizing the gap between the AI’s analysis and the human evaluation — a goal that we actively monitor through the AI / HUMAN page on our Power BI dashboard.
+On our side, we are committed to adjusting the relevant questions based on the supervisors’ feedback, with the goal of minimizing the gap between the AI’s analysis and the human evaluation — a goal that we actively monitor through the AI / HUMAN page on our BI dashboard.
 
 .. raw:: html
 
