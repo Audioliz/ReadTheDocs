@@ -28,3 +28,25 @@ To find the comments left, click on the "DEBUG STATUS" field and select the "OPE
 - Reply to the comments and questions in the "ANSWER" field.
 
 (vidéo)
+
+3.Continuous Improvement of Question Formulation
+---------------------------------------------------------
+Since call analysis is performed by an AI system, it is expected that some answers may be incorrect. These inaccuracies can often be traced back to unclear or poorly formulated questions.
+
+As part of our continuous improvement process, we aim to refine the way questions are written. This effort involves both our internal team and the client, as misunderstandings about the client's actual needs can also lead to discrepancies.
+
+To address this, we have implemented a parallel procedure on the client’s side:
+
+-A supervisor reviews and corrects incorrect answers manually for specific questions.
+
+-The supervisor must fill in the "Counter evaluation by" field with their name.
+
+-They are also encouraged to add comments explaining the corrections made.
+
+On our side, we are committed to adjusting the relevant questions based on the supervisors’ feedback, with the goal of minimizing the gap between the AI’s analysis and the human evaluation — a goal that we actively monitor through the AI / HUMAN page on our Power BI dashboard.
+
+.. raw:: html
+
+   <div style="text-align: center;">
+     <img src="_static/ecart_ia_hum.png" width="400" alt="Dashboard list">
+   </div>
