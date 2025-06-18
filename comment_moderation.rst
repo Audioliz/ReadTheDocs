@@ -65,20 +65,23 @@ To ensure the quality and accuracy of AI-based analyses, supervisors on the clie
 - Specify the evaluation date in the **Counter evaluation date** field.
 
 - Review the scoring section and enter the value in **Score before counter evaluation**.
+
 .. raw:: html
 
    <div style="text-align: center;">
-     <img src="_static/champs_a _remplir" width="600" alt="Dashboard list">
+     <img src="_static/champs_a _remplir.png" width="600" alt="Dashboard list">
    </div>
+
 .. raw:: html
 
    <div style="text-align: center;">
-     <img src="_static/partie_score" width="600" alt="Dashboard list">
+     <img src="_static/partie_score.png" width="600" alt="Dashboard list">
    </div>
 
 To help our team better understand the corrections, it is strongly encouraged to add a comment in the following format:
 
 question_name: incorrect AI answer → correct answer | reason for the change
+
 .. raw:: html
 
    <div style="text-align: center;">
@@ -86,6 +89,7 @@ question_name: incorrect AI answer → correct answer | reason for the change
    </div>
 
 In addition, the supervisor should review the AI-generated responses, click on any incorrect answers, and manually correct them. They can also leave a more detailed comment on each question if needed.
+
 .. raw:: html
 
    <div style="text-align: center;">
