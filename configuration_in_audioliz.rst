@@ -80,21 +80,21 @@ To manage metadata for a specific action:
 .. raw:: html
 
    <div style="text-align: center;">
-     <img src="_static/choisir_page_action.png" width="400" alt="Dashboard list">
+     <img src="_static/choisir_page_action.png" width="550" alt="Dashboard list">
    </div>
 
 - Select the action you want to configure  
 .. raw:: html
 
    <div style="text-align: center;">
-     <img src="_static/choisir_action.png" width="400" alt="Dashboard list">
+     <img src="_static/choisir_action.png" width="550" alt="Dashboard list">
    </div>
 
 - Open the **Metadata** tab
 .. raw:: html
 
    <div style="text-align: center;">
-     <img src="_static/choisir_meta.png" width="400" alt="Dashboard list">
+     <img src="_static/choisir_meta.png" width="550" alt="Dashboard list">
    </div>
 
 There, you can:
@@ -113,7 +113,7 @@ For each metadata field, you can define:
 .. raw:: html
 
    <div style="text-align: center;">
-     <img src="_static/creation_meta.png" width="400" alt="Dashboard list">
+     <img src="_static/creation_meta.png" width="550" alt="Dashboard list">
    </div>
 
 
