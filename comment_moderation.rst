@@ -137,48 +137,49 @@ This detailed table shows the call ID, agent name, counter-evaluator, the evalua
 
 
 
-4-Monitoring AI vs Human Evaluations
+4-How to explore the AI vs Human evaluation dashboard?
 
-This page helps you explore the differences between AI evaluations and those provided by human reviewers. It offers four visuals to better understand discrepancies and accuracy levels.
+This page helps you visualize the differences between scores given by the AI and those given by human reviewers (called counter evaluators). You will find four main views on the dashboard:
 
-4.1. Score Table (per counter evaluator and call)
-This table displays, for each counter evaluator and call:
+1. Score Table
+This table displays, for each call and each counter evaluator:
 
-The human score
+the human score
 
-The AI score
+the AI score
 
-The difference between the two
+the gap between the two
 
-If a counter evaluator does not appear, it means no human score has been recorded for the selected period or filters.
-
-.. raw:: html
-
-<div style="text-align: center;"> <img src="_static/Score Table.png" width="800" alt="Score table by counter-evaluator"> </div>
-4.2. Evolution of the Average Gap
-This graph shows how the average difference between AI and human scores evolves over time (day, week, or month — depending on filters).
+If a counter evaluator (e.g., Hayat) does not appear, it means no human score has been recorded for the selected period or filters.
 
 .. raw:: html
 
-<div style="text-align: center;"> <img src="_static/Evolution of the average gap between IA and human scores.png" width="800" alt="Gap evolution over time"> </div>
-4.3. Question-wise Accuracy Table
-This table shows, for each question and reviewer, the percentage of correct and incorrect answers given by the AI (based on human validation).
+<div style="text-align: center;"> <img src="_static/Score Table.png" width="800" alt="Score table showing human, AI and gap scores"> </div>
+2. Evolution of the average gap
+This chart shows how the average difference between AI and human scores changes over time (by day, week, or month depending on filters).
+It helps to monitor consistency and identify possible drifts in AI evaluation.
 
 .. raw:: html
 
-<div style="text-align: center;"> <img src="_static/Question-wise Accuracy Table.png" width="800" alt="AI accuracy by question and reviewer"> </div>
-4.4. Call-by-Call Details
-This detailed table shows, for each call:
+<div style="text-align: center;"> <img src="_static/Evolution of the average gap between IA and human scores.png" width="800" alt="Line chart of AI-human score gap evolution"> </div>
+3. Question-wise Accuracy Table
+This table shows, for each question and each counter evaluator, the percentage of:
 
-The agent name
+correct responses by the AI
 
-The counter evaluator
+incorrect responses by the AI (based on human validation)
 
-The question
+.. raw:: html
 
-The human and AI answers
+<div style="text-align: center;"> <img src="_static/Question-wise Accuracy Table.png" width="800" alt="Accuracy results by question and reviewer"> </div>
+4. Call-by-Call Details
+This final view presents a line-by-line comparison between what the human said, what the AI said, and whether the AI answer was correct.
 
-Whether the AI response was correct
+It includes the call ID, the agent's name, the evaluated question, the human response, the AI response, and the score.
+
+.. raw:: html
+
+<div style="text-align: center;"> <img src="_static/Call-by-Call Details.png" width="800" alt="Detailed call-by-call evaluation comparison"> </div>
 
 .. raw:: html
 
