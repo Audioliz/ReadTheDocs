@@ -133,4 +133,51 @@ This detailed table shows the call ID, agent name, counter-evaluator, the evalua
 
 .. raw:: html
 
+
+
+
+
+
+
+Monitoring the Gap Between AI and Human Evaluations
+
+This section of the BI dashboard allows you to compare how close the AI evaluation scores are to those given by human reviewers (counter evaluators).
+It provides a comprehensive view of the performance alignment and discrepancies between automated and manual scoring.
+
+4.1. Score Table (by counter evaluator)
+This table shows, for each counter evaluator and call:
+
+The human score
+
+The AI score
+
+The gap (difference) between the two
+
+If a counter evaluator doesn’t appear in this table, it simply means no human score has been recorded for them in the selected period.
+
+.. raw:: html
+
+<div style="text-align: center;"> <img src="_static/Score Table.png" width="800" alt="Score table by counter evaluator"> </div>
+4.2. Evolution of the Average Gap
+This line chart helps you track how the average gap between human and AI scores evolves over time.
+You can filter this view by day, week, or month depending on your analysis needs.
+
+.. raw:: html
+
+<div style="text-align: center;"> <img src="_static/Evolution of the average gap between IA and human scores.png" width="800" alt="Average gap evolution chart"> </div>
+4.3. Question-wise Accuracy Table
+This table compares, for each question, the percentage of correct and incorrect answers according to the AI and the human reviewer.
+It helps identify which topics or question types are more prone to disagreement.
+
+.. raw:: html
+
+<div style="text-align: center;"> <img src="_static/Question-wise Accuracy Table.png" width="800" alt="Accuracy table by question"> </div>
+4.4. Call-by-Call Details
+This detailed view gives you full transparency on how AI and human evaluations compare for each individual call.
+You’ll find the agent name, the counter evaluator, the evaluated question, the human and AI answers, and the final result.
+
+.. raw:: html
+
+<div style="text-align: center;"> <img src="_static/Call-by-Call Details.png" width="800" alt="Detailed per-call evaluation view"> </div>
+
 <div style="text-align: center;"> <img src="_static/Call-by-Call Details.png" width="800" alt="Detailed comparison of IA vs human answers"> </div>
