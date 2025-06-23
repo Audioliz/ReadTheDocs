@@ -98,10 +98,12 @@ In addition, the supervisor should review the AI-generated responses, click on a
 
 
 4. Understanding the IA vs Human comparison dashboard
+
 ---------------------------------------------------------
 This page allows you to explore the differences between evaluations made by the AI and those made by human reviewers.
 
 1. Score Table
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
@@ -116,6 +118,7 @@ If a counter-evaluator (e.g. Hayat) does not appear, it means no human score has
 </div>
 
 2. Evolution of the average gap between IA and human scores
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 This graph shows the trend of the average difference between the human and AI scores over time (day, week, or month depending on filters).
 
@@ -126,6 +129,7 @@ This graph shows the trend of the average difference between the human and AI sc
 </div>
 
 3. Question-wise Accuracy Table
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 This visual presents, for each question, the percentage of correct and incorrect responses by the AI (based on human validation) per counter-evaluator.
 
@@ -136,6 +140,7 @@ This visual presents, for each question, the percentage of correct and incorrect
 </div>
 
 4. Call-by-Call Details
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 This detailed table shows the call ID, agent name, counter-evaluator, the evaluated question, the human answer, the AI answer, and whether the AI's response was correct or not.
 
@@ -146,11 +151,13 @@ This detailed table shows the call ID, agent name, counter-evaluator, the evalua
 
 
 5. Understanding the IA vs Human Comparison Dashboard
+
 ---------------------------------------------------------
 
 This page allows you to explore the differences between evaluations made by the AI and those made by human reviewers. It is divided into four key visualizations to support your analysis.
 
 5.1. Score Table (by counter-evaluator)
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This table displays, for each counter-evaluator and each call:
@@ -163,11 +170,6 @@ the gap (difference) between the two
 
 If a counter-evaluator (e.g. Hayat) does not appear, it means no human score has been recorded for the selected filters.
 
-.. raw:: html
-
-   <div style="text-align: center;">
-     <img src="_static/ecart_ia_hum.png" width="600" alt="Dashboard list">
-   </div>
 
 .. raw:: html
 
