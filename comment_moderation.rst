@@ -18,7 +18,7 @@ You can add a comment either at the level of the responses to each question or i
 (vidéo)
 
 2. How to find and respond to comments left on an analyzed call ?
-------------------------------------------------------------------
+--------------------------------------------------------
 
 You need to click on the "comment" field, a tab will open where you can filter by call date, agent, CRM ID. 
 To find the comments left, click on the "DEBUG STATUS" field and select the "OPEN" option to display all the analyzed calls where a comment has been left. At this point, you have the option to quickly view all comments left on calls by clicking on the two arrows next to "👁️‍🗨️". Or reply to the comments by clicking on "👁️‍🗨️", opening the call analysis grid, and following these steps:
@@ -212,4 +212,5 @@ whether the AI’s answer was correct or not
 
 .. raw:: html
 
-<div style="text-align: center;"> <img src="_static/Call-by-Call Details.png" width="800" alt="Call-by-call analysis table"> </div>
+<div style="text-align: center;"> <img src="_static/Call-by-Call Details.png" width="800" alt="Call-by-call analysis table"> 
+</div>
