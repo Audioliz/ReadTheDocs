@@ -145,79 +145,10 @@ This detailed table shows the call ID, agent name, counter-evaluator, the evalua
 
 .. raw:: html
 
-
-
-
-
-5. Understanding the IA vs Human Comparison Dashboard
-------------------------------------------------
-
-This page allows you to explore the differences between evaluations made by the AI and those made by human reviewers. It is divided into four key visualizations to support your analysis.
-
-5.1. Score Table (by counter-evaluator)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-This table displays, for each counter-evaluator and each call:
-
-the human score
-
-the AI score
-
-the gap (difference) between the two
-
-If a counter-evaluator (e.g. Hayat) does not appear, it means no human score has been recorded for the selected filters.
-
-
-.. raw:: html
-
-   <div style="text-align: center;">
-    <img src="_static/Score Table.png" width="800" alt="Score table by counter-evaluator">
+   <div style="text-align: center;"> 
+    <img src="_static/Call-by-Call Details.png" width="800" alt="Accuracy per question and reviewer"> 
    </div>
 
-5.2. Evolution of the Average Gap
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-This graph shows the trend of the average difference between human and AI scores over time.
-You can choose to display this evolution by day, week, or month, using the calendar filters in the dashboard.
 
-.. raw:: html
 
-   <div style="text-align: center;">
-   <img src="_static/Evolution of the average gap between IA and human scores.png" width="800" alt="Average gap over time"> 
-   </div>
-
-5.3. Question-wise Accuracy Table
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-This visualization shows, for each question and counter-evaluator:
-
-the percentage of correct answers by the AI
-
-the percentage of incorrect answers based on the human review
-
-It helps identify which types of questions may need further adjustments.
-
-.. raw:: html
-
-   <div style="text-align: center;">  
-   <img src="_static/Question-wise Accuracy Table.png" width="800" alt="Accuracy per question and reviewer"> 
-    </div>
-
-5.4. Call-by-Call Details
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-This table allows you to review individual calls. For each line, you can see:
-
-the call ID, agent, and counter-evaluator
-
-the question being evaluated
-
-the human value and AI value
-
-whether the AI’s answer was correct or not
-
-.. raw:: html
-
-  <div style="text-align: center;"> 
-   <img src="_static/Call-by-Call Details.png" width="800" alt="Call-by-call analysis table"> 
-  </div>
