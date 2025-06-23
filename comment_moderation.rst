@@ -97,15 +97,6 @@ In addition, the supervisor should review the AI-generated responses, click on a
    </div>
 
 
-
-
-
-
-
-
-
-
-
 4. Understanding the IA vs Human comparison dashboard
 This page allows you to explore the differences between evaluations made by the AI and those made by human reviewers.
 
@@ -113,10 +104,11 @@ This page allows you to explore the differences between evaluations made by the 
 This table displays, for each counter-evaluator and each call, the human score, the AI score, and the difference between the two.
 If a counter-evaluator (e.g. Hayat) does not appear, it means no human score has been recorded for the selected period or filters.
 
+
 .. raw:: html
 
 <div style="text-align: center;"> 
-<img src="_static/Score Table.png" width="800" alt="Score table by counter-evaluator">
+       <img src="_static/Score Table.png" width="800" alt="Score table by counter-evaluator">
 </div>
 
 2. Evolution of the average gap between IA and human scores
