@@ -219,5 +219,5 @@ whether the AI’s answer was correct or not
 .. raw:: html
 
   <div style="text-align: center;"> 
-  <img src="_static/Call-by-Call Details.png" width="800" alt="Call-by-call analysis table"> 
- </div>
+   <img src="_static/Call-by-Call Details.png" width="800" alt="Call-by-call analysis table"> 
+  </div>
