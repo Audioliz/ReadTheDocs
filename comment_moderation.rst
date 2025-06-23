@@ -146,7 +146,7 @@ This detailed table shows the call ID, agent name, counter-evaluator, the evalua
 .. raw:: html
 
    <div style="text-align: center;"> 
-    <img src="_static/Call-by-Call Details.png" width="800" alt="Accuracy per question and reviewer"> 
+    <img src="_static/ Call-by-Call Details.png" width="800" alt="Accuracy per question and reviewer"> 
    </div>
 
 
