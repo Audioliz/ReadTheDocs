@@ -98,12 +98,11 @@ In addition, the supervisor should review the AI-generated responses, click on a
 
 
 4. Understanding the IA vs Human comparison dashboard
-
 ---------------------------------------------------------
+
 This page allows you to explore the differences between evaluations made by the AI and those made by human reviewers.
 
 1. Score Table
-
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
@@ -118,8 +117,8 @@ If a counter-evaluator (e.g. Hayat) does not appear, it means no human score has
        </div>
 
 2. Evolution of the average gap between IA and human scores
-
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 This graph shows the trend of the average difference between the human and AI scores over time (day, week, or month depending on filters).
 
 .. raw:: html
@@ -129,8 +128,8 @@ This graph shows the trend of the average difference between the human and AI sc
        </div>
 
 3. Question-wise Accuracy Table
-
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 This visual presents, for each question, the percentage of correct and incorrect responses by the AI (based on human validation) per counter-evaluator.
 
 .. raw:: html
@@ -140,8 +139,8 @@ This visual presents, for each question, the percentage of correct and incorrect
    </div>
 
 4. Call-by-Call Details
-
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 This detailed table shows the call ID, agent name, counter-evaluator, the evaluated question, the human answer, the AI answer, and whether the AI's response was correct or not.
 
 .. raw:: html
@@ -151,13 +150,11 @@ This detailed table shows the call ID, agent name, counter-evaluator, the evalua
 
 
 5. Understanding the IA vs Human Comparison Dashboard
-
 ------------------------------------------------
 
 This page allows you to explore the differences between evaluations made by the AI and those made by human reviewers. It is divided into four key visualizations to support your analysis.
 
 5.1. Score Table (by counter-evaluator)
-
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This table displays, for each counter-evaluator and each call:
@@ -174,6 +171,7 @@ If a counter-evaluator (e.g. Hayat) does not appear, it means no human score has
 .. raw:: html
 
 <div style="text-align: center;"> <img src="_static/Score Table.png" width="800" alt="Score table by counter-evaluator"> </div>
+
 5.2. Evolution of the Average Gap
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -183,6 +181,7 @@ You can choose to display this evolution by day, week, or month, using the calen
 .. raw:: html
 
 <div style="text-align: center;"> <img src="_static/Evolution of the average gap between IA and human scores.png" width="800" alt="Average gap over time"> </div>
+
 5.3. Question-wise Accuracy Table
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -197,6 +196,7 @@ It helps identify which types of questions may need further adjustments.
 .. raw:: html
 
 <div style="text-align: center;"> <img src="_static/Question-wise Accuracy Table.png" width="800" alt="Accuracy per question and reviewer"> </div>
+
 5.4. Call-by-Call Details
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
