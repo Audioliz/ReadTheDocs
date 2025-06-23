@@ -165,6 +165,12 @@ If a counter-evaluator (e.g. Hayat) does not appear, it means no human score has
 
 .. raw:: html
 
+   <div style="text-align: center;">
+     <img src="_static/ecart_ia_hum.png" width="600" alt="Dashboard list">
+   </div>
+
+.. raw:: html
+
 <div style="text-align: center;"> <img src="_static/Score Table.png" width="800" alt="Score table by counter-evaluator"> </div>
 5.2. Evolution of the Average Gap
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
