@@ -113,9 +113,9 @@ If a counter-evaluator (e.g. Hayat) does not appear, it means no human score has
 
 .. raw:: html
 
-<div style="text-align: center;"> 
-<img src="_static/Score Table.png" width="800" alt="Score table by counter-evaluator">
-</div>
+       <div style="text-align: center;"> 
+              <img src="_static/Score Table.png" width="800" alt="Score table by counter-evaluator">
+       </div>
 
 2. Evolution of the average gap between IA and human scores
 
@@ -124,9 +124,9 @@ This graph shows the trend of the average difference between the human and AI sc
 
 .. raw:: html
 
-<div style="text-align: center;"> 
-<img src="_static/Evolution of the average gap between IA and human scores.png" width="800" alt="Line chart showing average gap over time"> 
-</div>
+       <div style="text-align: center;"> 
+              <img src="_static/Evolution of the average gap between IA and human scores.png" width="800" alt="Line chart showing average gap over time"> 
+       </div>
 
 3. Question-wise Accuracy Table
 
