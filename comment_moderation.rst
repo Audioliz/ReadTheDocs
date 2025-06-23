@@ -124,7 +124,7 @@ This graph shows the trend of the average difference between the human and AI sc
 
 .. raw:: html
 
-       <div style="text-align: center;"> 
+<div style="text-align: center;"> 
               <img src="_static/Evolution of the average gap between IA and human scores.png" width="800" alt="Line chart showing average gap over time"> 
        </div>
 
@@ -135,9 +135,9 @@ This visual presents, for each question, the percentage of correct and incorrect
 
 .. raw:: html
 
-<div style="text-align: center;"> 
-<img src="_static/Question-wise Accuracy Table.png" width="800" alt="Accuracy per question and reviewer"> 
-</div>
+   <div style="text-align: center;"> 
+    <img src="_static/Question-wise Accuracy Table.png" width="800" alt="Accuracy per question and reviewer"> 
+   </div>
 
 4. Call-by-Call Details
 
@@ -152,7 +152,7 @@ This detailed table shows the call ID, agent name, counter-evaluator, the evalua
 
 5. Understanding the IA vs Human Comparison Dashboard
 
----------------------------------------------------------
+------------------------------------------------
 
 This page allows you to explore the differences between evaluations made by the AI and those made by human reviewers. It is divided into four key visualizations to support your analysis.
 
