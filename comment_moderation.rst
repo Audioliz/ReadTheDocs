@@ -72,8 +72,8 @@ To ensure the quality and accuracy of AI-based analyses, supervisors on the clie
 
 .. raw:: html
 
-   <div style="text-align: center;">
-     <img src="_static/champs_a _remplir.png" width="600" alt="Dashboard list">
+<div style="text-align: center;">
+<img src="_static/champs_a _remplir.png" width="600" alt="Dashboard list">
    </div>
 
 
