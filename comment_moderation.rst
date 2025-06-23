@@ -123,9 +123,9 @@ This graph shows the trend of the average difference between the human and AI sc
 
 .. raw:: html
 
-<div style="text-align: center;"> 
+   <div style="text-align: center;"> 
               <img src="_static/Evolution of the average gap between IA and human scores.png" width="800" alt="Line chart showing average gap over time"> 
-       </div>
+   </div>
 
 3. Question-wise Accuracy Table
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -170,7 +170,9 @@ If a counter-evaluator (e.g. Hayat) does not appear, it means no human score has
 
 .. raw:: html
 
-<div style="text-align: center;"> <img src="_static/Score Table.png" width="800" alt="Score table by counter-evaluator"> </div>
+   <div style="text-align: center;">
+    <img src="_static/Score Table.png" width="800" alt="Score table by counter-evaluator">
+   </div>
 
 5.2. Evolution of the Average Gap
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -180,7 +182,9 @@ You can choose to display this evolution by day, week, or month, using the calen
 
 .. raw:: html
 
-<div style="text-align: center;"> <img src="_static/Evolution of the average gap between IA and human scores.png" width="800" alt="Average gap over time"> </div>
+   <div style="text-align: center;">
+   <img src="_static/Evolution of the average gap between IA and human scores.png" width="800" alt="Average gap over time"> 
+   </div>
 
 5.3. Question-wise Accuracy Table
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -195,7 +199,9 @@ It helps identify which types of questions may need further adjustments.
 
 .. raw:: html
 
-<div style="text-align: center;"> <img src="_static/Question-wise Accuracy Table.png" width="800" alt="Accuracy per question and reviewer"> </div>
+   <div style="text-align: center;">  
+   <img src="_static/Question-wise Accuracy Table.png" width="800" alt="Accuracy per question and reviewer"> 
+    </div>
 
 5.4. Call-by-Call Details
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -212,5 +218,6 @@ whether the AI’s answer was correct or not
 
 .. raw:: html
 
-<div style="text-align: center;"> <img src="_static/Call-by-Call Details.png" width="800" alt="Call-by-call analysis table"> 
-</div>
+  <div style="text-align: center;"> 
+  <img src="_static/Call-by-Call Details.png" width="800" alt="Call-by-call analysis table"> 
+ </div>
