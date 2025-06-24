@@ -138,7 +138,7 @@ Example:
 What arguments were given for campaign $CAMPAIGN_NAME
 
 4. Managing User Roles in Audioliz
-==================================
+-------------------------------------
 
 Roles in Audioliz define what users can do based on their group membership. Each role controls access to specific features such as user management, call editing, metadata modification, and more.
 
