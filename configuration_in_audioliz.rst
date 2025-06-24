@@ -155,7 +155,9 @@ You can see this list by navigating to Configuration > Users > ROLES:
 
 .. raw:: html
 
-<div style="text-align: center;"> <img src="_static/roles_list.png" width="720" alt="List of available roles"> </div>
+   <div style="text-align: center;">
+    <img src="_static/roles_list.png" width="720" alt="List of available roles">
+   </div>
 Clicking on any role (e.g. admin) will show the detailed permissions attached to that role:
 
 .. raw:: html
@@ -176,7 +178,9 @@ You will see a list of users. Click the eye icon to open a user profile:
 
 .. raw:: html
 
-<div style="text-align: center;"> <img src="_static/user_list.png" width="720" alt="User list"> </div>
+  <div style="text-align: center;"> 
+   <img src="_static/user_list.png" width="720" alt="User list"> 
+  </div>
 In the profile page, scroll down to the Roles section and click on it:
 
 .. raw:: html
@@ -186,7 +190,9 @@ A dropdown menu will appear. You can select one or more roles from the list:
 
 .. raw:: html
 
-<div style="text-align: center;"> <img src="_static/choose_role.png" width="720" alt="Choose user role"> </div>
+  <div style="text-align: center;"> 
+   <img src="_static/choose_role.png" width="720" alt="Choose user role"> 
+  </div>
 Click Save to confirm your changes.
 
 🔎 Tip
