@@ -139,36 +139,53 @@ What arguments were given for campaign $CAMPAIGN_NAME
 
 4. Managing User Roles in Audioliz
 -------------------------------------
+In Audioliz, each user has a role that defines what they can do and access within the platform. Roles are used to control permissions based on responsibilities—such as reading data, editing actions, managing users, or commenting on calls.
 
-Roles in Audioliz define what users can do based on their group membership. Each role controls access to specific features such as user management, call editing, metadata modification, and more.
+4.1 Overview of Available Roles
+~~~~~~~~~~~~~~~~~
+Here are the most common roles in Audioliz:
 
-Here’s how roles are structured:
+Role	Description
+admin	Full access to all features and functionalities
+supervisor	Can do everything except user administration
+external supervisor	Like agents, but can also comment on calls and edit metadata
+agent	Can view calls and answer grids, but cannot manage users or settings
+
+You can see this list by navigating to Configuration > Users > ROLES:
 
 .. raw:: html
 
-   <div style="text-align: center;">
-     <img src="_static/Roles.png" width="720" alt="User Roles Table">
-   </div>
+<div style="text-align: center;"> <img src="_static/roles_list.png" width="720" alt="List of available roles"> </div>
+Clicking on any role (e.g. admin) will show the detailed permissions attached to that role:
 
-4.1 Common Roles and Their Permissions
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. raw:: html
 
-- **admin**: Full access to all features and functionalities.
-- **supervisor**: Can do everything except user administration.
-- **external supervisor**: Like agents, but can also comment on calls and modify metadata.
-- **agent**: Can view calls and configure actions, but cannot modify users or campaigns.
+<div style="text-align: center;"> <img src="_static/permissions_admin.png" width="720" alt="Admin role permissions"> </div>
+Each permission represents a specific action: viewing calls, editing transcriptions, managing clients, etc.
 
-4.2 Viewing and Assigning Roles
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+4.2 How to Edit a User's Role
+~~~~~~~~~~~~~~~~~
+If you have admin access, you can assign or change a user's role in just a few clicks.
 
-Roles can be assigned when creating or editing a user. To manage user roles:
+Steps:
+Go to Configuration > Users in the left-hand menu.
 
-- Go to the **Admin** section
-- Open the **Users** tab
-- Select a user and choose a role from the **Group** dropdown list
+You will see a list of users. Click the eye icon to open a user profile:
 
-.. note::
+.. raw:: html
 
-   Roles define what users *can do*, but the actual *data* they can see depends on their client, project, or team association.
+<div style="text-align: center;"> <img src="_static/user_list.png" width="720" alt="User list"> </div>
+In the profile page, scroll down to the Roles section and click on it:
 
+.. raw:: html
 
+<div style="text-align: center;"> <img src="_static/edit_user.png" width="720" alt="User profile with role selection"> </div>
+A dropdown menu will appear. You can select one or more roles from the list:
+
+.. raw:: html
+
+<div style="text-align: center;"> <img src="_static/choose_role.png" width="720" alt="Choose user role"> </div>
+Click Save to confirm your changes.
+
+🔎 Tip
+If you don’t see the role options or can’t edit them, it means your account doesn’t have admin privileges. You’ll need to contact an administrator to update roles.
