@@ -160,7 +160,9 @@ Clicking on any role (e.g. admin) will show the detailed permissions attached to
 
 .. raw:: html
 
-<div style="text-align: center;"> <img src="_static/permissions_admin.png" width="720" alt="Admin role permissions"> </div>
+ <div style="text-align: center;"> 
+  <img src="_static/permissions_admin.png" width="720" alt="Admin role permissions">
+ </div>
 Each permission represents a specific action: viewing calls, editing transcriptions, managing clients, etc.
 
 4.2 How to Edit a User's Role
