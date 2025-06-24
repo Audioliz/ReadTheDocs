@@ -135,4 +135,45 @@ For each metadata field, you can define:
 Some data needed for a question (like a campaign name or product type) varies from one call to another. Instead of creating multiple versions of the same question, you can **insert metadata dynamically** using the `$` symbol in the question text.
 
 Example:
-What arguments were given for campaign $CAMPAIGN_NAME?
+What arguments were given for campaign $CAMPAIGN_NAME
+
+4. Managing User Roles in Audioliz
+==================================
+
+Roles in Audioliz define what users can do based on their group membership. Each role controls access to specific features such as user management, call editing, metadata modification, and more.
+
+Here’s how roles are structured:
+
+.. raw:: html
+
+   <div style="text-align: center;">
+     <img src="_static/Roles.png" width="720" alt="User Roles Table">
+   </div>
+
+4.1 Common Roles and Their Permissions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- **admin**: Full access to all features and functionalities.
+- **supervisor**: Can do everything except user administration.
+- **external supervisor**: Like agents, but can also comment on calls and modify metadata.
+- **agent**: Can view calls and configure actions, but cannot modify users or campaigns.
+- **dev**: Developer role with advanced access for Audioliz developers.
+- **demo**: View-only role for demonstration purposes.
+- **admin-audioliz**: Admin rights for internal Audioliz staff.
+- **all_scopes_except_client_crud**: Access to all scopes except client creation, read, update, delete.
+- **all_scopes_except_3**: Access to all scopes except a custom subset (e.g. client, campaign, call management).
+
+4.2 Viewing and Assigning Roles
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Roles can be assigned when creating or editing a user. To manage user roles:
+
+- Go to the **Admin** section
+- Open the **Users** tab
+- Select a user and choose a role from the **Group** dropdown list
+
+.. note::
+
+   Roles define what users *can do*, but the actual *data* they can see depends on their client, project, or team association.
+
+
