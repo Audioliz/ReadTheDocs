@@ -157,11 +157,6 @@ Here’s how roles are structured:
 - **supervisor**: Can do everything except user administration.
 - **external supervisor**: Like agents, but can also comment on calls and modify metadata.
 - **agent**: Can view calls and configure actions, but cannot modify users or campaigns.
-- **dev**: Developer role with advanced access for Audioliz developers.
-- **demo**: View-only role for demonstration purposes.
-- **admin-audioliz**: Admin rights for internal Audioliz staff.
-- **all_scopes_except_client_crud**: Access to all scopes except client creation, read, update, delete.
-- **all_scopes_except_3**: Access to all scopes except a custom subset (e.g. client, campaign, call management).
 
 4.2 Viewing and Assigning Roles
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
