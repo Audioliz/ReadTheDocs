@@ -185,7 +185,9 @@ In the profile page, scroll down to the Roles section and click on it:
 
 .. raw:: html
 
-<div style="text-align: center;"> <img src="_static/edit_user.png" width="720" alt="User profile with role selection"> </div>
+ <div style="text-align: center;">
+   <img src="_static/edit_user.png" width="720" alt="User profile with role selection"> 
+</div>
 A dropdown menu will appear. You can select one or more roles from the list:
 
 .. raw:: html
