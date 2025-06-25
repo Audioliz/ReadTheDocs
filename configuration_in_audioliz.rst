@@ -83,7 +83,7 @@ To manage metadata for a specific action:
      <img src="_static/choisir_page_action.png" width="550" alt="Dashboard list">
    </div>
 
-- Select the action you want to configure  
+-  Select the scorecard you want to configure by clicking the eye icon  
 .. raw:: html
 
    <div style="text-align: center;">
@@ -124,10 +124,10 @@ For each metadata field, you can define:
 - **Group**: The section of the **Call Page** where this metadata will appear.
 
 - **Default value**: The fallback value used if the metadata is missing or empty in the call data.  
+ 
+**Tip**: If you want the question to be asked ,that is *included in the prompt sent to the AI*  , even when the metadata is present but its value is empty (i.e. the field is defined for the call but has no value), then set the **default value to a single space (`` ``)**.
 
- 💡 **Tip**: If you want the question to be asked — that is, *included in the prompt sent to the AI* — even when the metadata is present but its value is empty (i.e. the field is defined for the call but has no value), then set the **default value to a single space (`` ``)**.
-
-   This ensures that the metadata placeholder will be replaced by an empty string, and the question will not be skipped during analysis.
+This ensures that the metadata placeholder will be replaced by an empty string, and the question will not be skipped during analysis.
 
 
 3.2 Why Metadata Matters in Questions
