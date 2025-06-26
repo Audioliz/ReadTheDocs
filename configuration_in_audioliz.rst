@@ -139,17 +139,17 @@ What arguments were given for campaign $CAMPAIGN_NAME
 
 4. Managing User Roles in Audioliz
 -------------------------------------
-In Audioliz, each user has a role that defines what they can do and access within the platform. Roles are used to control permissions based on responsibilities—such as reading data, editing actions, managing users, or commenting on calls.
+In Audioliz, each user has a role that defines what they can do and access within the platform. Roles are used to control permissions based on responsibilities—such as reading data, editing scorecards, managing users, or commenting on calls.
 
-4.1 Overview of Available Roles
+4.1 Predefined Roles in Audioliz
 ~~~~~~~~~~~~~~~~~
-Here are the most common roles in Audioliz:
+
 
 Role	Description
-admin	Full access to all features and functionalities
-supervisor	Can do everything except user administration
-external supervisor	Like agents, but can also comment on calls and edit metadata
-agent	Can view calls and answer grids, but cannot manage users or settings
+Admin	: Full access to all features and functionalities
+Supervisor :	Can do everything except user administration
+External supervisor :	Like agents, but can also comment on calls and edit metadata
+Agent	: Can view calls and answer grids, but cannot manage users or settings
 
 You can see this list by navigating to Configuration > Users > ROLES:
 
@@ -165,16 +165,16 @@ Clicking on any role (e.g. admin) will show the detailed permissions attached to
  <div style="text-align: center;"> 
   <img src="_static/permissions_admin.png" width="720" alt="Admin role permissions">
  </div>
-Each permission represents a specific action: viewing calls, editing transcriptions, managing clients, etc.
+Permissions control which types of roles can access or perform certain operations on the calls
 
 4.2 How to Edit a User's Role
 ~~~~~~~~~~~~~~~~~
-If you have admin access, you can assign or change a user's role in just a few clicks.
+Admin users can assign or modify user roles :
 
 Steps:
 Go to Configuration > Users in the left-hand menu.
 
-You will see a list of users. Click the eye icon to open a user profile:
+You’ll see users listed. Click the eye icon to view individual profiles:
 
 .. raw:: html
 
