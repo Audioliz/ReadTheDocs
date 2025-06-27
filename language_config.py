@@ -16,7 +16,3 @@ def get_language():
     if lang not in languages:
         lang = default_language
     return lang
-
-# Example usage
-if __name__ == "__main__":
-    print(f"Selected language: {get_language()}")
