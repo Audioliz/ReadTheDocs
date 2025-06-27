@@ -17,9 +17,9 @@ Contenu :
    :maxdepth: 2
    :caption: Sommaire :
 
-   docs/fr/intro
-   docs/fr/installation
-   docs/fr/call_navigation
-   docs/fr/comment_moderation
-   docs/fr/configuration_in_audioliz
-   docs/fr/display_customization
+   docs/fr/introduction
+   docs/fr/premiers_pas_avec_audioliz
+   docs/fr/rechercher_et_naviguer_dans_les_appels
+   docs/fr/gerer_les_commentaires_et_retours
+   docs/fr/configuration_dans_audioliz
+   docs/fr/personnaliser_les_options_d_affichage
