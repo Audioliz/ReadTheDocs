@@ -23,6 +23,6 @@ html_css_files = ['custom.css']
 extensions = ['sphinxcontrib.youtube']
 
 # Configuration pour la langue par défaut
-language = 'en'  # Changez en 'fr' pour la version française
+language = 'fr'  # Définit la langue sur français pour le menu latéral
 
 
