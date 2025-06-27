@@ -7,7 +7,7 @@ Bienvenue sur Audioliz
      <label for="language-select">Choisir la langue :</label>
      <select id="language-select" onchange="location = this.value;">
        <option value="../index.html">English</option>
-       <option value="index.html">Français</option>
+       <option value="index.html" selected>Français</option>
      </select>
    </div>
 
