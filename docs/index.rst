@@ -16,7 +16,7 @@ Contents:
 .. toctree::
    :caption: Summary:
 
-   <intro>
+   intro
    installation
    call_navigation
    comment_moderation
