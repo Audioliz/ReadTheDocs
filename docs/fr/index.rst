@@ -21,3 +21,5 @@ Contenu :
    installation
    call_navigation
    comment_moderation
+   display_customization
+   configuration_in_audioliz
