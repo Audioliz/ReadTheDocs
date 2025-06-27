@@ -17,9 +17,9 @@ Contenu :
    :maxdepth: 2
    :caption: Sommaire :
 
-   intro
-   installation
-   call_navigation
-   comment_moderation
-   configuration_in_audioliz
-   display_customization
+   docs/fr/intro
+   docs/fr/installation
+   docs/fr/call_navigation
+   docs/fr/comment_moderation
+   docs/fr/configuration_in_audioliz
+   docs/fr/display_customization
