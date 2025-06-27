@@ -1,9 +1,6 @@
 import os
 import sys
 
-# Ajouter le dossier 'docs' au sys.path
-sys.path.insert(0, os.path.abspath('docs'))
-
 # Configuration de base du projet
 project = 'Audioliz'
 author = 'Audioliz Team'
@@ -24,8 +21,4 @@ html_static_path = ['../_static']
 html_css_files = ['custom.css']
 # Extensions Sphinx utilisées
 extensions = ['sphinxcontrib.youtube']
-extensions += ['sphinx_intl']
-# Enable gettext for translations
-locale_dirs = ['locales/']   # Path to translation files
-gettext_compact = False      # Optional: to avoid compacting .po files
-gettext_uuid = True          # Optional: to add UUIDs for better tracking
+

@@ -12,8 +12,5 @@ python:
 sphinx:
   configuration: docs/conf.py
   source_dir: docs
-build:
-  commands:
-    - sphinx-build -b gettext docs _build/gettext
-    - sphinx-intl update -p _build/gettext -l fr
+
 
