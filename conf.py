@@ -1,4 +1,8 @@
 import os
+import sys
+
+# Ajouter le dossier 'docs' au sys.path
+sys.path.insert(0, os.path.abspath('docs'))
 
 # Configuration de base du projet
 project = 'Audioliz'
