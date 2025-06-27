@@ -1,8 +1,3 @@
-Installation
-============
-
-Cette section explique comment installer et configurer Audioliz.
-
 Premiers Pas avec Audioliz
 ==========================
 
