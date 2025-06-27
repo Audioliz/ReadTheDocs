@@ -49,7 +49,7 @@ Voyons un exemple :
 
    <div style="text-align: center;">
      <video width="640" height="360" controls>
-       <source src="_static\create_question_MULTIPLE CHOICES.mp4" type="video/mp4">
+       <source src="..\_static\create_question_MULTIPLE CHOICES.mp4" type="video/mp4">
      </video>
    </div>
 
@@ -62,7 +62,7 @@ Vous pouvez modifier de nombreux paramètres dans votre grille de suivi. Voyons 
 
    <div style="text-align: center;">
      <video width="640" height="360" controls>
-       <source src="_static\action.mp4" type="video/mp4">
+       <source src="..\_static\action.mp4" type="video/mp4">
      </video>
    </div>
 

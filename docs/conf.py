@@ -22,3 +22,6 @@ html_css_files = ['custom.css']
 # Extensions Sphinx utilisées
 extensions = ['sphinxcontrib.youtube']
 
+# Configuration de la langue
+language = 'fr'
+
