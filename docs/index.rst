@@ -17,11 +17,11 @@ Contents:
    :maxdepth: 2
    :caption: Summary:
 
-   intro
-   installation
-   call_navigation
-   comment_moderation
-   configuration_in_audioliz
-   display_customization
+   docs/intro
+   docs/installation
+   docs/call_navigation
+   docs/comment_moderation
+   docs/configuration_in_audioliz
+   docs/display_customization
 
 
