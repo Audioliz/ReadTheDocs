@@ -2,7 +2,6 @@ Bienvenue sur Audioliz
 =======================
 
 .. raw:: html
-
    <div style="text-align: right;">
      <label for="language-select">Choisir la langue :</label>
      <select id="language-select" onchange="location = this.value;">
@@ -12,6 +11,7 @@ Bienvenue sur Audioliz
    </div>
 
 Contenu :
+
 
 .. toctree::
    :maxdepth: 2
