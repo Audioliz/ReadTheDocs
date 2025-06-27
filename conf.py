@@ -20,3 +20,8 @@ html_static_path = ['_static']
 html_css_files = ['custom.css']
 # Extensions Sphinx utilisées
 extensions = ['sphinxcontrib.youtube']
+
+# Enable gettext for translations
+locale_dirs = ['locales/']   # Path to translation files
+gettext_compact = False      # Optional: to avoid compacting .po files
+gettext_uuid = True          # Optional: to add UUIDs for better tracking
