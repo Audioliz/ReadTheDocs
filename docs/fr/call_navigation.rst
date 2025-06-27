@@ -1,10 +1,15 @@
+Navigation des appels
+=====================
+
+Cette section explique comment naviguer dans les appels dans Audioliz.
+
 Rechercher et Naviguer dans les Appels
 ======================================
 
 1. Rechercher un appel
 ----------------------
 
-Pour un grand nombre d'appels chargés, il devient utile d'avoir des filtres. Dans la fonctionnalité 'Recherche', vous pouvez rechercher des appels avec des caractères spécifiques ou pour un appel particulier.
+Pour un grand nombre d'appels chargés, il devient utile d'avoir des filtres. Dans la fonctionnalité "Recherche", vous pouvez rechercher des appels avec des caractères spécifiques ou un appel particulier.
 
 Recherchons l'appel dans la vidéo précédente :
 
