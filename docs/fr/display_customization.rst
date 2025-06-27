@@ -55,4 +55,45 @@ Vous pouvez choisir parmi les actions suivantes :
      <img src="../_static/Dashbord_Settings.png" width="400" alt="Paramètres du tableau de bord">
    </div>
 
-...
+5. Comment gérer et répondre aux commentaires ?
+-------------------------------------------
+
+Si vous n'êtes pas d'accord avec l'évaluation automatique de l'IA, vous pouvez demander une révision via le workflow **contre-évaluation**.
+
+### Étapes à suivre :
+
+1. Ouvrez la vue d'évaluation de l'appel
+2. Dans la section **Contre-évaluation par**, entrez votre **prénom** pour vous identifier
+
+.. raw:: html
+
+   <div style="text-align: center;">
+     <img src="../_static/Conter_evaluation_by.png" width="700" alt="Champ Contre-évaluation par">
+   </div>
+
+3. Faites défiler vers le bas et entrez votre explication ou justification dans la section **Commentaire**
+
+.. raw:: html
+
+   <div style="text-align: center;">
+     <img src="../_static/Comment.png" width="800" alt="Champ de saisie des commentaires">
+   </div>
+
+4. Définissez le **Statut de débogage** sur `Ouvert` pour notifier l'équipe qualité
+
+.. raw:: html
+
+   <div style="text-align: center;">
+     <img src="../_static/Debug_Status.png" width="400" alt="Menu déroulant du statut de débogage">
+   </div>
+
+---
+
+### Explication du workflow :
+
+- **Ouvert** = un nouveau commentaire est soumis et en attente de révision  
+- **En attente** = un réviseur travaille sur votre cas avant de donner une réponse  
+- **Répondu** = une réponse a été écrite dans le champ `RÉPONSE`  
+- **Fermé** = le problème est résolu et le processus est terminé
+
+Ce système garantit que chaque retour est examiné et répondu par l'équipe qualité de manière structurée et traçable.
