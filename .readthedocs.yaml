@@ -4,13 +4,12 @@ build:
   os: ubuntu-22.04
   tools:
     python: "3.9"
-
+docs_dir: docs
 python:
   install:
     - requirements: requirements.txt
 
 sphinx:
   configuration: docs/conf.py
-  builder: html
 
 

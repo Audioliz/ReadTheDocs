@@ -1,4 +1,3 @@
 sphinx
 furo
 sphinxcontrib-youtube
-sphinx-intl>=2.0.0
