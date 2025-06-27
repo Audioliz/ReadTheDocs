@@ -23,7 +23,7 @@ Let's create a question text:
    </div>
 
 1.2 One choice question
-~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 A single choice question is used when there is only one possible answer. It's usually used with yes/no questions.
 
@@ -38,7 +38,7 @@ Let's try it:
    </div>
 
 1.3 Multiple choices question
-~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 A multiple choice question is used when the answer is not necessarily unique. In this case, you can have multiple answers.
 
@@ -70,7 +70,7 @@ You can change many parameters in your monitoring grid. Let's see how:
 --------------------------------
 
 3.1 Adding or Modifying Metadata
-~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Metadata refers to additional contextual information attached to a call (such as campaign name, CRM ID, or channel). 
 Some metadata is automatically stored in the `crm_metadata` field in the database, but you can also define and manage **custom metadata fields** for specific actions.
 
@@ -131,7 +131,7 @@ This ensures that the metadata placeholder will be replaced by an empty string, 
 
 
 3.2 Why Metadata Matters in Questions
-~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Some data needed for a question (like a campaign name or product type) varies from one call to another. Instead of creating multiple versions of the same question, you can **insert metadata dynamically** using the `$` symbol in the question text.
 
 Example:
@@ -142,7 +142,7 @@ What arguments were given for campaign $CAMPAIGN_NAME
 In Audioliz, each user has a role that defines what they can do and access within the platform. Roles are used to control permissions based on responsibilities—such as reading data, editing scorecards, managing users, or commenting on calls.
 
 4.1 Predefined Roles in Audioliz
-~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 Role	Description
@@ -168,7 +168,7 @@ Clicking on any role (e.g. admin) will show the detailed permissions attached to
 Permissions control which types of roles can access or perform certain operations on the calls
 
 4.2 How to Edit a User's Role
-~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Admin users can assign or modify user roles :
 
 Steps:

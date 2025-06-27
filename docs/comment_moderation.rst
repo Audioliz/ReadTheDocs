@@ -2,7 +2,7 @@ Manage Comments and Feedback
 ============================
 
 1.How to add a comment to an analyzed record ?
-----------------------------------------------
+---------------------------------------------------
 
 You can add a comment either at the level of the responses to each question or in the comment field located right after the transcript.and you need to follow the following steps: 
 
@@ -18,7 +18,7 @@ You can add a comment either at the level of the responses to each question or i
 (vidéo)
 
 2. How to find and respond to comments left on an analyzed call ?
---------------------------------------------------------
+---------------------------------------------------------------------
 
 You need to click on the "comment" field, a tab will open where you can filter by call date, agent, CRM ID. 
 To find the comments left, click on the "DEBUG STATUS" field and select the "OPEN" option to display all the analyzed calls where a comment has been left. At this point, you have the option to quickly view all comments left on calls by clicking on the two arrows next to "👁️‍🗨️". Or reply to the comments by clicking on "👁️‍🗨️", opening the call analysis grid, and following these steps:
@@ -41,7 +41,7 @@ To find the comments left, click on the "DEBUG STATUS" field and select the "OPE
 ---------------------------------------------------------
 
 3.1. Continuous Improvement of Question Formulation
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 As part of our continuous improvement process, we aim to refine the way questions are written. This effort involves both our internal team and the client, as misunderstandings about the client's actual needs can also lead to discrepancies.
 
@@ -63,7 +63,7 @@ On our side, we are committed to adjusting the relevant questions based on the s
 
 
 3.2 Evaluation and Supervision Process
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 To ensure the quality and accuracy of AI-based analyses, supervisors on the client side are expected to review and validate the AI's responses for specific calls. The following steps outline the recommended evaluation procedure:
 
 - Access the call page that needs to be reviewed.
@@ -117,7 +117,7 @@ If a counter-evaluator (e.g. Hayat) does not appear, it means no human score has
        </div>
 
 2. Evolution of the average gap between IA and human scores
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This graph shows the trend of the average difference between the human and AI scores over time (day, week, or month depending on filters).
 

@@ -1,5 +1,5 @@
 First Steps with Audioliz
-=================
+=========================
 
 This is a tutorial on how to use Audioliz, from the very beginning to your first call analysis. Let's go!
 
