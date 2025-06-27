@@ -1,5 +1,3 @@
-.. title:: Bienvenue sur Audioliz
-
 Welcome to Audioliz
 ===================
 
