@@ -25,7 +25,10 @@ if errorlevel 9009 (
 
 if "%1" == "" goto help
 
-%SPHINXBUILD% -M %1 %SOURCEDIR% %BUILDDIR% %SPHINXOPTS% %O%
+if "%2"=="" set LANGUAGE=en
+if "%2"=="fr" set LANGUAGE=fr
+
+%SPHINXBUILD% -M %1 -D language=%LANGUAGE% %SOURCEDIR% %BUILDDIR% %SPHINXOPTS% %O%
 goto end
 
 :help
