@@ -14,10 +14,9 @@ Welcome to Audioliz
 Contents:
 
 .. toctree::
-   :maxdepth: 2
    :caption: Summary:
 
-   intro
+   <intro>
    installation
    call_navigation
    comment_moderation
