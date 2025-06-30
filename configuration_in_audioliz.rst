@@ -117,7 +117,7 @@ For each metadata field, you can define:
    </div>
 
 
-- **Name**: The internal name of the metadata, displayed in the **Actions** page.
+- **Name**: The internal name of the metadata, displayed in the scorecard's metadata setting tab.
 
 - **Label**: The display name shown in the **Call Page**.
 
