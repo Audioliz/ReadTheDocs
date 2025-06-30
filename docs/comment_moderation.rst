@@ -73,7 +73,7 @@ To ensure the quality and accuracy of AI-based analyses, supervisors on the clie
 .. raw:: html
 
    <div style="text-align: center;">
-     <img src="_static/champs_a _remplir.png" width="600" alt="Dashboard list">
+     <img src="../_static/champs_a _remplir.png" width="600" alt="Dashboard list">
    </div>
 
 
@@ -85,7 +85,7 @@ To help our team better understand the corrections, it is strongly encouraged to
 .. raw:: html
 
    <div style="text-align: center;">
-     <img src="_static/image_2025-06-18_141937013.png" width="600" alt="Dashboard list">
+     <img src="../_static/image_2025-06-18_141937013.png" width="600" alt="Dashboard list">
    </div>
 
 In addition, the supervisor should review the AI-generated responses, click on any incorrect answers, and manually correct them. They can also leave a more detailed comment on each question if needed.
@@ -93,7 +93,7 @@ In addition, the supervisor should review the AI-generated responses, click on a
 .. raw:: html
 
    <div style="text-align: center;">
-     <img src="_static/changer_question.png" width="600" alt="Dashboard list">
+     <img src="../_static/changer_question.png" width="600" alt="Dashboard list">
    </div>
 
 
@@ -113,7 +113,7 @@ If a counter-evaluator (e.g. Hayat) does not appear, it means no human score has
 .. raw:: html
 
        <div style="text-align: center;"> 
-              <img src="_static/Score_Table.png" width="800" alt="Score table by counter-evaluator">
+              <img src="../_static/Score_Table.png" width="800" alt="Score table by counter-evaluator">
        </div>
 
 2. Evolution of the average gap between IA and human scores
@@ -124,7 +124,7 @@ This graph shows the trend of the average difference between the human and AI sc
 .. raw:: html
 
    <div style="text-align: center;"> 
-              <img src="_static/Evolution of the average gap between IA and human scores.png" width="800" alt="Line chart showing average gap over time"> 
+              <img src="../_static/Evolution of the average gap between IA and human scores.png" width="800" alt="Line chart showing average gap over time"> 
    </div>
 
 3. Question-wise Accuracy Table
@@ -135,7 +135,7 @@ This visual presents, for each question, the percentage of correct and incorrect
 .. raw:: html
 
    <div style="text-align: center;"> 
-    <img src="_static/Question-wise Accuracy Table.png" width="800" alt="Accuracy per question and reviewer"> 
+    <img src="../_static/Question-wise Accuracy Table.png" width="800" alt="Accuracy per question and reviewer"> 
    </div>
 
 4. Call-by-Call Details
@@ -146,7 +146,7 @@ This detailed table shows the call ID, agent name, counter-evaluator, the evalua
 .. raw:: html
 
    <div style="text-align: center;"> 
-    <img src="_static/ Call-by-Call Details.png" width="800" alt="Accuracy per question and reviewer"> 
+    <img src="../_static/ Call-by-Call Details.png" width="800" alt="Accuracy per question and reviewer"> 
    </div>
 
 
