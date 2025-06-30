@@ -29,7 +29,7 @@ Une fois dans le tableau de bord, vous trouverez plusieurs options dans le coin 
 .. raw:: html
 
    <div style="text-align: center;">
-     <img src="../_static/Dashbord.png" width="500" alt="Liste des tableaux de bord">
+     <img src="../../_static/Dashbord.png" width="500" alt="Liste des tableaux de bord">
    </div>
 
 Vous pouvez choisir parmi les actions suivantes :
@@ -40,7 +40,7 @@ Vous pouvez choisir parmi les actions suivantes :
 .. raw:: html
 
    <div style="text-align: center;">
-     <img src="../_static/ADD_TO_MY_FAVORITES.png" width="300" alt="Ajouter à mes favoris">
+     <img src="../../_static/ADD_TO_MY_FAVORITES.png" width="300" alt="Ajouter à mes favoris">
    </div>
 
 - **Dupliquer**  
@@ -52,7 +52,7 @@ Vous pouvez choisir parmi les actions suivantes :
 .. raw:: html
 
    <div style="text-align: center;">
-     <img src="../_static/Dashbord_Settings.png" width="400" alt="Paramètres du tableau de bord">
+     <img src="../../_static/Dashbord_Settings.png" width="400" alt="Paramètres du tableau de bord">
    </div>
 
 5. Comment gérer et répondre aux commentaires ?
@@ -68,7 +68,7 @@ Si vous n'êtes pas d'accord avec l'évaluation automatique de l'IA, vous pouvez
 .. raw:: html
 
    <div style="text-align: center;">
-     <img src="../_static/Conter_evaluation_by.png" width="700" alt="Champ Contre-évaluation par">
+     <img src="../../_static/Conter_evaluation_by.png" width="700" alt="Champ Contre-évaluation par">
    </div>
 
 3. Faites défiler vers le bas et entrez votre explication ou justification dans la section **Commentaire**
@@ -76,7 +76,7 @@ Si vous n'êtes pas d'accord avec l'évaluation automatique de l'IA, vous pouvez
 .. raw:: html
 
    <div style="text-align: center;">
-     <img src="../_static/Comment.png" width="800" alt="Champ de saisie des commentaires">
+     <img src="../../_static/Comment.png" width="800" alt="Champ de saisie des commentaires">
    </div>
 
 4. Définissez le **Statut de débogage** sur `Ouvert` pour notifier l'équipe qualité
@@ -84,7 +84,7 @@ Si vous n'êtes pas d'accord avec l'évaluation automatique de l'IA, vous pouvez
 .. raw:: html
 
    <div style="text-align: center;">
-     <img src="../_static/Debug_Status.png" width="400" alt="Menu déroulant du statut de débogage">
+     <img src="../../_static/Debug_Status.png" width="400" alt="Menu déroulant du statut de débogage">
    </div>
 
 ---
