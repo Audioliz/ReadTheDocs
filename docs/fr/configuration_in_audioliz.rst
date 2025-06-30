@@ -19,7 +19,7 @@ Créons une question texte :
 
    <div style="text-align: center;">
      <video width="640" height="360" controls>
-       <source src="../_static/create_question_text.mp4" type="video/mp4">
+       <source src="../../_static/create_question_text.mp4" type="video/mp4">
      </video>
    </div>
 
@@ -34,7 +34,7 @@ Essayons :
 
    <div style="text-align: center;">
      <video width="640" height="360" controls>
-       <source src="../_static/create_question_ONE CHOICE.mp4" type="video/mp4">
+       <source src="../../_static/create_question_ONE CHOICE.mp4" type="video/mp4">
      </video>
    </div>
 
@@ -49,7 +49,7 @@ Voyons un exemple :
 
    <div style="text-align: center;">
      <video width="640" height="360" controls>
-       <source src="../_static/create_question_MULTIPLE CHOICES.mp4" type="video/mp4">
+       <source src="../../_static/create_question_MULTIPLE CHOICES.mp4" type="video/mp4">
      </video>
    </div>
 
@@ -67,7 +67,7 @@ Vous pouvez modifier de nombreux paramètres dans votre grille de suivi. Voyons 
 
    <div style="text-align: center;">
      <video width="640" height="360" controls>
-       <source src="../_static/action.mp4" type="video/mp4">
+       <source src="../../_static/action.mp4" type="video/mp4">
      </video>
    </div>
 
@@ -84,21 +84,21 @@ Pour gérer les métadonnées pour une action spécifique :
 .. raw:: html
 
    <div style="text-align: center;">
-     <img src="../_static/choisir_page_action.png" width="550" alt="Liste du tableau de bord">
+     <img src="../../_static/choisir_page_action.png" width="550" alt="Liste du tableau de bord">
    </div>
 
 - Sélectionnez la grille d'évaluation que vous souhaitez configurer en cliquant sur l'icône en forme d'œil
 .. raw:: html
 
    <div style="text-align: center;">
-     <img src="../_static/choisir_action.png" width="550" alt="Liste du tableau de bord">
+     <img src="../../_static/choisir_action.png" width="550" alt="Liste du tableau de bord">
    </div>
 
 - Ouvrez l'onglet **Métadonnées**
 .. raw:: html
 
    <div style="text-align: center;">
-     <img src="../_static/choisir_meta.png" width="550" alt="Liste du tableau de bord">
+     <img src="../../_static/choisir_meta.png" width="550" alt="Liste du tableau de bord">
    </div>
 
 Là, vous pouvez :
@@ -107,7 +107,7 @@ Là, vous pouvez :
 .. raw:: html
 
    <div style="text-align: center;">
-     <img src="../_static/ajouter_meta.png" width="400" alt="Liste du tableau de bord">
+     <img src="../../_static/ajouter_meta.png" width="400" alt="Liste du tableau de bord">
    </div>
 
 - ✏️ **Modifier des métadonnées existantes** en cliquant directement sur la ligne de métadonnées
@@ -117,7 +117,7 @@ Pour chaque champ de métadonnées, vous pouvez définir :
 .. raw:: html
 
    <div style="text-align: center;">
-     <img src="../_static/creation_meta.png" width="550" alt="Liste du tableau de bord">
+     <img src="../../_static/creation_meta.png" width="550" alt="Liste du tableau de bord">
    </div>
 
 
@@ -160,14 +160,14 @@ Vous pouvez voir cette liste en naviguant vers Configuration > Utilisateurs > R�
 .. raw:: html
 
    <div style="text-align: center;">
-    <img src="../_static/roles_list.png" width="720" alt="Liste des rôles disponibles">
+    <img src="../../_static/roles_list.png" width="720" alt="Liste des rôles disponibles">
    </div>
 En cliquant sur n'importe quel rôle (par exemple, admin), vous verrez les autorisations détaillées attachées à ce rôle :
 
 .. raw:: html
 
  <div style="text-align: center;"> 
-  <img src="../_static/permissions_admin.png" width="720" alt="Autorisations du rôle admin">
+  <img src="../../_static/permissions_admin.png" width="720" alt="Autorisations du rôle admin">
  </div>
 Les autorisations contrôlent quels types de rôles peuvent accéder ou effectuer certaines opérations sur les appels
 
@@ -183,21 +183,21 @@ Vous verrez les utilisateurs listés. Cliquez sur l'icône en forme d'œil pour 
 .. raw:: html
 
   <div style="text-align: center;"> 
-   <img src="../_static/user_list.png" width="720" alt="Liste des utilisateurs"> 
+   <img src="../../_static/user_list.png" width="720" alt="Liste des utilisateurs"> 
   </div>
 Dans la page de profil, faites défiler jusqu'à la section Rôles et cliquez dessus :
 
 .. raw:: html
 
  <div style="text-align: center;">
-   <img src="../_static/edit_user.png" width="720" alt="Profil utilisateur avec sélection de rôle"> 
+   <img src="../../_static/edit_user.png" width="720" alt="Profil utilisateur avec sélection de rôle"> 
  </div>
 Un menu déroulant apparaîtra. Vous pouvez sélectionner un ou plusieurs rôles dans la liste :
 
 .. raw:: html
 
   <div style="text-align: center;"> 
-   <img src="../_static/choose_role.png" width="720" alt="Choisir le rôle utilisateur"> 
+   <img src="../../_static/choose_role.png" width="720" alt="Choisir le rôle utilisateur"> 
   </div>
 Cliquez sur Enregistrer pour confirmer vos modifications.
 
