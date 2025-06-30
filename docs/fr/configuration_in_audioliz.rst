@@ -203,3 +203,22 @@ Cliquez sur Enregistrer pour confirmer vos modifications.
 
 🔎 Astuce
 Si vous ne voyez pas les options de rôle ou ne pouvez pas les modifier, cela signifie que votre compte n'a pas les privilèges d'administrateur. Vous devrez contacter un administrateur pour mettre à jour les rôles.
+
+5. Signification des champs de date de la page Call
+----------------------------------------------------
+
+.. raw:: html
+
+  <div style="text-align: center;"> 
+   <img src="../../_static/call_date.png" width="720" alt="date call"> 
+  </div>
+
+- Date : Date d’initiation de l’appel ou d’envoi de l’email : correspond au jour où cette action a été enregistrée dans le CRM du client.
+
+- Time : Heure précise à laquelle l’appel ou l’email a été créé dans le CRM du client, pour compléter le champ Date.
+
+- Création : Date à laquelle l’appel ou l’email est reçu dans Audioliz ; autrement dit, date de création de cet élément sur notre plateforme.
+
+- Last update : Date à laquelle cet appel ou email a subi sa dernière modification dans la page Call.
+
+
