@@ -17,7 +17,7 @@ Après chaque appel analysé, vous pouvez voir toutes les informations utiles à
 
    <div style="text-align: center;">
      <video width="640" height="360" controls>
-       <source src="../_static/call_description.mp4" type="video/mp4">
+       <source src="../../_static/call_description.mp4" type="video/mp4">
      </video>
    </div>
 
@@ -32,7 +32,7 @@ Chargeons notre premier appel :
 
    <div style="text-align: center;">
      <video width="640" height="360" controls>
-       <source src="../_static/charger_call.mp4" type="video/mp4">
+       <source src="../../_static/charger_call.mp4" type="video/mp4">
      </video>
    </div>
 
@@ -45,6 +45,6 @@ Si vous modifiez une question dans la grille de suivi et que vous souhaitez rela
 
    <div style="text-align: center;">
      <video width="640" height="360" controls>
-       <source src="../_static/rerun.mp4" type="video/mp4">
+       <source src="../../_static/rerun.mp4" type="video/mp4">
      </video>
    </div>
