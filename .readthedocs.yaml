@@ -15,8 +15,4 @@ formats:
   - pdf         # facultatif : génère aussi le PDF
   - epub        # facultatif : génère aussi l’EPUB
 
-i18n:
-  builder: gettext
-  locales: ['fr']
-
 
