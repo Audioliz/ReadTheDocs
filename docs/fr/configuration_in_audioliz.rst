@@ -53,12 +53,9 @@ Voyons un exemple :
      </video>
    </div>
 
-2. Modifier une question
----------------------
-
 Pour modifier une question, c'est très simple. Cliquez simplement dessus et modifiez les champs que vous souhaitez changer.
 
-3. Modifier les paramètres de la grille de suivi
+2. Modifier les paramètres de la grille de suivi
 -------------------------------------
 
 Vous pouvez modifier de nombreux paramètres dans votre grille de suivi. Voyons comment :
@@ -71,10 +68,10 @@ Vous pouvez modifier de nombreux paramètres dans votre grille de suivi. Voyons 
      </video>
    </div>
 
-4. Gestion des métadonnées dans Audioliz
+3. Gestion des métadonnées dans Audioliz
 --------------------------------
 
-4.1 Ajouter ou modifier des métadonnées
+3.1 Ajouter ou modifier des métadonnées
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Les métadonnées font référence à des informations contextuelles supplémentaires attachées à un appel (comme le nom de la campagne, l'ID CRM ou le canal). Certaines métadonnées sont automatiquement stockées dans le champ `crm_metadata` de la base de données, mais vous pouvez également définir et gérer des **champs de métadonnées personnalisés** pour des actions spécifiques.
 
@@ -134,18 +131,18 @@ Pour chaque champ de métadonnées, vous pouvez définir :
 Cela garantit que l'espace réservé de la métadonnée sera remplacé par une chaîne vide, et que la question ne sera pas ignorée lors de l'analyse.
 
 
-4.2 Pourquoi les métadonnées sont importantes dans les questions
+3.2 Pourquoi les métadonnées sont importantes dans les questions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Certaines données nécessaires pour une question (comme un nom de campagne ou un type de produit) varient d'un appel à l'autre. Au lieu de créer plusieurs versions de la même question, vous pouvez **insérer dynamiquement des métadonnées** en utilisant le symbole `$` dans le texte de la question.
 
 Exemple :
 Quels arguments ont été donnés pour la campagne $CAMPAIGN_NAME
 
-5. Gestion des rôles utilisateurs dans Audioliz
+4. Gestion des rôles utilisateurs dans Audioliz
 -------------------------------------
 Dans Audioliz, chaque utilisateur a un rôle qui définit ce qu'il peut faire et accéder au sein de la plateforme. Les rôles sont utilisés pour contrôler les autorisations en fonction des responsabilités, telles que la lecture des données, la modification des grilles d'évaluation, la gestion des utilisateurs ou les commentaires sur les appels.
 
-5.1 Rôles prédéfinis dans Audioliz
+4.1 Rôles prédéfinis dans Audioliz
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
@@ -171,7 +168,7 @@ En cliquant sur n'importe quel rôle (par exemple, admin), vous verrez les autor
  </div>
 Les autorisations contrôlent quels types de rôles peuvent accéder ou effectuer certaines opérations sur les appels
 
-5.2 Comment modifier le rôle d'un utilisateur
+4.2 Comment modifier le rôle d'un utilisateur
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Les utilisateurs administrateurs peuvent attribuer ou modifier les rôles des utilisateurs :
 
