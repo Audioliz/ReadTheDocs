@@ -12,6 +12,6 @@ Recherchons l'appel dans la vidéo précédente :
 
    <div style="text-align: center;">
      <video width="640" height="360" controls>
-       <source src="../_static/search.mp4" type="video/mp4">
+       <source src="../../_static/search.mp4" type="video/mp4">
      </video>
    </div>
