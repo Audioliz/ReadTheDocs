@@ -11,7 +11,9 @@ python:
 sphinx:
   configuration: conf.py
 formats:
-  - html
+  - htmlzip     # remplace html par htmlzip
+  - pdf         # facultatif : génère aussi le PDF
+  - epub        # facultatif : génère aussi l’EPUB
 
 i18n:
   builder: gettext
