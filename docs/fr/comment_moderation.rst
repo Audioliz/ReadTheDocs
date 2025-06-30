@@ -50,7 +50,7 @@ De notre côté, nous nous engageons à ajuster les questions pertinentes en fon
 .. raw:: html
 
    <div style="text-align: center;">
-     <img src="../_static/ecart_ia_hum.png" width="600" alt="Tableau de bord">
+     <img src="../../_static/ecart_ia_hum.png" width="600" alt="Tableau de bord">
    </div>
 
 
