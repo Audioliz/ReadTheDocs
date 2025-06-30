@@ -33,7 +33,7 @@ Pour trouver les commentaires laissés, cliquez sur le champ "DEBUG STATUS" et s
 ---------------------------------------------------------
 
 3.1. Amélioration Continue de la Formulation des Questions
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Dans le cadre de notre processus d'amélioration continue, nous visons à affiner la manière dont les questions sont rédigées. Cet effort implique à la fois notre équipe interne et le client, car des malentendus sur les besoins réels du client peuvent également entraîner des écarts.
 
@@ -55,7 +55,7 @@ De notre côté, nous nous engageons à ajuster les questions pertinentes en fon
 
 
 3.2 Processus d'Évaluation et de Supervision
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Pour garantir la qualité et la précision des analyses basées sur l'IA, les superviseurs du côté client sont censés examiner et valider les réponses de l'IA pour des appels spécifiques. Les étapes suivantes décrivent la procédure d'évaluation recommandée :
 
 - Accédez à la page de l'appel à examiner.
@@ -94,7 +94,7 @@ De plus, le superviseur doit examiner les réponses générées par l'IA, clique
 Cette page vous permet d'explorer les différences entre les évaluations effectuées par l'IA et celles effectuées par les examinateurs humains.
 
 1. Tableau des scores
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
 
 Ce tableau affiche, pour chaque contre-évaluateur et chaque appel, le score humain, le score de l'IA et la différence entre les deux.
 Si un contre-évaluateur (par exemple, Hayat) n'apparaît pas, cela signifie qu'aucun score humain n'a été enregistré pour la période ou les filtres sélectionnés.
@@ -107,7 +107,7 @@ Si un contre-évaluateur (par exemple, Hayat) n'apparaît pas, cela signifie qu'
        </div>
 
 2. Évolution de l'écart moyen entre les scores IA et humains
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Ce graphique montre la tendance de la différence moyenne entre les scores humains et ceux de l'IA au fil du temps (jour, semaine ou mois selon les filtres).
 
@@ -118,7 +118,7 @@ Ce graphique montre la tendance de la différence moyenne entre les scores humai
    </div>
 
 3. Tableau de précision par question
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Ce visuel présente, pour chaque question, le pourcentage de réponses correctes et incorrectes par l'IA (basé sur la validation humaine) par contre-évaluateur.
 
@@ -129,7 +129,7 @@ Ce visuel présente, pour chaque question, le pourcentage de réponses correctes
    </div>
 
 4. Détails appel par appel
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Ce tableau détaillé montre l'ID de l'appel, le nom de l'agent, le contre-évaluateur, la question évaluée, la réponse humaine, la réponse de l'IA et si la réponse de l'IA était correcte ou non.
 
