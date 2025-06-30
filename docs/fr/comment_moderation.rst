@@ -65,7 +65,7 @@ Pour garantir la qualité et la précision des analyses basées sur l'IA, les su
 .. raw:: html
 
    <div style="text-align: center;">
-     <img src="../_static/champs_a _remplir.png" width="600" alt="Tableau de bord">
+     <img src="../../_static/champs_a _remplir.png" width="600" alt="Tableau de bord">
    </div>
 
 
@@ -76,7 +76,7 @@ Pour aider notre équipe à mieux comprendre les corrections, il est fortement e
 .. raw:: html
 
    <div style="text-align: center;">
-     <img src="../_static/image_2025-06-18_141937013.png" width="600" alt="Tableau de bord">
+     <img src="../../_static/image_2025-06-18_141937013.png" width="600" alt="Tableau de bord">
    </div>
 
 De plus, le superviseur doit examiner les réponses générées par l'IA, cliquer sur les réponses incorrectes et les corriger manuellement. Il peut également laisser un commentaire plus détaillé sur chaque question si nécessaire.
@@ -84,7 +84,7 @@ De plus, le superviseur doit examiner les réponses générées par l'IA, clique
 .. raw:: html
 
    <div style="text-align: center;">
-     <img src="../_static/changer_question.png" width="600" alt="Liste du tableau de bord">
+     <img src="../../_static/changer_question.png" width="600" alt="Liste du tableau de bord">
    </div>
 
 
@@ -103,7 +103,7 @@ Si un contre-évaluateur (par exemple, Hayat) n'apparaît pas, cela signifie qu'
 .. raw:: html
 
        <div style="text-align: center;"> 
-              <img src="../_static/Score_Table.png" width="800" alt="Tableau des scores par contre-évaluateur">
+              <img src="../../_static/Score_Table.png" width="800" alt="Tableau des scores par contre-évaluateur">
        </div>
 
 2. Évolution de l'écart moyen entre les scores IA et humains
@@ -114,7 +114,7 @@ Ce graphique montre la tendance de la différence moyenne entre les scores humai
 .. raw:: html
 
    <div style="text-align: center;"> 
-              <img src="../_static/Evolution of the average gap between IA and human scores.png" width="800" alt="Graphique en ligne montrant l'écart moyen au fil du temps"> 
+              <img src="../../_static/Evolution of the average gap between IA and human scores.png" width="800" alt="Graphique en ligne montrant l'écart moyen au fil du temps"> 
    </div>
 
 3. Tableau de précision par question
@@ -125,7 +125,7 @@ Ce visuel présente, pour chaque question, le pourcentage de réponses correctes
 .. raw:: html
 
    <div style="text-align: center;"> 
-    <img src="../_static/Question-wise Accuracy Table.png" width="800" alt="Précision par question et examinateur"> 
+    <img src="../../_static/Question-wise Accuracy Table.png" width="800" alt="Précision par question et examinateur"> 
    </div>
 
 4. Détails appel par appel
@@ -136,5 +136,5 @@ Ce tableau détaillé montre l'ID de l'appel, le nom de l'agent, le contre-éval
 .. raw:: html
 
    <div style="text-align: center;"> 
-    <img src="../_static/ Call-by-Call Details.png" width="800" alt="Précision par question et examinateur"> 
+    <img src="../../_static/ Call-by-Call Details.png" width="800" alt="Précision par question et examinateur"> 
    </div>
