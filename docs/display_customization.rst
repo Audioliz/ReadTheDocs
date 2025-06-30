@@ -33,7 +33,7 @@ Once inside the dashboard, you will find several options in the top-right corner
 .. raw:: html
 
    <div style="text-align: center;">
-     <img src="_static/Dashbord.png" width="500" alt="Dashboard list">
+     <img src="../_static/Dashbord.png" width="500" alt="Dashboard list">
    </div>
 
 You can choose between the following actions:
@@ -44,7 +44,7 @@ You can choose between the following actions:
 .. raw:: html
 
    <div style="text-align: center;">
-     <img src="_static/ADD_TO_MY_FAVORITES.png" width="300" alt="Add to my favorites">
+     <img src="../_static/ADD_TO_MY_FAVORITES.png" width="300" alt="Add to my favorites">
    </div>
 
 - **Duplicate**  
@@ -56,7 +56,7 @@ You can choose between the following actions:
 .. raw:: html
 
    <div style="text-align: center;">
-     <img src="_static/Dashbord_Settings.png" width="400" alt="Dashboard settings">
+     <img src="../_static/Dashbord_Settings.png" width="400" alt="Dashboard settings">
    </div>
 
 
