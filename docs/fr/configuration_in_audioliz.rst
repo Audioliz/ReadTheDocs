@@ -213,12 +213,12 @@ Si vous ne voyez pas les options de rôle ou ne pouvez pas les modifier, cela si
    <img src="../../_static/call_date.png" width="720" alt="date call"> 
   </div>
 
-- Date : Date d’initiation de l’appel ou d’envoi de l’email : correspond au jour où cette action a été enregistrée dans le CRM du client.
+- **Date** : Date d’initiation de l’appel ou d’envoi de l’email : correspond au jour où cette action a été enregistrée dans le CRM du client.
 
-- Time : Heure précise à laquelle l’appel ou l’email a été créé dans le CRM du client, pour compléter le champ Date.
+- **Time** : Heure précise à laquelle l’appel ou l’email a été créé dans le CRM du client, pour compléter le champ Date.
 
-- Création : Date à laquelle l’appel ou l’email est reçu dans Audioliz ; autrement dit, date de création de cet élément sur notre plateforme.
+- **Création** : Date à laquelle l’appel ou l’email est reçu dans Audioliz ; autrement dit, date de création de cet élément sur notre plateforme.
 
-- Last update : Date à laquelle cet appel ou email a subi sa dernière modification dans la page Call.
+- **Last update** : Date à laquelle cet appel ou email a subi sa dernière modification dans la page Call.
 
 
