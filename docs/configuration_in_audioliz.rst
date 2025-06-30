@@ -209,10 +209,10 @@ If you don’t see the role options or can’t edit them, it means your account 
    <img src="../_static/call_date.png" width="720" alt="call date"> 
   </div>
 
-- Date : Initiation date of the call or sent email: it corresponds to the day on which this action was logged in the client’s CRM.
+- **Date** : Initiation date of the call or sent email: it corresponds to the day on which this action was logged in the client’s CRM.
 
-- Time: Exact time at which the call or email was created in the client’s CRM, to complement the Date field.
+- **Time** : Exact time at which the call or email was created in the client’s CRM, to complement the Date field.
 
-- Creation: Date on which the call or email is received in Audioliz; in other words, the creation date of this item on our platform.
+- **Creation** : Date on which the call or email is received in Audioliz; in other words, the creation date of this item on our platform.
 
-- Last update : Date on which this call or email record last underwent modification on the Call page.
+- **Last update** : Date on which this call or email record last underwent modification on the Call page.
