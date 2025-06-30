@@ -27,7 +27,12 @@ language = 'fr'
 locale_dirs = ['locale']        # où sont vos .po/.mo
 gettext_uuid = True             # pour des .pot stables
 gettext_compact = False         
-
+html_theme_options = {
+    'language_versions': {
+        'en': 'English',
+        'fr': 'Français',
+    }
+}
 
 
 

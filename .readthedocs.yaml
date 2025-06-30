@@ -10,5 +10,11 @@ python:
 
 sphinx:
   configuration: conf.py
+formats:
+  - html
+
+i18n:
+  builder: gettext
+  locales: ['fr']
 
 
