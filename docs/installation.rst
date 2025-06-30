@@ -18,7 +18,7 @@ After every call is analyzed, you can see all the useful information about it:
 
    <div style="text-align: center;">
      <video width="640" height="360" controls>
-       <source src="_static/call_description.mp4" type="video/mp4">
+       <source src="../_static/call_description.mp4" type="video/mp4">
      </video>
    </div>
 
@@ -33,7 +33,7 @@ Let's load our first call:
 
    <div style="text-align: center;">
      <video width="640" height="360" controls>
-       <source src="_static/charger_call.mp4" type="video/mp4">
+       <source src="../_static/charger_call.mp4" type="video/mp4">
      </video>
    </div>
 
@@ -46,6 +46,6 @@ If you change a question in the monitoring sheet, and you want to re run an anal
 
    <div style="text-align: center;">
      <video width="640" height="360" controls>
-       <source src="_static/rerun.mp4" type="video/mp4">
+       <source src="../_static/rerun.mp4" type="video/mp4">
      </video>
    </div>
