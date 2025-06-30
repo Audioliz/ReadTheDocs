@@ -18,7 +18,7 @@ Let's create a question text:
 
    <div style="text-align: center;">
      <video width="640" height="360" controls>
-       <source src="_static\create_question_text.mp4" type="video/mp4">
+       <source src="../_static\create_question_text.mp4" type="video/mp4">
      </video>
    </div>
 
@@ -33,7 +33,7 @@ Let's try it:
 
    <div style="text-align: center;">
      <video width="640" height="360" controls>
-       <source src="_static\create_question_ONE CHOICE.mp4" type="video/mp4">
+       <source src="../_static\create_question_ONE CHOICE.mp4" type="video/mp4">
      </video>
    </div>
 
@@ -48,7 +48,7 @@ Let's see an example:
 
    <div style="text-align: center;">
      <video width="640" height="360" controls>
-       <source src="_static\create_question_MULTIPLE CHOICES.mp4" type="video/mp4">
+       <source src="../_static\create_question_MULTIPLE CHOICES.mp4" type="video/mp4">
      </video>
    </div>
 
@@ -63,7 +63,7 @@ You can change many parameters in your monitoring grid. Let's see how:
 
    <div style="text-align: center;">
      <video width="640" height="360" controls>
-       <source src="_static\action.mp4" type="video/mp4">
+       <source src="../_static\action.mp4" type="video/mp4">
      </video>
    </div>
 3.Managing Metadata in Audioliz
@@ -80,21 +80,21 @@ To manage metadata for a specific action:
 .. raw:: html
 
    <div style="text-align: center;">
-     <img src="_static/choisir_page_action.png" width="550" alt="Dashboard list">
+     <img src="../_static/choisir_page_action.png" width="550" alt="Dashboard list">
    </div>
 
 -  Select the scorecard you want to configure by clicking the eye icon  
 .. raw:: html
 
    <div style="text-align: center;">
-     <img src="_static/choisir_action.png" width="550" alt="Dashboard list">
+     <img src="../_static/choisir_action.png" width="550" alt="Dashboard list">
    </div>
 
 - Open the **Metadata** tab
 .. raw:: html
 
    <div style="text-align: center;">
-     <img src="_static/choisir_meta.png" width="550" alt="Dashboard list">
+     <img src="../_static/choisir_meta.png" width="550" alt="Dashboard list">
    </div>
 
 There, you can:
@@ -103,7 +103,7 @@ There, you can:
 .. raw:: html
 
    <div style="text-align: center;">
-     <img src="_static/ajouter_meta.png" width="400" alt="Dashboard list">
+     <img src="../_static/ajouter_meta.png" width="400" alt="Dashboard list">
    </div>
 
 - ✏️ **Edit existing metadata** by clicking directly on the metadata line
@@ -113,7 +113,7 @@ For each metadata field, you can define:
 .. raw:: html
 
    <div style="text-align: center;">
-     <img src="_static/creation_meta.png" width="550" alt="Dashboard list">
+     <img src="../_static/creation_meta.png" width="550" alt="Dashboard list">
    </div>
 
 
@@ -156,14 +156,14 @@ You can see this list by navigating to Configuration > Users > ROLES:
 .. raw:: html
 
    <div style="text-align: center;">
-    <img src="_static/roles_list.png" width="720" alt="List of available roles">
+    <img src="../_static/roles_list.png" width="720" alt="List of available roles">
    </div>
 Clicking on any role (e.g. admin) will show the detailed permissions attached to that role:
 
 .. raw:: html
 
  <div style="text-align: center;"> 
-  <img src="_static/permissions_admin.png" width="720" alt="Admin role permissions">
+  <img src="../_static/permissions_admin.png" width="720" alt="Admin role permissions">
  </div>
 Permissions control which types of roles can access or perform certain operations on the calls
 
@@ -179,21 +179,21 @@ You’ll see users listed. Click the eye icon to view individual profiles:
 .. raw:: html
 
   <div style="text-align: center;"> 
-   <img src="_static/user_list.png" width="720" alt="User list"> 
+   <img src="../_static/user_list.png" width="720" alt="User list"> 
   </div>
 In the profile page, scroll down to the Roles section and click on it:
 
 .. raw:: html
 
  <div style="text-align: center;">
-   <img src="_static/edit_user.png" width="720" alt="User profile with role selection"> 
+   <img src="../_static/edit_user.png" width="720" alt="User profile with role selection"> 
  </div>
 A dropdown menu will appear. You can select one or more roles from the list:
 
 .. raw:: html
 
   <div style="text-align: center;"> 
-   <img src="_static/choose_role.png" width="720" alt="Choose user role"> 
+   <img src="../_static/choose_role.png" width="720" alt="Choose user role"> 
   </div>
 Click Save to confirm your changes.
 
