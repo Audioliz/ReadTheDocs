@@ -1,0 +1,170 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 
+# This file is distributed under the same license as the Audioliz package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Audioliz \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-30 12:00+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../comment_moderation.rst:2
+msgid "Manage Comments and Feedback"
+msgstr ""
+
+#: ../../comment_moderation.rst:5
+msgid "1.How to add a comment to an analyzed record ?"
+msgstr ""
+
+#: ../../comment_moderation.rst:7
+msgid "You can add a comment either at the level of the responses to each question or in the comment field located right after the transcript.and you need to follow the following steps:"
+msgstr ""
+
+#: ../../comment_moderation.rst:9
+msgid "Choose a status for the comment in the DEBUG-STATUS field, the status must be :"
+msgstr ""
+
+#: ../../comment_moderation.rst:10
+msgid "OPEN when you ask a question or leave a comment REPLIED when someone responds to your comment CLOSED when you have the correct answer to your comment"
+msgstr ""
+
+#: ../../comment_moderation.rst:13
+msgid "choose the Importance level of your comment:"
+msgstr ""
+
+#: ../../comment_moderation.rst:14
+msgid "Normal Medium High"
+msgstr ""
+
+#: ../../comment_moderation.rst:18
+#: ../../comment_moderation.rst:30
+msgid "(vidéo)"
+msgstr ""
+
+#: ../../comment_moderation.rst:21
+msgid "2. How to find and respond to comments left on an analyzed call ?"
+msgstr ""
+
+#: ../../comment_moderation.rst:23
+msgid "You need to click on the \"comment\" field, a tab will open where you can filter by call date, agent, CRM ID. To find the comments left, click on the \"DEBUG STATUS\" field and select the \"OPEN\" option to display all the analyzed calls where a comment has been left. At this point, you have the option to quickly view all comments left on calls by clicking on the two arrows next to \"👁️‍🗨️\". Or reply to the comments by clicking on \"👁️‍🗨️\", opening the call analysis grid, and following these steps:"
+msgstr ""
+
+#: ../../comment_moderation.rst:26
+msgid "Change the \"DEBUG STATUS\" field to \"Replied\""
+msgstr ""
+
+#: ../../comment_moderation.rst:27
+msgid "Select the person responsible for the response in the \"IN CHARGE\" field."
+msgstr ""
+
+#: ../../comment_moderation.rst:28
+msgid "Reply to the comments and questions in the \"ANSWER\" field."
+msgstr ""
+
+#: ../../comment_moderation.rst:41
+msgid "3. Supervision and Question Adjustment Process"
+msgstr ""
+
+#: ../../comment_moderation.rst:44
+msgid "3.1. Continuous Improvement of Question Formulation"
+msgstr ""
+
+#: ../../comment_moderation.rst:46
+msgid "As part of our continuous improvement process, we aim to refine the way questions are written. This effort involves both our internal team and the client, as misunderstandings about the client's actual needs can also lead to discrepancies."
+msgstr ""
+
+#: ../../comment_moderation.rst:48
+msgid "To address this, we have implemented a parallel procedure on the client’s side:"
+msgstr ""
+
+#: ../../comment_moderation.rst:50
+msgid "A supervisor reviews and corrects incorrect answers manually for specific questions."
+msgstr ""
+
+#: ../../comment_moderation.rst:52
+msgid "The supervisor must fill in the **Counter evaluation by** field with their name."
+msgstr ""
+
+#: ../../comment_moderation.rst:54
+msgid "They are also encouraged to add comments explaining the corrections made."
+msgstr ""
+
+#: ../../comment_moderation.rst:56
+msgid "On our side, we are committed to adjusting the relevant questions based on the supervisors’ feedback, with the goal of minimizing the gap between the AI’s analysis and the human evaluation — a goal that we actively monitor through the AI / HUMAN page on our BI dashboard."
+msgstr ""
+
+#: ../../comment_moderation.rst:66
+msgid "3.2 Evaluation and Supervision Process"
+msgstr ""
+
+#: ../../comment_moderation.rst:67
+msgid "To ensure the quality and accuracy of AI-based analyses, supervisors on the client side are expected to review and validate the AI's responses for specific calls. The following steps outline the recommended evaluation procedure:"
+msgstr ""
+
+#: ../../comment_moderation.rst:69
+msgid "Access the call page that needs to be reviewed."
+msgstr ""
+
+#: ../../comment_moderation.rst:71
+msgid "Fill in the **Counter evaluation by** field with the supervisor’s name."
+msgstr ""
+
+#: ../../comment_moderation.rst:81
+msgid "To help our team better understand the corrections, it is strongly encouraged to add a comment in the following format:"
+msgstr ""
+
+#: ../../comment_moderation.rst:83
+msgid "question_name: incorrect AI answer → correct answer | reason for the change"
+msgstr ""
+
+#: ../../comment_moderation.rst:91
+msgid "In addition, the supervisor should review the AI-generated responses, click on any incorrect answers, and manually correct them. They can also leave a more detailed comment on each question if needed."
+msgstr ""
+
+#: ../../comment_moderation.rst:101
+msgid "4. Understanding the IA vs Human comparison dashboard"
+msgstr ""
+
+#: ../../comment_moderation.rst:103
+msgid "This page allows you to explore the differences between evaluations made by the AI and those made by human reviewers."
+msgstr ""
+
+#: ../../comment_moderation.rst:106
+msgid "1. Score Table"
+msgstr ""
+
+#: ../../comment_moderation.rst:109
+msgid "This table displays, for each counter-evaluator and each call, the human score, the AI score, and the difference between the two. If a counter-evaluator (e.g. Hayat) does not appear, it means no human score has been recorded for the selected period or filters."
+msgstr ""
+
+#: ../../comment_moderation.rst:120
+msgid "2. Evolution of the average gap between IA and human scores"
+msgstr ""
+
+#: ../../comment_moderation.rst:122
+msgid "This graph shows the trend of the average difference between the human and AI scores over time (day, week, or month depending on filters)."
+msgstr ""
+
+#: ../../comment_moderation.rst:131
+msgid "3. Question-wise Accuracy Table"
+msgstr ""
+
+#: ../../comment_moderation.rst:133
+msgid "This visual presents, for each question, the percentage of correct and incorrect responses by the AI (based on human validation) per counter-evaluator."
+msgstr ""
+
+#: ../../comment_moderation.rst:142
+msgid "4. Call-by-Call Details"
+msgstr ""
+
+#: ../../comment_moderation.rst:144
+msgid "This detailed table shows the call ID, agent name, counter-evaluator, the evaluated question, the human answer, the AI answer, and whether the AI's response was correct or not."
+msgstr ""

@@ -1,0 +1,260 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)
+# This file is distributed under the same license as the Audioliz package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Audioliz \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-30 12:00+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../comment_moderation.rst:2
+msgid "Manage Comments and Feedback"
+msgstr "Gérer les commentaires et les retours"
+
+#: ../../comment_moderation.rst:5
+msgid "1.How to add a comment to an analyzed record ?"
+msgstr "1. Comment ajouter un commentaire à un enregistrement analysé ?"
+
+#: ../../comment_moderation.rst:7
+msgid ""
+"You can add a comment either at the level of the responses to each "
+"question or in the comment field located right after the transcript.and "
+"you need to follow the following steps:"
+msgstr ""
+"Vous pouvez ajouter un commentaire soit au niveau des réponses à chaque question, "
+"soit dans le champ de commentaire situé juste après la transcription. Pour cela, "
+"suivez les étapes suivantes :"
+
+#: ../../comment_moderation.rst:9
+msgid ""
+"Choose a status for the comment in the DEBUG-STATUS field, the status "
+"must be :"
+msgstr ""
+"Choisissez un statut pour le commentaire dans le champ DEBUG-STATUS ; le statut doit être :"
+
+#: ../../comment_moderation.rst:10
+msgid ""
+"OPEN when you ask a question or leave a comment REPLIED when someone "
+"responds to your comment CLOSED when you have the correct answer to your "
+"comment"
+msgstr ""
+"OPEN lorsqu’une question est posée ou qu’un commentaire est laissé ; REPLIED lorsqu’une réponse est apportée à votre commentaire ; CLOSED lorsque vous disposez de la réponse adéquate à votre commentaire."
+
+#: ../../comment_moderation.rst:13
+msgid "choose the Importance level of your comment:"
+msgstr "Choisissez le niveau d’importance de votre commentaire :"
+
+#: ../../comment_moderation.rst:14
+msgid "Normal Medium High"
+msgstr "Normal Moyen Élevé"
+
+#: ../../comment_moderation.rst:18 ../../comment_moderation.rst:30
+msgid "(vidéo)"
+msgstr "(vidéo)"
+
+#: ../../comment_moderation.rst:21
+msgid "2. How to find and respond to comments left on an analyzed call ?"
+msgstr "2. Comment trouver et répondre aux commentaires laissés sur un appel analysé ?"
+
+#: ../../comment_moderation.rst:23
+msgid ""
+"You need to click on the \"comment\" field, a tab will open where you can"
+" filter by call date, agent, CRM ID. To find the comments left, click on "
+"the \"DEBUG STATUS\" field and select the \"OPEN\" option to display all "
+"the analyzed calls where a comment has been left. At this point, you have"
+" the option to quickly view all comments left on calls by clicking on the"
+" two arrows next to \"👁️‍🗨️\". Or reply to the comments by clicking on "
+"\"👁️‍🗨️\", opening the call analysis grid, and following these steps:"
+msgstr ""
+"Vous devez cliquer sur le champ « commentaire » ; un onglet s’ouvrira où vous pourrez "
+"filtrer par date d’appel, agent et ID CRM. Pour trouver les commentaires laissés, cliquez "
+"sur le champ « DEBUG STATUS » et sélectionnez l’option « OPEN » pour afficher tous les appels "
+"analysés comportant un commentaire. À ce stade, vous pouvez visualiser rapidement tous les "
+"commentaires en cliquant sur les deux flèches à côté de « 👁️‍🗨️ » ou répondre aux commentaires "
+"en cliquant sur « 👁️‍🗨️ », en ouvrant la grille d’analyse d’appel, puis en suivant ces étapes :"
+
+#: ../../comment_moderation.rst:26
+msgid "Change the \"DEBUG STATUS\" field to \"Replied\""
+msgstr "Modifiez le champ « DEBUG STATUS » en « Replied »"
+
+#: ../../comment_moderation.rst:27
+msgid "Select the person responsible for the response in the \"IN CHARGE\" field."
+msgstr "Sélectionnez la personne responsable de la réponse dans le champ « IN CHARGE »."
+
+#: ../../comment_moderation.rst:28
+msgid "Reply to the comments and questions in the \"ANSWER\" field."
+msgstr "Répondez aux commentaires et questions dans le champ « ANSWER »."
+
+#: ../../comment_moderation.rst:41
+msgid "3. Supervision and Question Adjustment Process"
+msgstr "3. Processus de supervision et d’ajustement des questions"
+
+#: ../../comment_moderation.rst:44
+msgid "3.1. Continuous Improvement of Question Formulation"
+msgstr "3.1. Amélioration continue de la formulation des questions"
+
+#: ../../comment_moderation.rst:46
+msgid ""
+"As part of our continuous improvement process, we aim to refine the way "
+"questions are written. This effort involves both our internal team and "
+"the client, as misunderstandings about the client's actual needs can also"
+" lead to discrepancies."
+msgstr ""
+"Dans le cadre de notre démarche d’amélioration continue, nous visons à affiner la formulation "
+"des questions. Cet effort implique à la fois notre équipe interne et le client, car une mauvaise "
+"compréhension des besoins réels du client peut entraîner des écarts."
+
+#: ../../comment_moderation.rst:48
+msgid ""
+"To address this, we have implemented a parallel procedure on the client’s"
+" side:"
+msgstr "Pour y remédier, nous avons mis en place une procédure parallèle côté client :"
+
+#: ../../comment_moderation.rst:50
+msgid ""
+"A supervisor reviews and corrects incorrect answers manually for specific"
+" questions."
+msgstr "Un superviseur examine et corrige manuellement les réponses incorrectes pour certaines questions."
+
+#: ../../comment_moderation.rst:52
+msgid ""
+"The supervisor must fill in the **Counter evaluation by** field with "
+"their name."
+msgstr "Le superviseur doit renseigner le champ **Counter evaluation by** avec son nom."
+
+#: ../../comment_moderation.rst:54
+msgid "They are also encouraged to add comments explaining the corrections made."
+msgstr "Ils sont également encouragés à ajouter des commentaires expliquant les corrections apportées."
+
+#: ../../comment_moderation.rst:56
+msgid ""
+"On our side, we are committed to adjusting the relevant questions based "
+"on the supervisors’ feedback, with the goal of minimizing the gap between"
+" the AI’s analysis and the human evaluation — a goal that we actively "
+"monitor through the AI / HUMAN page on our BI dashboard."
+msgstr ""
+"De notre côté, nous nous engageons à ajuster les questions concernées en fonction des retours "
+"des superviseurs, dans le but de réduire l’écart entre l’analyse de l’IA et l’évaluation humaine — "
+"objectif que nous suivons activement via la page IA / HUMAIN de notre tableau de bord BI."
+
+#: ../../comment_moderation.rst:66
+msgid "3.2 Evaluation and Supervision Process"
+msgstr "3.2 Processus d’évaluation et de supervision"
+
+#: ../../comment_moderation.rst:67
+msgid ""
+"To ensure the quality and accuracy of AI-based analyses, supervisors on "
+"the client side are expected to review and validate the AI's responses "
+"for specific calls. The following steps outline the recommended "
+"evaluation procedure:"
+msgstr ""
+"Pour garantir la qualité et la précision des analyses basées sur l’IA, les superviseurs côté client "
+"doivent examiner et valider les réponses de l’IA pour certains appels. Les étapes suivantes décrivent "
+"la procédure d’évaluation recommandée :"
+
+#: ../../comment_moderation.rst:69
+msgid "Access the call page that needs to be reviewed."
+msgstr "Accédez à la page de l’appel à examiner."
+
+#: ../../comment_moderation.rst:71
+msgid "Fill in the **Counter evaluation by** field with the supervisor’s name."
+msgstr "Renseignez le champ **Counter evaluation by** avec le nom du superviseur."
+
+#: ../../comment_moderation.rst:81
+msgid ""
+"To help our team better understand the corrections, it is strongly "
+"encouraged to add a comment in the following format:"
+msgstr ""
+"Pour aider notre équipe à mieux comprendre les corrections, il est vivement recommandé "
+"d’ajouter un commentaire selon le format suivant :"
+
+#: ../../comment_moderation.rst:83
+msgid ""
+"question_name: incorrect AI answer → correct answer | reason for the "
+"change"
+msgstr "nom_question : réponse IA incorrecte → réponse correcte | motif du changement"
+
+#: ../../comment_moderation.rst:91
+msgid ""
+"In addition, the supervisor should review the AI-generated responses, "
+"click on any incorrect answers, and manually correct them. They can also "
+"leave a more detailed comment on each question if needed."
+msgstr ""
+"De plus, le superviseur doit passer en revue les réponses générées par l’IA, cliquer sur les réponses "
+"incorrectes et les corriger manuellement. Il peut également laisser un commentaire plus détaillé pour chaque question si nécessaire."
+
+#: ../../comment_moderation.rst:101
+msgid "4. Understanding the IA vs Human comparison dashboard"
+msgstr "4. Comprendre le tableau de bord de comparaison IA vs Humain"
+
+#: ../../comment_moderation.rst:103
+msgid ""
+"This page allows you to explore the differences between evaluations made "
+"by the AI and those made by human reviewers."
+msgstr ""
+"Cette page permet d’explorer les différences entre les évaluations réalisées par l’IA et celles menées par des réviseurs humains."
+
+#: ../../comment_moderation.rst:106
+msgid "1. Score Table"
+msgstr "1. Tableau des scores"
+
+#: ../../comment_moderation.rst:109
+msgid ""
+"This table displays, for each counter-evaluator and each call, the human "
+"score, the AI score, and the difference between the two. If a counter-"
+"evaluator (e.g. Hayat) does not appear, it means no human score has been "
+"recorded for the selected period or filters."
+msgstr ""
+"Ce tableau affiche, pour chaque contre-évaluateur et chaque appel, le score humain, le score IA et "
+"la différence entre les deux. Si un contre-évaluateur (par exemple Hayat) n’apparaît pas, cela signifie "
+"qu’aucun score humain n’a été enregistré pour la période ou les filtres sélectionnés."
+
+#: ../../comment_moderation.rst:120
+msgid "2. Evolution of the average gap between IA and human scores"
+msgstr "2. Évolution de l’écart moyen entre les scores IA et humain"
+
+#: ../../comment_moderation.rst:122
+msgid ""
+"This graph shows the trend of the average difference between the human "
+"and AI scores over time (day, week, or month depending on filters)."
+msgstr ""
+"Ce graphique montre l’évolution de la différence moyenne entre les scores humains et IA au fil du temps "
+"(jour, semaine ou mois selon les filtres)."
+
+#: ../../comment_moderation.rst:131
+msgid "3. Question-wise Accuracy Table"
+msgstr "3. Tableau de précision par question"
+
+#: ../../comment_moderation.rst:133
+msgid ""
+"This visual presents, for each question, the percentage of correct and "
+"incorrect responses by the AI (based on human validation) per counter-"
+"evaluator."
+msgstr ""
+"Cette représentation affiche, pour chaque question, le pourcentage de réponses correctes et incorrectes "
+"de l’IA (selon validation humaine) par contre-évaluateur."
+
+#: ../../comment_moderation.rst:142
+msgid "4. Call-by-Call Details"
+msgstr "4. Détails par appel"
+
+#: ../../comment_moderation.rst:144
+msgid ""
+"This detailed table shows the call ID, agent name, counter-evaluator, the"
+" evaluated question, the human answer, the AI answer, and whether the "
+"AI's response was correct or not."
+msgstr ""
+"Ce tableau détaillé présente l’ID de l’appel, le nom de l’agent, le contre-évaluateur, la question évaluée, "
+"la réponse humaine, la réponse de l’IA et indique si la réponse de l’IA était correcte ou non."

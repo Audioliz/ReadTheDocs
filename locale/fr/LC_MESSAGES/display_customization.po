@@ -1,0 +1,163 @@
+#: ../../display_customization.rst:2
+msgid "Customize Display Options"
+msgstr "Personnaliser les options d’affichage"
+
+#: ../../display_customization.rst:5
+msgid "1.How to visualize the questions with or without a score ?"
+msgstr "1. Comment visualiser les questions avec ou sans score ?"
+
+#: ../../display_customization.rst:7
+msgid ""
+"In the analysis grid, you can choose to display all the questions, those "
+"with a score, or those without a score."
+msgstr ""
+"Dans la grille d’analyse, vous pouvez choisir d’afficher toutes les questions, "
+"celles avec un score ou celles sans score."
+
+#: ../../display_customization.rst:9 ../../display_customization.rst:16
+msgid "(vidéo)"
+msgstr "(vidéo)"
+
+#: ../../display_customization.rst:12
+msgid "2.How to change the display mode ?"
+msgstr "2. Comment changer le mode d’affichage ?"
+
+#: ../../display_customization.rst:14
+msgid "You can choose to display either a dark mode or a light mode."
+msgstr "Vous pouvez choisir d’afficher en mode sombre ou en mode clair."
+
+#: ../../display_customization.rst:23
+msgid "4. Access and reuse an existing dashboard"
+msgstr "4. Accéder et réutiliser un tableau de bord existant"
+
+#: ../../display_customization.rst:25
+msgid ""
+"If you want to use a dashboard that was created by another user in the "
+"system, follow these steps:"
+msgstr ""
+"Si vous souhaitez utiliser un tableau de bord créé par un autre utilisateur "
+"du système, suivez ces étapes :"
+
+#: ../../display_customization.rst:27
+msgid "Go to the section called **\"All Dashboards\"**"
+msgstr "Accédez à la section **« Tous les tableaux de bord »**"
+
+#: ../../display_customization.rst:28
+msgid ""
+"Locate the dashboard you want to use (e.g., alert monitoring, performance"
+" tracking, etc.)"
+msgstr ""
+"Repérez le tableau de bord que vous souhaitez utiliser (ex. : suivi des alertes, "
+"performance, etc.)"
+
+#: ../../display_customization.rst:29
+msgid "Click on the **eye icon** to open it"
+msgstr "Cliquez sur l’**icône œil** pour l’ouvrir"
+
+#: ../../display_customization.rst:31
+msgid ""
+"Once inside the dashboard, you will find several options in the top-right"
+" corner:"
+msgstr ""
+"Une fois dans le tableau de bord, vous trouverez plusieurs options en haut à droite :"
+
+#: ../../display_customization.rst:39
+msgid "You can choose between the following actions:"
+msgstr "Vous pouvez choisir parmi les actions suivantes :"
+
+#: ../../display_customization.rst:41
+msgid ""
+"**Add to my favorites** Adds the dashboard to your side menu. Any future "
+"changes made by the original creator will be reflected on your side."
+msgstr ""
+"**Ajouter aux favoris** Ajoute le tableau de bord à votre menu latéral. "
+"Les modifications futures apportées par le créateur d’origine seront également appliquées."
+
+#: ../../display_customization.rst:50
+msgid ""
+"**Duplicate** Creates a fully independent copy of the dashboard. You can "
+"then customize it freely (add widgets, edit filters, etc.) without "
+"affecting the original."
+msgstr ""
+"**Dupliquer** Crée une copie totalement indépendante du tableau de bord. "
+"Vous pouvez ensuite le personnaliser librement (ajout de widgets, modification "
+"des filtres, etc.) sans affecter l’original."
+
+#: ../../display_customization.rst:53
+msgid ""
+"**Set as Home Page** If you want this dashboard to appear when you log "
+"in, click the gear icon and enable “Home Page” from the settings."
+msgstr ""
+"**Définir en page d’accueil** Si vous souhaitez que ce tableau de bord "
+"s’affiche à votre connexion, cliquez sur l’icône roue dentée et activez "
+"« Page d’accueil » dans les paramètres."
+
+#: ../../display_customization.rst:79
+msgid "5. How to manage and respond to comments ?"
+msgstr "5. Comment gérer et répondre aux commentaires ?"
+
+#: ../../display_customization.rst:81
+msgid ""
+"If you disagree with the AI's automatic evaluation, you can request a "
+"review through the **counter evaluation** workflow."
+msgstr ""
+"Si vous n’êtes pas d’accord avec l’évaluation automatique de l’IA, vous pouvez "
+"demander une révision via le workflow de **contre-évaluation**."
+
+#: ../../display_customization.rst:83
+msgid "### Steps to follow:"
+msgstr "### Étapes à suivre :"
+
+#: ../../display_customization.rst:85
+msgid "Open the evaluation view of the call"
+msgstr "Ouvrez la vue d’évaluation de l’appel"
+
+#: ../../display_customization.rst:86
+msgid ""
+"In the section **Conter evaluation by**, enter your **first name** to "
+"identify yourself"
+msgstr ""
+"Dans la section **Counter evaluation by**, saisissez votre **prénom** pour vous identifier"
+
+#: ../../display_customization.rst:94
+msgid ""
+"Scroll down and enter your explanation or justification in the "
+"**Comment** section"
+msgstr ""
+"Faites défiler vers le bas et saisissez votre explication ou justification dans la section **Commentaire**"
+
+#: ../../display_customization.rst:102
+msgid "Set the **Debug Status** to `Open` to notify the quality team"
+msgstr "Définissez le **Debug Status** sur `Open` pour notifier l’équipe qualité"
+
+#: ../../display_customization.rst:110
+msgid "---"
+msgstr "---"
+
+#: ../../display_customization.rst:112
+msgid "### Workflow explanation:"
+msgstr "### Explication du workflow :"
+
+#: ../../display_customization.rst:114
+msgid "**Open** = a new comment is submitted and waiting for review"
+msgstr "**Open** = un nouveau commentaire a été soumis et attend d’être examiné"
+
+#: ../../display_customization.rst:115
+msgid "**Pending** = a reviewer is working on your case before giving an answer"
+msgstr "**Pending** = un réviseur traite votre cas avant de fournir une réponse"
+
+#: ../../display_customization.rst:116
+msgid "**Replied** = a reply has been written in the `ANSWER` field"
+msgstr "**Replied** = une réponse a été rédigée dans le champ `ANSWER`"
+
+#: ../../display_customization.rst:117
+msgid "**Closed** = the problem is resolved and the process is complete"
+msgstr "**Closed** = le problème est résolu et le processus est terminé"
+
+#: ../../display_customization.rst:119
+msgid ""
+"This system ensures that every feedback is reviewed and responded to by "
+"the quality team in a structured and traceable way."
+msgstr ""
+"Ce système garantit que chaque retour est examiné et traité par l’équipe qualité "
+"de manière structurée et traçable."

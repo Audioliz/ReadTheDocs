@@ -1,0 +1,20 @@
+#: ../../intro.rst:2
+msgid "Introduction"
+msgstr "Introduction"
+
+#: ../../intro.rst:3
+msgid "Welcome to Audioliz."
+msgstr "Bienvenue sur Audioliz."
+
+#: ../../intro.rst:5
+msgid ""
+"Audioliz is a platform that provides voice analysis services powered by "
+"Artificial Intelligence to its customers. This documentation aims to "
+"guide users through the interface and help them understand and implement "
+"the Audioliz process, from uploading audio to interpreting the results."
+msgstr ""
+"Audioliz est une plateforme qui propose à ses clients des services d'analyse vocale "
+"basés sur l'intelligence artificielle. Cette documentation a pour but de guider les "
+"utilisateurs à travers l'interface et de les aider à comprendre et à mettre en œuvre "
+"le processus Audioliz, depuis l'importation de l'audio jusqu'à l'interprétation des "
+"résultats."

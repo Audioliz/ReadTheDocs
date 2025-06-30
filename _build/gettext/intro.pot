@@ -1,0 +1,29 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 
+# This file is distributed under the same license as the Audioliz package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Audioliz \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-30 12:00+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../intro.rst:2
+msgid "Introduction"
+msgstr ""
+
+#: ../../intro.rst:3
+msgid "Welcome to Audioliz."
+msgstr ""
+
+#: ../../intro.rst:5
+msgid "Audioliz is a platform that provides voice analysis services powered by Artificial Intelligence to its customers. This documentation aims to guide users through the interface and help them understand and implement the Audioliz process, from uploading audio to interpreting the results."
+msgstr ""

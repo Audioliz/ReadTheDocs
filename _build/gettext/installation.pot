@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 
+# This file is distributed under the same license as the Audioliz package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Audioliz \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-30 12:00+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../installation.rst:2
+msgid "First Steps with Audioliz"
+msgstr ""
+
+#: ../../installation.rst:4
+msgid "This is a tutorial on how to use Audioliz, from the very beginning to your first call analysis. Let's go!"
+msgstr ""
+
+#: ../../installation.rst:7
+msgid "1. Visualize call analysis"
+msgstr ""
+
+#: ../../installation.rst:9
+msgid "After every call is analyzed, you can see all the useful information about it:"
+msgstr ""
+
+#: ../../installation.rst:11
+msgid "-General information about the call: date of creation, audio file name, duration, agent, call type, called number, etc. -The transcript of the call -The call audio file -Questions/responses with explanations on each response, and the possibility to listen exactly where the answers are given in the call."
+msgstr ""
+
+#: ../../installation.rst:26
+msgid "2. How to load a call"
+msgstr ""
+
+#: ../../installation.rst:28
+msgid "To analyze the next calls, you should first load them."
+msgstr ""
+
+#: ../../installation.rst:30
+msgid "Let's load our first call:"
+msgstr ""
+
+#: ../../installation.rst:41
+msgid "3. Re-run a call analysis"
+msgstr ""
+
+#: ../../installation.rst:43
+msgid "If you change a question in the monitoring sheet, and you want to re run an analysis on a call, here's how to do it:"
+msgstr ""

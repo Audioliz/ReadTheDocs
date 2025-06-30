@@ -1,0 +1,11 @@
+#: ../../index.rst:6
+msgid "Summary:"
+msgstr "Résumé :"
+
+#: ../../index.rst:2
+msgid "Welcome to Audioliz"
+msgstr "Bienvenue sur Audioliz"
+
+#: ../../index.rst:4
+msgid "Contents:"
+msgstr "Contenu :"

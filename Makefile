@@ -5,7 +5,7 @@
 # from the environment for the first two.
 SPHINXOPTS    ?= -D language=$(LANGUAGE)
 SPHINXBUILD   ?= sphinx-build
-SOURCEDIR     = docs
+SOURCEDIR     = .
 BUILDDIR      = _build
 LANGUAGE      ?= en
 
@@ -22,4 +22,4 @@ help:
 
 # Ajout d'une cible pour générer la documentation en français
 html-fr:
-	@$(SPHINXBUILD) -b html "$(SOURCEDIR)/fr" "$(BUILDDIR)/fr" $(SPHINXOPTS) -D language=fr $(O)
+sphinx-build -b html -D language=fr . _build/html/fr

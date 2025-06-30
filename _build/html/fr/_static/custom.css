@@ -1,0 +1,70 @@
+/* Améliorer la typographie globale */
+body {
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #111518;
+}
+
+a.headerlink[title="View source"], 
+header a[title="View source"], 
+div[role="navigation"] a[title="View source"] {
+    display: none !important;
+}
+
+/* Titres principaux plus visibles */
+h1,
+h2,
+h3 {
+    color: #162228;
+    font-weight: 600;
+}
+
+/* Ajouter un effet de survol sur les liens */
+a {
+    color: #6a757d;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #09212f;
+}
+
+/* Espacement du corps du texte */
+.document {
+    background-color: #ffffff0e;
+    border-radius: 8px;
+}
+
+/* Listes plus élégantes */
+ul {
+    padding-left: 1.5em;
+}
+
+ul li::marker {
+    color: #64686b;
+}
+
+/* Tables plus lisibles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+}
+
+td,
+th {
+    padding: 0.6em;
+}
