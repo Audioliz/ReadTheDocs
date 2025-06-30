@@ -58,7 +58,7 @@ On our side, we are committed to adjusting the relevant questions based on the s
 .. raw:: html
 
    <div style="text-align: center;">
-     <img src="_static/ecart_ia_hum.png" width="600" alt="Dashboard list">
+     <img src="../_static/ecart_ia_hum.png" width="600" alt="Dashboard list">
    </div>
 
 
