@@ -23,8 +23,10 @@ html_css_files = ['custom.css']
 extensions = ['sphinxcontrib.youtube']
 
 # Configuration pour l'internationalisation
-locale_dirs = ['locale/']  # répertoire pour les fichiers .po
-gettext_compact = False    # un fichier par document
+language = 'fr'
+locale_dirs = ['locale']        # où sont vos .po/.mo
+gettext_uuid = True             # pour des .pot stables
+gettext_compact = False         
 
 
 

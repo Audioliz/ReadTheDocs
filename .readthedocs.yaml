@@ -10,8 +10,5 @@ python:
 
 sphinx:
   configuration: conf.py
-  languages:
-    - en
-    - fr
 
 
