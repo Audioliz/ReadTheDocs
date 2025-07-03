@@ -88,7 +88,7 @@ If you disagree with the AI's automatic evaluation, you can request a review thr
 .. raw:: html
 
    <div style="text-align: center;">
-     <img src="../_static/Conter_evaluation_by.png" width="700" alt="Conter evaluation by field">
+     <img src="/_static/Conter_evaluation_by.png" width="700" alt="Conter evaluation by field">
    </div>
 
 3. Scroll down and enter your explanation or justification in the **Comment** section
@@ -96,7 +96,7 @@ If you disagree with the AI's automatic evaluation, you can request a review thr
 .. raw:: html
 
    <div style="text-align: center;">
-     <img src="../_static/Comment.png" width="800" alt="Comment section input">
+     <img src="/_static/Comment.png" width="800" alt="Comment section input">
    </div>
 
 4. Set the **Debug Status** to `Open` to notify the quality team
@@ -104,7 +104,7 @@ If you disagree with the AI's automatic evaluation, you can request a review thr
 .. raw:: html
 
    <div style="text-align: center;">
-     <img src="../_static/Debug_Status.png" width="400" alt="Debug status dropdown">
+     <img src="/_static/Debug_Status.png" width="400" alt="Debug status dropdown">
    </div>
 
 ---
