@@ -102,6 +102,7 @@ If you disagree with the AI's automatic evaluation, you can request a review thr
 4. Set the **Debug Status** to `Open` to notify the quality team
 
 .. raw:: html
+
    <div style="text-align: center;">
      <img src="/_static/Debug_Status.png" width="400" alt="Debug status dropdown">
    </div>
