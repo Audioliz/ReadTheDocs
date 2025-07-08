@@ -215,4 +215,4 @@ If you don’t see the role options or can’t edit them, it means your account 
 
 - **Creation** : Date on which the call or email is received in Audioliz; in other words, the creation date of this item on our platform.
 
-- **Last update** : Date on which this call or email record last underwent modification on the Call page.
+- **Last update** :The date on which this call or email record was last modified on the Call page — for example, when a response is updated or when the analysis is reapplied.
