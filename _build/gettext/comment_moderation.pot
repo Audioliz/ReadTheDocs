@@ -1,0 +1,209 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 
+# This file is distributed under the same license as the Audioliz package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Audioliz \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-11 14:53+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../comment_moderation.rst:2
+#: 2bd8ba737a2047e5a8989ed3c63866dd
+msgid "Manage Comments and Feedback"
+msgstr ""
+
+#: ../../comment_moderation.rst:5
+#: 4516c8d7383949e5a426cd057fc9f4e1
+msgid "1.How to add a comment to an analyzed record ?"
+msgstr ""
+
+#: ../../comment_moderation.rst:7
+#: 02eb3f0d828c4348bf70180f662a0d7f
+msgid "You can add a comment either at the level of the responses to each question or in the comment field located right after the transcript.and you need to follow the following steps:"
+msgstr ""
+
+#: ../../comment_moderation.rst:9
+#: adb1daedb11e4870acc2da5a343c5442
+msgid "Choose a status for the comment in the DEBUG-STATUS field, the status must be :"
+msgstr ""
+
+#: ../../comment_moderation.rst:10
+#: a8246b04897d4697bfcd8b0646efbc35
+msgid "OPEN when you ask a question or leave a comment REPLIED when someone responds to your comment CLOSED when you have the correct answer to your comment"
+msgstr ""
+
+#: ../../comment_moderation.rst:13
+#: 13440322a05b41a1840b8d2a7f5a9cea
+msgid "choose the Importance level of your comment:"
+msgstr ""
+
+#: ../../comment_moderation.rst:14
+#: 93345158dcdb45f181e15eb5d127f2e4
+msgid "Normal Medium High"
+msgstr ""
+
+#: ../../comment_moderation.rst:18
+#: ../../comment_moderation.rst:30
+#: 9d50bb1718b04100aafc9596a6400c1e
+#: 227682944da14f1fa04f489ed804ae98
+msgid "(vidéo)"
+msgstr ""
+
+#: ../../comment_moderation.rst:21
+#: 1351fb1f402646c98ffba581edc05331
+msgid "2. How to find and respond to comments left on an analyzed call ?"
+msgstr ""
+
+#: ../../comment_moderation.rst:23
+#: cd622dea4db3499b86343b764ae1126f
+msgid "You need to click on the \"comment\" field, a tab will open where you can filter by call date, agent, CRM ID. To find the comments left, click on the \"DEBUG STATUS\" field and select the \"OPEN\" option to display all the analyzed calls where a comment has been left. At this point, you have the option to quickly view all comments left on calls by clicking on the two arrows next to \"👁️‍🗨️\". Or reply to the comments by clicking on \"👁️‍🗨️\", opening the call analysis grid, and following these steps:"
+msgstr ""
+
+#: ../../comment_moderation.rst:26
+#: e9aeffdc1aaf4aabb36652c571cc0685
+msgid "Change the \"DEBUG STATUS\" field to \"Replied\""
+msgstr ""
+
+#: ../../comment_moderation.rst:27
+#: b19aa5fe6e034dd3ba7ada0fa7e77b92
+msgid "Select the person responsible for the response in the \"IN CHARGE\" field."
+msgstr ""
+
+#: ../../comment_moderation.rst:28
+#: ffc5f3f76f40440cb3674ce14a4b7d0d
+msgid "Reply to the comments and questions in the \"ANSWER\" field."
+msgstr ""
+
+#: ../../comment_moderation.rst:41
+#: 04be66bab01a4617a9826d1200a806dd
+msgid "3. Supervision and Question Adjustment Process"
+msgstr ""
+
+#: ../../comment_moderation.rst:44
+#: 01f8e9a3eeee41cbaf8fa540644e6848
+msgid "3.1. Continuous Improvement of Question Formulation"
+msgstr ""
+
+#: ../../comment_moderation.rst:46
+#: 498e747d4ced41babe51076b07f871c5
+msgid "As part of our continuous improvement process, we aim to refine the way questions are written. This effort involves both our internal team and the client, as misunderstandings about the client's actual needs can also lead to discrepancies."
+msgstr ""
+
+#: ../../comment_moderation.rst:48
+#: d18923ffac184d0298459172a5f0d78b
+msgid "To address this, we have implemented a parallel procedure on the client’s side:"
+msgstr ""
+
+#: ../../comment_moderation.rst:50
+#: 15bca99df05744e4a688c8b3c665637f
+msgid "A supervisor reviews and corrects incorrect answers manually for specific questions."
+msgstr ""
+
+#: ../../comment_moderation.rst:52
+#: 11f68a8adb034d4db2c917b74dc42dd8
+msgid "The supervisor must fill in the **Counter evaluation by** field with their name."
+msgstr ""
+
+#: ../../comment_moderation.rst:54
+#: b97581560c3e4ebdade2a2b135753d82
+msgid "They are also encouraged to add comments explaining the corrections made."
+msgstr ""
+
+#: ../../comment_moderation.rst:56
+#: f9e2ace5f7694b9c920be5a6141403c2
+msgid "On our side, we are committed to adjusting the relevant questions based on the supervisors’ feedback, with the goal of minimizing the gap between the AI’s analysis and the human evaluation — a goal that we actively monitor through the AI / HUMAN page on our BI dashboard."
+msgstr ""
+
+#: ../../comment_moderation.rst:66
+#: d07c074cdf5f485d841a070c05fbe7e3
+msgid "3.2 Evaluation and Supervision Process"
+msgstr ""
+
+#: ../../comment_moderation.rst:67
+#: 3092f6e3292f4732aa1f935ce6e51637
+msgid "To ensure the quality and accuracy of AI-based analyses, supervisors on the client side are expected to review and validate the AI's responses for specific calls. The following steps outline the recommended evaluation procedure:"
+msgstr ""
+
+#: ../../comment_moderation.rst:69
+#: 37f9242cb1a64e0ba27740feadf6aa44
+msgid "Access the call page that needs to be reviewed."
+msgstr ""
+
+#: ../../comment_moderation.rst:71
+#: d346dd9b87bb48c1af77624ea37cf07f
+msgid "Fill in the **Counter evaluation by** field with the supervisor’s name."
+msgstr ""
+
+#: ../../comment_moderation.rst:81
+#: 343edcfe1a2b42b490080bf32765948f
+msgid "To help our team better understand the corrections, it is strongly encouraged to add a comment in the following format:"
+msgstr ""
+
+#: ../../comment_moderation.rst:83
+#: 4ebd7e525433416b86a31a5acc4e3f54
+msgid "question_name: incorrect AI answer → correct answer | reason for the change"
+msgstr ""
+
+#: ../../comment_moderation.rst:91
+#: 4b35a977e7d74a64be4832247c84153f
+msgid "In addition, the supervisor should review the AI-generated responses, click on any incorrect answers, and manually correct them. They can also leave a more detailed comment on each question if needed."
+msgstr ""
+
+#: ../../comment_moderation.rst:101
+#: f2c57eca3d994f7185879ddfe88cc2d5
+msgid "4. Understanding the IA vs Human comparison dashboard"
+msgstr ""
+
+#: ../../comment_moderation.rst:103
+#: 180858a0e28a421698fa4ceb47f0cbe5
+msgid "This page allows you to explore the differences between evaluations made by the AI and those made by human reviewers."
+msgstr ""
+
+#: ../../comment_moderation.rst:106
+#: 035789e533634b5f9e41a6cb97800339
+msgid "1. Score Table"
+msgstr ""
+
+#: ../../comment_moderation.rst:109
+#: ecd0fc1cda234ce8aa9325134cacf86e
+msgid "This table displays, for each counter-evaluator and each call, the human score, the AI score, and the difference between the two. If a counter-evaluator (e.g. Hayat) does not appear, it means no human score has been recorded for the selected period or filters."
+msgstr ""
+
+#: ../../comment_moderation.rst:120
+#: 009cce8cce8343be970856d40aee1bca
+msgid "2. Evolution of the average gap between IA and human scores"
+msgstr ""
+
+#: ../../comment_moderation.rst:122
+#: 607f21b485054011bbdb30e3164b9d01
+msgid "This graph shows the trend of the average difference between the human and AI scores over time (day, week, or month depending on filters)."
+msgstr ""
+
+#: ../../comment_moderation.rst:131
+#: c47bec7f78cd4af89c0b27dab47220fb
+msgid "3. Question-wise Accuracy Table"
+msgstr ""
+
+#: ../../comment_moderation.rst:133
+#: a9c9fb51e39d4811a2d49515d4da743a
+msgid "This visual presents, for each question, the percentage of correct and incorrect responses by the AI (based on human validation) per counter-evaluator."
+msgstr ""
+
+#: ../../comment_moderation.rst:142
+#: 518e5f6f9a984f89b414e38a3f9aa0a8
+msgid "4. Call-by-Call Details"
+msgstr ""
+
+#: ../../comment_moderation.rst:144
+#: b924a0dbaf964fa6b4fde1598046c163
+msgid "This detailed table shows the call ID, agent name, counter-evaluator, the evaluated question, the human answer, the AI answer, and whether the AI's response was correct or not."
+msgstr ""
