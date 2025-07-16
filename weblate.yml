@@ -1,0 +1,35 @@
+# Configuration Weblate pour Audioliz
+# Ce fichier définit les paramètres de traduction pour le projet
+
+# Informations du projet
+project:
+  name: "Audioliz Documentation"
+  slug: "audioliz-docs"
+  description: "Documentation multilingue d'Audioliz"
+
+# Configuration des composants de traduction
+components:
+  - name: "Documentation"
+    slug: "docs"
+    file_format: "po"
+    filemask: "locale/*/LC_MESSAGES/*.po"
+    template: "locale/messages.pot"
+    new_base: "locale/messages.pot"
+    vcs: "git"
+    repo: "https://github.com/Audioliz/ReadTheDocs.git"
+    branch: "main"
+    
+# Configuration des langues
+languages:
+  - code: "fr"
+    name: "Français"
+    direction: "ltr"
+  - code: "en"
+    name: "English"
+    direction: "ltr"
+
+# Configuration des notifications
+notifications:
+  - name: "GitHub"
+    url: "https://api.github.com/repos/Audioliz/ReadTheDocs"
+    events: ["push", "pull_request"] 

@@ -1,0 +1,77 @@
+{
+  "project": {
+    "name": "Audioliz Documentation",
+    "slug": "audioliz-docs",
+    "description": "Documentation multilingue d'Audioliz - Guide utilisateur et technique",
+    "web": "https://audioliz.readthedocs.io/",
+    "instructions": "Traduisez la documentation Audioliz en anglais. Respectez la terminologie technique et gardez un style professionnel."
+  },
+  "components": [
+    {
+      "name": "Documentation",
+      "slug": "docs",
+      "file_format": "po",
+      "filemask": "locale/*/LC_MESSAGES/*.po",
+      "template": "locale/messages.pot",
+      "new_base": "locale/messages.pot",
+      "vcs": "git",
+      "repo": "https://github.com/Audioliz/ReadTheDocs.git",
+      "branch": "main",
+      "push_url": "https://github.com/Audioliz/ReadTheDocs.git",
+      "push_branch": "main",
+      "auto_push": true,
+      "commit_message": "Update translation files from Weblate",
+      "license": "MIT",
+      "license_url": "https://github.com/Audioliz/ReadTheDocs/blob/main/LICENSE"
+    }
+  ],
+  "languages": [
+    {
+      "code": "fr",
+      "name": "Français",
+      "direction": "ltr",
+      "population": 280000000,
+      "web_url": "https://fr.wikipedia.org/wiki/Français"
+    },
+    {
+      "code": "en",
+      "name": "English",
+      "direction": "ltr",
+      "population": 1500000000,
+      "web_url": "https://en.wikipedia.org/wiki/English_language"
+    }
+  ],
+  "notifications": [
+    {
+      "name": "GitHub",
+      "url": "https://api.github.com/repos/Audioliz/ReadTheDocs",
+      "events": ["push", "pull_request", "commit"],
+      "notification_url": "https://github.com/Audioliz/ReadTheDocs/actions"
+    }
+  ],
+  "workflow": {
+    "auto_push": true,
+    "auto_commit": true,
+    "commit_message": "Update translation files from Weblate",
+    "push_on_commit": true,
+    "merge_style": "rebase"
+  },
+  "access_control": {
+    "enable_review": true,
+    "enable_suggestions": true,
+    "suggestion_voting": true,
+    "auto_accept_suggestions": false,
+    "minimum_votes_for_suggestion": 2
+  },
+  "quality_checks": [
+    "end_stop",
+    "end_whitespace",
+    "inconsistent",
+    "same_plural",
+    "duplicate",
+    "format",
+    "markup",
+    "placeholders",
+    "xml_tags"
+  ]
+} 
