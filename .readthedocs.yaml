@@ -12,15 +12,9 @@ python:
 sphinx:
   configuration: conf.py
 
-# Configuration multilingue
 formats:
   - htmlzip
   - pdf
   - epub
-
-# Configuration des langues supportées
-languages:
-  fr: Français
-  en: English
 
 
