@@ -1,7 +1,5 @@
-Welcome to Audioliz Bruneau !
-===================
-
-Contents:
+Welcome to Audioliz !
+====================
 
 .. toctree::
    :caption: Summary:
