@@ -38,6 +38,8 @@ gettext_compact = False
 
 html_theme_options = {
     'language_selector': True,
+    'version_selector': False,
+    'flyout_display': False,
 }
 
 # Configuration multilingue pour Read the Docs
