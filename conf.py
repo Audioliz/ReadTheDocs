@@ -19,13 +19,14 @@ else:
 
 # Répertoire contenant les fichiers statiques (logos, CSS personnalisée, etc.)
 html_static_path = ['_static']
-html_css_files = ['custom.css']
+# html_css_files = ['custom.css']
 # html_js_files = ['language-selector.js']
 
 # Extensions Sphinx utilisées
 extensions = [
     'sphinxcontrib.youtube',
     'sphinx.ext.intersphinx',
+    'sphinx_rtd_theme',
 ]
 
 # Configuration pour l'internationalisation
@@ -34,13 +35,17 @@ locale_dirs = ['locale']        # où sont vos .po/.mo
 gettext_uuid = True             # pour des .pot stables
 gettext_compact = False
 
+html_theme_options = {
+    'language_selector': True,
+}
+
 # Configuration multilingue pour Read the Docs
 if os.getenv("READTHEDOCS", None) == "True":
     # Récupération de la langue depuis l'environnement Read the Docs
     language = os.getenv("READTHEDOCS_LANGUAGE", "fr")
     
     # Configuration des langues supportées
-    html_theme_options = {
+    html_theme_options.update({
         'language_versions': {
             'en': 'English',
             'fr': 'Français',
@@ -48,14 +53,12 @@ if os.getenv("READTHEDOCS", None) == "True":
     }
 else:
     # Configuration locale pour le développement
-    html_theme_options = {
+    html_theme_options.update({
         'language_versions': {
             'en': 'English',
             'fr': 'Français',
         }
     }
-
-html_theme_options['language_selector'] = True
 
 # Configuration pour Weblate
 gettext_allow_fuzzy_translations = True

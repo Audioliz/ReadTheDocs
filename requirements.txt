@@ -3,3 +3,4 @@ furo
 sphinxcontrib-youtube
 sphinx-intl
 babel
+sphinx_rtd_theme
