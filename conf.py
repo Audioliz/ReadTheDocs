@@ -20,7 +20,7 @@ else:
 # Répertoire contenant les fichiers statiques (logos, CSS personnalisée, etc.)
 html_static_path = ['_static']
 html_css_files = ['custom.css']
-html_js_files = ['language-selector.js']
+# html_js_files = ['language-selector.js']
 
 # Extensions Sphinx utilisées
 extensions = [
@@ -54,6 +54,8 @@ else:
             'fr': 'Français',
         }
     }
+
+html_theme_options['language_selector'] = True
 
 # Configuration pour Weblate
 gettext_allow_fuzzy_translations = True
