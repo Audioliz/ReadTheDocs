@@ -20,6 +20,7 @@ else:
 # Répertoire contenant les fichiers statiques (logos, CSS personnalisée, etc.)
 html_static_path = ['_static']
 html_css_files = ['custom.css']
+html_js_files = ['language-selector.js']
 
 # Extensions Sphinx utilisées
 extensions = [
