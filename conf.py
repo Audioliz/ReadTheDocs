@@ -50,7 +50,7 @@ if os.getenv("READTHEDOCS", None) == "True":
             'en': 'English',
             'fr': 'Français',
         }
-    }
+    })
 else:
     # Configuration locale pour le développement
     html_theme_options.update({
@@ -58,7 +58,7 @@ else:
             'en': 'English',
             'fr': 'Français',
         }
-    }
+    })
 
 # Configuration pour Weblate
 gettext_allow_fuzzy_translations = True
