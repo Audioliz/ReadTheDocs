@@ -8,7 +8,8 @@ release = '1.0'  # ou laisse vide si non versionné
 html_show_sourcelink = False
 html_title = "Audioliz Documentation"
 html_short_title = "Audioliz"
-html_theme = "furo"
+# html_theme = "furo"
+html_theme = "sphinx_rtd_theme"
 
 # Configuration Read the Docs
 if os.getenv("READTHEDOCS", None) == "True":
