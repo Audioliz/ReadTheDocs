@@ -13,9 +13,11 @@ Welcome to the |html_title|
 
 .. only:: dev
 
-   .. toctree::
-      :caption: Spécificités Dev:
+   this is dev
 
-      dev
+.. toctree::
+   :caption: Spécificités Dev:
+
+   dev
 
 
