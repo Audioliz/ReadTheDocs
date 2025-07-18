@@ -11,4 +11,7 @@ Welcome to Audioliz for Bruneau !
    configuration_in_audioliz
    display_customization
 
+.. toctree::
+   :caption: Specifics Bruneau:
 
+   bruneau_main
