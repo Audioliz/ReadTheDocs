@@ -1,7 +1,5 @@
-Welcome to Audioliz
-===================
-
-Contents:
+Welcome to the |html_title|
+===========================
 
 .. toctree::
    :caption: Summary:
@@ -12,5 +10,6 @@ Contents:
    comment_moderation
    configuration_in_audioliz
    display_customization
+   |client_name|
 
 
