@@ -36,6 +36,7 @@ locale_dirs = ['locale']        # où sont vos .po/.mo
 gettext_uuid = True             # pour des .pot stables
 gettext_compact = False
 
+# configuration pour le theme sphinx_rtd_theme
 html_theme_options = {
     'language_selector': True,
     'version_selector': False,
@@ -46,25 +47,24 @@ html_theme_options = {
 if os.getenv("READTHEDOCS", None) == "True":
     # Récupération de la langue depuis l'environnement Read the Docs
     language = os.getenv("READTHEDOCS_LANGUAGE", "fr")
-    
-    # Configuration des langues supportées
-    html_theme_options.update({
-        'language_versions': {
-            'en': 'English',
-            'fr': 'Français',
-        }
-    })
-else:
-    # Configuration locale pour le développement
-    html_theme_options.update({
-        'language_versions': {
-            'en': 'English',
-            'fr': 'Français',
-        }
-    })
 
-# Configuration pour Weblate
-gettext_allow_fuzzy_translations = True
+# Configuration des tags pour les spécificités client
+# utilisés par sphinx 
+tags = []
+
+# Détection automatique de l'environnement client
+version = os.getenv("READTHEDOCS_VERSION_NAME", None)
+if version:
+    tags.append(version)
+    client_name = version.capitalize()
+    html_title = f"Audioliz Documentation for {client_name}"
+    html_short_title = f"Audioliz for {client_name}"
+
+# Configuration des variables de substitution
+rst_epilog = f"""
+.. |html_title| replace:: {html_title}
+.. |client_name| replace:: {client_name}
+"""
 
 
 
