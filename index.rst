@@ -10,6 +10,12 @@ Welcome to the |html_title|
    comment_moderation
    configuration_in_audioliz
    display_customization
-   |client_name|
+
+.. only:: dev
+
+   .. toctree::
+      :caption: Spécificités Dev:
+
+      dev
 
 
