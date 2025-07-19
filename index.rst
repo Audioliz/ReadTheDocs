@@ -2,7 +2,7 @@ Welcome to Audioliz for Bruneau !
 ====================
 
 .. toctree::
-   :caption: Summary:
+   :caption: Main documentation
 
    intro
    installation
