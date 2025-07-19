@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Audioliz \n"
+"Project-Id-Version: Audioliz local\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-11 14:53+0200\n"
+"POT-Creation-Date: 2025-07-19 05:38+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,282 +16,226 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../configuration_in_audioliz.rst:2
-#: 25b72e6dbd5342b1941a08d662221573
+#: 2fcbab2236b64f79bef7ca4e54c554d5
 msgid "Configuration in Audioliz"
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:4
-#: 5c48499b342546719a0bf8669338deba
+#: fcf51625d46a4decbb9514af2650c3c2
 msgid "1. Create a question"
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:6
-#: 2669fb66b34a4fab8ac9283abc03cf0c
+#: 145055c1390b4ec0a530c8513f6a5fa0
 msgid "You can modify/create as many questions as you want in your monitoring sheet. There are three types of questions:"
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:9
-#: b0df3f2494604a36bbfceaf9780b5b45
+#: 59f2bc6324df4d6da0e05d77e40eba49
 msgid "1.1 Question Text"
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:11
-#: 64255ed62af14f33879b63f9f63c3fe5
+#: 47aaf10006184f2ea55df74e62bc7021
 msgid "You can choose a question text when the answer is a paragraph. For example: 'Give me the summary of the call' or 'What topics were discussed in the call?'"
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:13
-#: 73a24f7813f84205a2a8d44100a4871d
+#: 8bcfe2b9c8a843dbb21822f109a551d8
 msgid "If you have a yes/no question, it is preferable not to select this type of question."
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:15
-#: af207f46c12c4ddbb69abc2ae2f53b93
+#: 1ab2248b5d1f446e88fca1ba2563cc52
 msgid "Let's create a question text:"
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:26
-#: cb6c18f585c44d95a8b8f9993968ad66
+#: 213ff7143107499bb6a091b10e01a079
 msgid "1.2 One choice question"
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:28
-#: 78ba8e26357e45208659bf8a22af89aa
+#: 645ecd1e16e2417fb1d1f70525a1ba39
 msgid "A single choice question is used when there is only one possible answer. It's usually used with yes/no questions."
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:30
-#: b279dc7eb7134b368a0f362690dfd48c
+#: f6b82783a6eb4092aaf1b335ec6825a3
 msgid "Let's try it:"
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:41
-#: 2796f5a3de0b4b36821f6d4d315e8601
+#: 02dc6b53c5384c02be3c88f9e6458164
 msgid "1.3 Multiple choices question"
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:43
-#: fad1fef699344e78889d04bb005d53b3
+#: 496410218ddb4ba7a3d7bf6841641f3c
 msgid "A multiple choice question is used when the answer is not necessarily unique. In this case, you can have multiple answers."
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:45
-#: 89ca1d0bcb81426e979be41aec1dde53
+#: 91eeeaa0deac46edaf35f0e3de2e5464
 msgid "Let's see an example:"
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:55
-#: 822bae5c0b524f23a559c6f27ca29ce6
+#: dc8ae30c0d0341eea236796b83fa4783
 msgid "To modify a question, it's very simple. Just click on it and change the fields that you want to modify."
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:58
-#: ec3c0e3e092d4e77968c44df288dd245
+#: 988d0988b2f7427593847401d5910a37
 msgid "2. Change monitoring sheet parameters"
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:60
-#: 1704d48891e4491697dbe66d17e8dece
+#: 4fe8827bad76434e817aea285de1f0b2
 msgid "You can change many parameters in your monitoring grid. Let's see how:"
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:70
-#: 1814a1c02d3047daaf01ebce0e47f885
+#: 8249cfb3b4b44cc8818b662a3e684584
 msgid "3.Managing Metadata in Audioliz"
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:73
-#: 50028851845b451088e1f5c10d0b28c9
+#: cbc13f29dbd84fc5a1ad5de73534b0e6
 msgid "3.1 Adding or Modifying Metadata"
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:74
-#: 2c05da7219e8424892671d43a0db593b
+#: f4fe697f406044d9b8271464159dccf1
 msgid "Metadata refers to additional contextual information attached to a call (such as campaign name, CRM ID, or channel). Some metadata is automatically stored in the `crm_metadata` field in the database, but you can also define and manage **custom metadata fields** for specific actions."
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:77
-#: 9ff692cc218140c9a9d51b9296c771e1
+#: 069d8e898a4647e7995477cac54f9d23
 msgid "To manage metadata for a specific action:"
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:79
-#: 78595ace365f4d2d989d15956add622e
+#: a1d5ef8227aa4aa3987eeecfe2e34818
 msgid "Go to the **Actions** page"
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:86
-#: c3eb5ee01ce44d6c89c1140613d87c65
+#: 1f920e7253b042748824f7d5ae6a2d42
 msgid "Select the scorecard you want to configure by clicking the eye icon"
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:93
-#: 34d1460f5fd9476f820e563924e685c3
+#: 5f4875b340574390a6902d869260126a
 msgid "Open the **Metadata** tab"
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:100
-#: 352d5848a1e94268aca75a0152f61390
+#: 499119a2911d43efbb7f3f8d5ff5c8cd
 msgid "There, you can:"
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:102
-#: 7afbe4bc346c4326b644564e0ac1c1a7
+#: c8163414db3b4556aa88510fa326b512
 msgid "➕ **Add a new metadata** by clicking the plus icon (`+`)"
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:109
-#: 3be8a8c9d3be44a5b590a244a4f48179
+#: 7a5421af8af8480cb023b822d051022d
 msgid "✏️ **Edit existing metadata** by clicking directly on the metadata line"
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:111
-#: e893988cbd18426f8b8bf906eae26cbd
+#: 4b51f070f23343bd8120a3b962f7d701
 msgid "For each metadata field, you can define:"
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:120
-#: 764cdf54832444ac898772b87b0035e6
+#: c46e410a0e56471cb95619171ef4729f
 msgid "**Name**: The internal name of the metadata, displayed in the scorecard's metadata setting tab."
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:122
-#: 4fe14b5384e5497ab44d4ed2ca3222e7
+#: 6e0145ced2d346aca6f660dc470ff6e8
 msgid "**Label**: The display name shown in the **Call Page**."
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:124
-#: a4a3bcde3e724542bb4636f52d8202f1
+#: c778b3ca7eee421581c330bb50e4e5a7
 msgid "**Group**: The section of the **Call Page** where this metadata will appear."
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:126
-#: 70580dea574c455ea2c102577905b224
+#: 49b66839f0bd49f8b62184980b17c214
 msgid "**Default value**: The fallback value used if the metadata is missing or empty in the call data."
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:128
-#: 9069b4bb23914f62b09e881ca29f7fa4
+#: 0faf9b1d5ad34f7d85ea1ec94ea46e29
 msgid "**Tip**: If you want the question to be asked ,that is *included in the prompt sent to the AI*  , even when the metadata is present but its value is empty (i.e. the field is defined for the call but has no value), then set the **default value to a single space (`` ``)**."
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:130
-#: 2ef1b604f8934670af076512ea38b900
+#: 0abd7a181bdd45be8df0dbbefa62771d
 msgid "This ensures that the metadata placeholder will be replaced by an empty string, and the question will not be skipped during analysis."
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:134
-#: 6145a0580db8427a858876fa05e8e609
+#: 31bdf5f14edd4b93b5cb9e0950f0d82d
 msgid "3.2 Why Metadata Matters in Questions"
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:135
-#: c4cf49912f0842458083b94259c85989
+#: 5203e0cebdc8484298a98be6e15dcd8a
 msgid "Some data needed for a question (like a campaign name or product type) varies from one call to another. Instead of creating multiple versions of the same question, you can **insert metadata dynamically** using the `$` symbol in the question text."
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:137
-#: 806a3aaa55a64ce8a61940c58e9de19f
+#: 2a7f1ae3b8ec452c85feae4bbc9aa7ce
 msgid "Example: What arguments were given for campaign $CAMPAIGN_NAME"
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:141
-#: f96032b24f9d43b4a5851ed0473376b2
+#: e8247b35ff914ddbbbc931af16da490a
 msgid "4. Managing User Roles in Audioliz"
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:142
-#: acdf482deb074a56924e0276c06259f4
+#: cf3c2c78ab0e468d9299b617b30ce5dc
 msgid "In Audioliz, each user has a role that defines what they can do and access within the platform. Roles are used to control permissions based on responsibilities—such as reading data, editing scorecards, managing users, or commenting on calls."
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:145
-#: bd6f29698f454495bde0ee9afa83b83a
+#: c0200fc084c94f1e8b85d0e351fbfacb
 msgid "4.1 Predefined Roles in Audioliz"
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:148
-#: 6e501cf0b2574f5ea61d8bdae224b439
+#: 3a33deefdfde41b28c7d438d22352373
 msgid "Role    Description Admin   : Full access to all features and functionalities Supervisor :    Can do everything except user administration External supervisor :   Like agents, but can also comment on calls and edit metadata Agent   : Can view calls and answer grids, but cannot manage users or settings"
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:154
-#: 95ad5cfa57664e158fe6c74164f4c00f
+#: c8575181e0bf4260a9aa7bdf11f82edf
 msgid "You can see this list by navigating to Configuration > Users > ROLES:"
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:161
-#: 67ddf7a3b2424abf955d38854a740ef4
+#: a267ee59b3e541f4a72393e565b72177
 msgid "Clicking on any role (e.g. admin) will show the detailed permissions attached to that role:"
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:168
-#: bb02bb24e66647079850c90fe1178dec
+#: 47af5c73bafb4e049c580ada51dae6ea
 msgid "Permissions control which types of roles can access or perform certain operations on the calls"
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:171
-#: 29e7c3ab745047d691924666e7588a7d
+#: cfb10976d95d4fef9dd56152a892dd68
 msgid "4.2 How to Edit a User's Role"
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:172
-#: 4a646c6405f94df39bab00e728cb0d0b
+#: 782b85d3e16c47df81f25d3da7d0820d
 msgid "Admin users can assign or modify user roles :"
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:174
-#: b1869da2ae9d4429b1e9d7317ad95c8f
+#: 73c25d5859614d1ca965919aad6acb8f
 msgid "Steps: Go to Configuration > Users in the left-hand menu."
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:177
-#: cc5b16b8ef7640dea0de48fd7087c70a
+#: dbedd5b826674c55aef191befa6ffabe
 msgid "You’ll see users listed. Click the eye icon to view individual profiles:"
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:184
-#: c833781afe7c4d5fbd60285ce5099c47
+#: adf80e52960c438ab8de3e6eac3dd272
 msgid "In the profile page, scroll down to the Roles section and click on it:"
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:191
-#: 3fc2572d5c9b4c4aa881ef54d30a0e29
+#: ea88ca331fb84b1e8810f2d67e654dc9
 msgid "A dropdown menu will appear. You can select one or more roles from the list:"
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:198
-#: d402d90136af45ed9d622fde5a218034
+#: 99090c747b654b83bf506e457270a2fe
 msgid "Click Save to confirm your changes."
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:200
-#: 6ea7652d32da41b88c995b40d742050d
+#: b5a3497204084fb48938e29fab213e12
 msgid "🔎 Tip If you don’t see the role options or can’t edit them, it means your account doesn’t have admin privileges. You’ll need to contact an administrator to update roles."
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:204
-#: 9f3b613531a341ba843e82c6582e8ba9
+#: 17c52747a8b6422eb3cbe6283ab52caf
 msgid "5. Meaning of Date Fields on the Call Page"
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:212
-#: 5a221ca0d08d4eb3ad859d59dc52a3b9
+#: 0079f15709e049a88e40d7ded2b3a2c0
 msgid "**Date** : Initiation date of the call or sent email: it corresponds to the day on which this action was logged in the client’s CRM."
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:214
-#: 11a62ec12b3349c993aff7294c1ea07d
+#: ab4e104ddbdf4ae0a179441c8aa4ca9e
 msgid "**Time** : Exact time at which the call or email was created in the client’s CRM, to complement the Date field."
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:216
-#: ac91347436bd428782fbf473862ae299
+#: 8d10855c2a3e401b854f5ee2a97a7ab0
 msgid "**Creation** : Date on which the call or email is received in Audioliz; in other words, the creation date of this item on our platform."
 msgstr ""
 
-#: ../../configuration_in_audioliz.rst:218
-#: dec0582ac4814cd1be81f25ac96e1d65
+#: dffdfe72302946c2bf3c3ab1055e558e
 msgid "**Last update** :The date on which this call or email record was last modified on the Call page — for example, when a response is updated or when the analysis is reapplied."
 msgstr ""

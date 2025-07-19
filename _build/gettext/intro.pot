@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Audioliz \n"
+"Project-Id-Version: Audioliz local\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-11 14:53+0200\n"
+"POT-Creation-Date: 2025-07-19 05:38+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,17 +16,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../intro.rst:2
-#: 2672568542c6428fa0850cd586481cfb
+#: 626d8b63d6ab4c98a4306826a7ad6c82
 msgid "Introduction"
 msgstr ""
 
-#: ../../intro.rst:3
-#: 1741e67e8f05487a8f5a3109324de8a1
+#: 04229d9a326c42c4b44504d6bd4c0d74
 msgid "Welcome to Audioliz."
 msgstr ""
 
-#: ../../intro.rst:5
-#: 52880e938b9244a5a7809f0f07a625da
+#: 00c97b292a154d64acd6617f1346ba03
 msgid "Audioliz is a platform that provides voice analysis services powered by Artificial Intelligence to its customers. This documentation aims to guide users through the interface and help them understand and implement the Audioliz process, from uploading audio to interpreting the results."
 msgstr ""

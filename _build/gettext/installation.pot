@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Audioliz \n"
+"Project-Id-Version: Audioliz local\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-11 14:53+0200\n"
+"POT-Creation-Date: 2025-07-19 05:38+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,52 +16,42 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../installation.rst:2
-#: b56699361a9d47499d814dfef75b0782
+#: 4e0ad2a031764720be68748278fdb24c
 msgid "First Steps with Audioliz"
 msgstr ""
 
-#: ../../installation.rst:4
-#: 22bb3e29ccf845c7813767adbbff30b8
+#: f8f51804c5ba4572810cfab5b7d9e923
 msgid "This is a tutorial on how to use Audioliz, from the very beginning to your first call analysis. Let's go!"
 msgstr ""
 
-#: ../../installation.rst:7
-#: f59948d939b344c9a9bd27f1fa850d31
+#: 751278e49ffa4796b6cd03f6acb63a29
 msgid "1. Visualize call analysis"
 msgstr ""
 
-#: ../../installation.rst:9
-#: 9ca6ca94cf0d41bb8ae7f752221fd572
+#: a60735d0e6454eb48999fb200c3fe849
 msgid "After every call is analyzed, you can see all the useful information about it:"
 msgstr ""
 
-#: ../../installation.rst:11
-#: 674f315618f449bfa6f4c7836f62adb0
+#: 4cc50a441f61409e98d161c82c9bae93
 msgid "-General information about the call: date of creation, audio file name, duration, agent, call type, called number, etc. -The transcript of the call -The call audio file -Questions/responses with explanations on each response, and the possibility to listen exactly where the answers are given in the call."
 msgstr ""
 
-#: ../../installation.rst:26
-#: d215cc1077c345ce8c35593305b660da
+#: 0b3632dc83514ce8b43bb033c7715f52
 msgid "2. How to load a call"
 msgstr ""
 
-#: ../../installation.rst:28
-#: 4c947437504845a2b9ca965db4985a70
+#: 8ebe5cd6d5484738945dd9c3d598fbc6
 msgid "To analyze the next calls, you should first load them."
 msgstr ""
 
-#: ../../installation.rst:30
-#: 81b3f684df27462a9287b4fe9128783a
+#: 5f040faad95443e989d27701aed90194
 msgid "Let's load our first call:"
 msgstr ""
 
-#: ../../installation.rst:41
-#: b48efc8d2d084af78ca2faf0c3396e27
+#: a22044d7a4084c3581e7ce786f060ee3
 msgid "3. Re-run a call analysis"
 msgstr ""
 
-#: ../../installation.rst:43
-#: 6822b5cbaa8845388fa87a7da8002897
+#: b9122d2ba6514ce99c53d00fe80bf919
 msgid "If you change a question in the monitoring sheet, and you want to re run an analysis on a call, here's how to do it:"
 msgstr ""

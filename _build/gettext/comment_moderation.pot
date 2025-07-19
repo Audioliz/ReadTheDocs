@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Audioliz \n"
+"Project-Id-Version: Audioliz local\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-11 14:53+0200\n"
+"POT-Creation-Date: 2025-07-19 05:38+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,194 +16,155 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../comment_moderation.rst:2
-#: 2bd8ba737a2047e5a8989ed3c63866dd
+#: 1ae8f37d059d4b53b34f7c66df99703e
 msgid "Manage Comments and Feedback"
 msgstr ""
 
-#: ../../comment_moderation.rst:5
-#: 4516c8d7383949e5a426cd057fc9f4e1
+#: c3cfffccd89f46f1ad446ed536d2fa69
 msgid "1.How to add a comment to an analyzed record ?"
 msgstr ""
 
-#: ../../comment_moderation.rst:7
-#: 02eb3f0d828c4348bf70180f662a0d7f
+#: 1e0d52741cb14667ac07ebfaf61f0534
 msgid "You can add a comment either at the level of the responses to each question or in the comment field located right after the transcript.and you need to follow the following steps:"
 msgstr ""
 
-#: ../../comment_moderation.rst:9
-#: adb1daedb11e4870acc2da5a343c5442
+#: f9240e150c754689ae06e869785fe348
 msgid "Choose a status for the comment in the DEBUG-STATUS field, the status must be :"
 msgstr ""
 
-#: ../../comment_moderation.rst:10
-#: a8246b04897d4697bfcd8b0646efbc35
+#: 5b1d36d64d704ea9a0d7575ad446bc9d
 msgid "OPEN when you ask a question or leave a comment REPLIED when someone responds to your comment CLOSED when you have the correct answer to your comment"
 msgstr ""
 
-#: ../../comment_moderation.rst:13
-#: 13440322a05b41a1840b8d2a7f5a9cea
+#: 92bf5d5c47304a0aa67177811a17cfbe
 msgid "choose the Importance level of your comment:"
 msgstr ""
 
-#: ../../comment_moderation.rst:14
-#: 93345158dcdb45f181e15eb5d127f2e4
+#: 176d8eaa90a94fd28c53d2febcde2f51
 msgid "Normal Medium High"
 msgstr ""
 
-#: ../../comment_moderation.rst:18
-#: ../../comment_moderation.rst:30
-#: 9d50bb1718b04100aafc9596a6400c1e
-#: 227682944da14f1fa04f489ed804ae98
+#: 72234a154bc1471c8acd2db7a171c657
+#: f934e8b7d0b0422a8c7c5ee391304782
 msgid "(vidéo)"
 msgstr ""
 
-#: ../../comment_moderation.rst:21
-#: 1351fb1f402646c98ffba581edc05331
+#: e560edda25ce4dac8c72ea6ed3150ae9
 msgid "2. How to find and respond to comments left on an analyzed call ?"
 msgstr ""
 
-#: ../../comment_moderation.rst:23
-#: cd622dea4db3499b86343b764ae1126f
+#: 7ae16af91f3d4f289b554029b8d2b8a9
 msgid "You need to click on the \"comment\" field, a tab will open where you can filter by call date, agent, CRM ID. To find the comments left, click on the \"DEBUG STATUS\" field and select the \"OPEN\" option to display all the analyzed calls where a comment has been left. At this point, you have the option to quickly view all comments left on calls by clicking on the two arrows next to \"👁️‍🗨️\". Or reply to the comments by clicking on \"👁️‍🗨️\", opening the call analysis grid, and following these steps:"
 msgstr ""
 
-#: ../../comment_moderation.rst:26
-#: e9aeffdc1aaf4aabb36652c571cc0685
+#: 1eafbf8345574d449b291c52186a8e3c
 msgid "Change the \"DEBUG STATUS\" field to \"Replied\""
 msgstr ""
 
-#: ../../comment_moderation.rst:27
-#: b19aa5fe6e034dd3ba7ada0fa7e77b92
+#: bd28851cde3e4e78ae8510e09fa9adb0
 msgid "Select the person responsible for the response in the \"IN CHARGE\" field."
 msgstr ""
 
-#: ../../comment_moderation.rst:28
-#: ffc5f3f76f40440cb3674ce14a4b7d0d
+#: 487707967cce4c6e9dfc46746e3ebb51
 msgid "Reply to the comments and questions in the \"ANSWER\" field."
 msgstr ""
 
-#: ../../comment_moderation.rst:41
-#: 04be66bab01a4617a9826d1200a806dd
+#: 9a17c4a7483a4e63aeebafca8c88652f
 msgid "3. Supervision and Question Adjustment Process"
 msgstr ""
 
-#: ../../comment_moderation.rst:44
-#: 01f8e9a3eeee41cbaf8fa540644e6848
+#: 97d990d23e8e4bffbf45ff7dafa464e3
 msgid "3.1. Continuous Improvement of Question Formulation"
 msgstr ""
 
-#: ../../comment_moderation.rst:46
-#: 498e747d4ced41babe51076b07f871c5
+#: 9d73bbdd86af4fb08fa2a2472331bf3f
 msgid "As part of our continuous improvement process, we aim to refine the way questions are written. This effort involves both our internal team and the client, as misunderstandings about the client's actual needs can also lead to discrepancies."
 msgstr ""
 
-#: ../../comment_moderation.rst:48
-#: d18923ffac184d0298459172a5f0d78b
+#: 26008609231446c8bc6c71575f861188
 msgid "To address this, we have implemented a parallel procedure on the client’s side:"
 msgstr ""
 
-#: ../../comment_moderation.rst:50
-#: 15bca99df05744e4a688c8b3c665637f
+#: f4c7e003f34f42a5b4bd32039d673a6a
 msgid "A supervisor reviews and corrects incorrect answers manually for specific questions."
 msgstr ""
 
-#: ../../comment_moderation.rst:52
-#: 11f68a8adb034d4db2c917b74dc42dd8
+#: 491a70faa4714758899d804e006bb4c5
 msgid "The supervisor must fill in the **Counter evaluation by** field with their name."
 msgstr ""
 
-#: ../../comment_moderation.rst:54
-#: b97581560c3e4ebdade2a2b135753d82
+#: 79c5b67cd3d8481e9bf7d4d6b30adc25
 msgid "They are also encouraged to add comments explaining the corrections made."
 msgstr ""
 
-#: ../../comment_moderation.rst:56
-#: f9e2ace5f7694b9c920be5a6141403c2
+#: 2cfa2188fc0e44bdab8bb842209b1449
 msgid "On our side, we are committed to adjusting the relevant questions based on the supervisors’ feedback, with the goal of minimizing the gap between the AI’s analysis and the human evaluation — a goal that we actively monitor through the AI / HUMAN page on our BI dashboard."
 msgstr ""
 
-#: ../../comment_moderation.rst:66
-#: d07c074cdf5f485d841a070c05fbe7e3
+#: 214981053d5946b78e4ca306a94e5fba
 msgid "3.2 Evaluation and Supervision Process"
 msgstr ""
 
-#: ../../comment_moderation.rst:67
-#: 3092f6e3292f4732aa1f935ce6e51637
+#: 17878e68c52d4ae1a93aba9356233a84
 msgid "To ensure the quality and accuracy of AI-based analyses, supervisors on the client side are expected to review and validate the AI's responses for specific calls. The following steps outline the recommended evaluation procedure:"
 msgstr ""
 
-#: ../../comment_moderation.rst:69
-#: 37f9242cb1a64e0ba27740feadf6aa44
+#: f36604ceb37c47058647142a2f95fecd
 msgid "Access the call page that needs to be reviewed."
 msgstr ""
 
-#: ../../comment_moderation.rst:71
-#: d346dd9b87bb48c1af77624ea37cf07f
+#: 4de150b5acd4408eb4d82bce5e20751b
 msgid "Fill in the **Counter evaluation by** field with the supervisor’s name."
 msgstr ""
 
-#: ../../comment_moderation.rst:81
-#: 343edcfe1a2b42b490080bf32765948f
+#: 05e2a1a87669423fa0dd24f49cc3daeb
 msgid "To help our team better understand the corrections, it is strongly encouraged to add a comment in the following format:"
 msgstr ""
 
-#: ../../comment_moderation.rst:83
-#: 4ebd7e525433416b86a31a5acc4e3f54
+#: 33cccf36463f44b7a8eab474e7215f63
 msgid "question_name: incorrect AI answer → correct answer | reason for the change"
 msgstr ""
 
-#: ../../comment_moderation.rst:91
-#: 4b35a977e7d74a64be4832247c84153f
+#: c74cc4b8f6c94253bc15016f0ad0ce38
 msgid "In addition, the supervisor should review the AI-generated responses, click on any incorrect answers, and manually correct them. They can also leave a more detailed comment on each question if needed."
 msgstr ""
 
-#: ../../comment_moderation.rst:101
-#: f2c57eca3d994f7185879ddfe88cc2d5
+#: 930492cbf7cd44cf9fd92a75c9aa9b2f
 msgid "4. Understanding the IA vs Human comparison dashboard"
 msgstr ""
 
-#: ../../comment_moderation.rst:103
-#: 180858a0e28a421698fa4ceb47f0cbe5
+#: 3b6d7c2451ff4d4f9cfa8298eb943b2f
 msgid "This page allows you to explore the differences between evaluations made by the AI and those made by human reviewers."
 msgstr ""
 
-#: ../../comment_moderation.rst:106
-#: 035789e533634b5f9e41a6cb97800339
+#: a90eeda163774e7aab9a94541dbfd209
 msgid "1. Score Table"
 msgstr ""
 
-#: ../../comment_moderation.rst:109
-#: ecd0fc1cda234ce8aa9325134cacf86e
+#: 3ee70c2f87b64998b0592cf9441c4a58
 msgid "This table displays, for each counter-evaluator and each call, the human score, the AI score, and the difference between the two. If a counter-evaluator (e.g. Hayat) does not appear, it means no human score has been recorded for the selected period or filters."
 msgstr ""
 
-#: ../../comment_moderation.rst:120
-#: 009cce8cce8343be970856d40aee1bca
+#: 0b43ec4a5ecd4410928d458b400fed10
 msgid "2. Evolution of the average gap between IA and human scores"
 msgstr ""
 
-#: ../../comment_moderation.rst:122
-#: 607f21b485054011bbdb30e3164b9d01
+#: a02059a6cf5c4ea6aac2625e5e6d3bfc
 msgid "This graph shows the trend of the average difference between the human and AI scores over time (day, week, or month depending on filters)."
 msgstr ""
 
-#: ../../comment_moderation.rst:131
-#: c47bec7f78cd4af89c0b27dab47220fb
+#: 83d2a8bc788e45c3ae3c32fa4b4e90e7
 msgid "3. Question-wise Accuracy Table"
 msgstr ""
 
-#: ../../comment_moderation.rst:133
-#: a9c9fb51e39d4811a2d49515d4da743a
+#: 8085a0df056b4b41b79b79f1363ce6ad
 msgid "This visual presents, for each question, the percentage of correct and incorrect responses by the AI (based on human validation) per counter-evaluator."
 msgstr ""
 
-#: ../../comment_moderation.rst:142
-#: 518e5f6f9a984f89b414e38a3f9aa0a8
+#: 43e4ee42c1c5438085d304d10f373478
 msgid "4. Call-by-Call Details"
 msgstr ""
 
-#: ../../comment_moderation.rst:144
-#: b924a0dbaf964fa6b4fde1598046c163
+#: 4e722f92d79e4d92a2732311d1d94f9b
 msgid "This detailed table shows the call ID, agent name, counter-evaluator, the evaluated question, the human answer, the AI answer, and whether the AI's response was correct or not."
 msgstr ""
