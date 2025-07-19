@@ -10,5 +10,5 @@ Welcome to Audioliz !
    comment_moderation
    configuration_in_audioliz
    display_customization
-
+   comments
 
