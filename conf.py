@@ -39,11 +39,51 @@ gettext_allow_fuzzy_translations = True
 gettext_location = False
 gettext_compact = False
 
+# Configuration spécifique pour gettext
+gettext_auto_build = False  # Éviter la génération automatique
+gettext_additional_targets = []  # Pas de cibles supplémentaires
+
+# Configuration pour éviter le traitement des environnements virtuels
+gettext_ignore_patterns = [
+    '**/.venv/**',
+    '**/.env/**',
+    '**/venv/**',
+    '**/env/**',
+    '**/site-packages/**',
+    '**/dist-info/**',
+    '**/__pycache__/**',
+]
+
+# Configuration pour exclure les environnements virtuels de la génération des .pot
+gettext_exclude_patterns = [
+    '**/.venv/**',
+    '**/.env/**',
+    '**/venv/**',
+    '**/env/**',
+    '**/site-packages/**',
+    '**/dist-info/**',
+    '**/__pycache__/**',
+    '**/node_modules/**',
+]
+
 # Exclure les fichiers de templates d'autosummary
 exclude_patterns = [
     '**/site-packages/**',
     '**/dist-info/**',
-    '**/autosummary/templates/**'
+    '**/autosummary/templates/**',
+    '**/.*/**',  # Ignorer tous les dossiers commençant par .
+    '**/_build/**',  # Ignorer spécifiquement le dossier _build
+    '**/_templates/**',  # Ignorer les templates personnalisés si présents
+    '**/_cache/**',  # Ignorer les caches si présents
+    '**/.env/**',  # Ignorer l'environnement virtuel .env
+    '**/.venv/**',  # Ignorer l'environnement virtuel .venv
+    '**/venv/**',  # Ignorer l'environnement virtuel venv
+    '**/env/**',  # Ignorer l'environnement virtuel env
+    '**/node_modules/**',  # Ignorer node_modules si présent
+    '**/__pycache__/**',  # Ignorer les caches Python
+    '**/*.pyc',  # Ignorer les fichiers Python compilés
+    '**/locale/**/.venv/**',  # Ignorer spécifiquement .venv dans locale
+    '**/locale/**/.*/**',  # Ignorer tous les dossiers cachés dans locale
 ]
 
 # configuration pour le theme sphinx_rtd_theme
