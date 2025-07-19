@@ -1,5 +1,5 @@
 Welcome to Audioliz !
-====================
+=====================
 
 .. toctree::
    :caption: Summary:

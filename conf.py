@@ -6,8 +6,6 @@ project = 'Audioliz'
 author = 'Audioliz Team'
 release = '1.0'  # ou laisse vide si non versionné
 html_show_sourcelink = False
-html_title = "Audioliz Documentation"
-html_short_title = "Audioliz"
 # html_theme = "furo"
 html_theme = "sphinx_rtd_theme"
 
@@ -36,6 +34,18 @@ locale_dirs = ['locale']        # où sont vos .po/.mo
 gettext_uuid = True             # pour des .pot stables
 gettext_compact = False
 
+# Exclure les fichiers de packages installés de la traduction
+gettext_allow_fuzzy_translations = True
+gettext_location = False
+gettext_compact = False
+
+# Exclure les fichiers de templates d'autosummary
+exclude_patterns = [
+    '**/site-packages/**',
+    '**/dist-info/**',
+    '**/autosummary/templates/**'
+]
+
 # configuration pour le theme sphinx_rtd_theme
 html_theme_options = {
     'language_selector': True,
@@ -53,18 +63,21 @@ if os.getenv("READTHEDOCS", None) == "True":
 tags = []
 
 # Détection automatique de l'environnement client
-version = os.getenv("READTHEDOCS_VERSION_NAME", None)
-if version:
+version = os.getenv("READTHEDOCS_VERSION_NAME", "local")
+if version and version not in ["main", "dev"]:
     tags.append(version)
     client_name = version.capitalize()
     html_title = f"Audioliz Documentation for {client_name}"
     html_short_title = f"Audioliz for {client_name}"
 
-# Configuration des variables de substitution
-rst_epilog = f"""
-.. |html_title| replace:: {html_title}
-.. |client_name| replace:: {client_name}
-"""
-
+    # Configuration des variables de substitution
+    rst_epilog = f"""
+    .. |html_title| replace:: {html_title}
+    .. |client_name| replace:: {client_name}
+    """
+else:
+    client_name = ""
+    html_title = "Audioliz Documentation"
+    html_short_title = "Documentation"
 
 
