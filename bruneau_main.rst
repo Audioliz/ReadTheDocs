@@ -1,4 +1,4 @@
-Main
+Introduction
 ==========================
 
-This is just a test.
+Documentation specific to Bruneau can be added here.

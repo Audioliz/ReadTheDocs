@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Audioliz local\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-19 05:42+0200\n"
+"POT-Creation-Date: 2025-07-19 06:27+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,10 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: f0f535d146ed4465ac2b2251aefc8490
-msgid "Main"
+#: aefdb369e1c44822b1ff9f54685a253d
+msgid "Introduction"
 msgstr ""
 
-#: e4046c066d97450abe009f89ef6073f7
-msgid "This is just a test."
+#: cfe17d2378c54afebfc300aefbd30c39
+msgid "Documentation specific to Bruneau can be added here."
 msgstr ""
