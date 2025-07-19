@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-07-19 05:32+0200\n"
+"POT-Creation-Date: 2025-07-19 06:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,14 +17,17 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.17.0\n"
 
-msgid "Summary:"
-msgstr "Résumé :"
+msgid "Main documentation"
+msgstr "Documentation générale"
 
-#: 7d5eab105c6245008781cff679015bc3
+#: b89527a706dc45deac744547a3a5053e
 #, fuzzy
 msgid "Welcome to Audioliz !"
 msgstr "Bienvenue sur Audioliz"
 
 #~ msgid "Contents:"
 #~ msgstr "Contenu :"
+
+#~ msgid "Summary:"
+#~ msgstr "Résumé :"
 

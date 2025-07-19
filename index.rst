@@ -2,7 +2,7 @@ Welcome to Audioliz !
 =====================
 
 .. toctree::
-   :caption: Summary:
+   :caption: Main documentation
 
    intro
    installation
