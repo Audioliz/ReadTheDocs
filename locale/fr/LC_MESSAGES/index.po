@@ -20,10 +20,12 @@ msgstr ""
 msgid "Summary:"
 msgstr "Résumé :"
 
-#: 7d5eab105c6245008781cff679015bc3
-#, fuzzy
-msgid "Welcome to Audioliz !"
-msgstr "Bienvenue sur Audioliz"
+msgid "Specifics Bruneau:"
+msgstr ""
+
+#: b89527a706dc45deac744547a3a5053e
+msgid "Welcome to Audioliz for Bruneau !"
+msgstr "Bienvenue sur Audioliz pour Bruneau !"
 
 #~ msgid "Contents:"
 #~ msgstr "Contenu :"
