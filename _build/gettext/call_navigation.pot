@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Audioliz \n"
+"Project-Id-Version: Audioliz local\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-11 14:53+0200\n"
+"POT-Creation-Date: 2025-07-19 05:38+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,22 +16,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../call_navigation.rst:2
-#: 671abf854e374dceb63c1e4010af8b2c
+#: 1df6b7f731464f89a2890ee2f3f0d168
 msgid "Search and Navigate Calls"
 msgstr ""
 
-#: ../../call_navigation.rst:4
-#: 12fd0570998d4efca566c963f1e9ecdb
+#: d6193ad000a5497ba80804ef6a2dc708
 msgid "1. Search a call"
 msgstr ""
 
-#: ../../call_navigation.rst:6
-#: 3b217bcff13f49c3981a21f4fbef28b9
+#: 396e1652720144db9ae2a32dd0ecee81
 msgid "For a large number of loaded calls, it becomes useful to have filters. In the 'Search' feature, you can search for calls with specific characters or for a particular call."
 msgstr ""
 
-#: ../../call_navigation.rst:8
-#: 48dac217a07249f6a7dbd2e7185633b8
+#: b2d7ecf3ff38498baa60e14c52d251ff
 msgid "Let's search for the call in the previous video:"
 msgstr ""
