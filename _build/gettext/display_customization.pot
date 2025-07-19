@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Audioliz local\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-19 05:38+0200\n"
+"POT-Creation-Date: 2025-07-19 06:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -79,60 +79,4 @@ msgstr ""
 
 #: 5da41a3813b245d0b55b3cdfd0e97c22
 msgid "**Set as Home Page** If you want this dashboard to appear when you log in, click the gear icon and enable “Home Page” from the settings."
-msgstr ""
-
-#: f9f6c74f46e04d85b38a06f1162a9eb7
-msgid "5. How to manage and respond to comments ?"
-msgstr ""
-
-#: 48c978daa7fb435f8c9a3c6d15bf9556
-msgid "If you disagree with the AI's automatic evaluation, you can request a review through the **counter evaluation** workflow."
-msgstr ""
-
-#: 698e1a891a5745368df98b65359ff6ec
-msgid "### Steps to follow:"
-msgstr ""
-
-#: a30ebc8e7bc5413f9e16ed64620df67c
-msgid "Open the evaluation view of the call"
-msgstr ""
-
-#: d8512675fce043deadfacd93ce324686
-msgid "In the section **Conter evaluation by**, enter your **first name** to identify yourself"
-msgstr ""
-
-#: 9cb67f861fee4a7298941be7398ad853
-msgid "Scroll down and enter your explanation or justification in the **Comment** section"
-msgstr ""
-
-#: a2a44a9a7d584ed380e58c0f130e9690
-msgid "Set the **Debug Status** to `Open` to notify the quality team"
-msgstr ""
-
-#: 18b7dd67af364affb703294af8110e41
-msgid "---"
-msgstr ""
-
-#: 4468fe9c3693445093bcb068d89db8c0
-msgid "### Workflow explanation:"
-msgstr ""
-
-#: 705c59df68b04d4ebfa9d5450eec9c74
-msgid "**Open** = a new comment is submitted and waiting for review"
-msgstr ""
-
-#: 4f8875fdbe8a42eb81172ed9357c6e3b
-msgid "**Pending** = a reviewer is working on your case before giving an answer"
-msgstr ""
-
-#: 977faa2aa6d64a19871253267a83c0d8
-msgid "**Replied** = a reply has been written in the `ANSWER` field"
-msgstr ""
-
-#: e7a12294339f4999a03740cf624e0719
-msgid "**Closed** = the problem is resolved and the process is complete"
-msgstr ""
-
-#: 49d76cd55ba645be8e4161db6b16383b
-msgid "This system ensures that every feedback is reviewed and responded to by the quality team in a structured and traceable way."
 msgstr ""

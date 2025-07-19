@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 
+# This file is distributed under the same license as the Audioliz package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Audioliz local\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-19 06:51+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: dc7ad0357b7d44d18e88498bae982fa5
+msgid "Continuous improvement with comments"
+msgstr ""
+
+#: 1dd22db763f04d5ebee7a8d31cb6b603
+msgid "If you disagree with the AI's automatic evaluation, you can request a review through the **counter evaluation** workflow."
+msgstr ""
+
+#: 3681222378854ea6a181d939ce2125e9
+msgid "Steps to follow:"
+msgstr ""
+
+#: 92ba0b50667b4c82b2688d5f7a0b4d36
+msgid "Open the evaluation view of the call"
+msgstr ""
+
+#: 0d968c9ac2ef4fc587aecac021fcb87f
+msgid "In the section **Conter evaluation by**, enter your **first name** to identify yourself"
+msgstr ""
+
+#: db1ebd0281c44ab799ba4ff1d7174575
+msgid "Scroll down and enter your explanation or justification in the **Comment** section"
+msgstr ""
+
+#: db59992fbf1c4dee90b8e7cb249a31e4
+msgid "Set the **Debug Status** to `Open` to notify the quality team"
+msgstr ""
+
+#: 13281f8113ca42b98bd25df2913c57de
+msgid "---"
+msgstr ""
+
+#: a5b04c1d60de48f395cf1134d07028d0
+msgid "Workflow explanation:"
+msgstr ""
+
+#: 762d158e5c5c42309e735346fe5b3acd
+msgid "**Open** = a new comment is submitted and waiting for review"
+msgstr ""
+
+#: 2b9b5a34af4a44f2a3ac1b8c13cc8acc
+msgid "**Pending** = a reviewer is working on your case before giving an answer"
+msgstr ""
+
+#: 4750ceb93e0749e0b953b2b3ef79da7e
+msgid "**Replied** = a reply has been written in the `ANSWER` field"
+msgstr ""
+
+#: f82a393ecbf742ce8e4108a764e46e39
+msgid "**Closed** = the problem is resolved and the process is complete"
+msgstr ""
+
+#: 63e139b792d64e109c4b9788152f8d2b
+msgid "This system ensures that every feedback is reviewed and responded to by the quality team in a structured and traceable way."
+msgstr ""

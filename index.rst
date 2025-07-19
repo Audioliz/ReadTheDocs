@@ -10,7 +10,8 @@ Welcome to Audioliz for Bruneau !
    comment_moderation
    configuration_in_audioliz
    display_customization
-
+   comments
+   
 .. toctree::
    :caption: Bruneau Addendum
 
