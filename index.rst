@@ -14,4 +14,4 @@ Welcome to Audioliz for Bruneau !
 .. toctree::
    :caption: Bruneau Addendum
 
-   bruneau_main
+   clients/bruneau/main
