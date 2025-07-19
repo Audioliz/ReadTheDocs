@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-07-19 06:06+0200\n"
+"POT-Creation-Date: 2025-07-19 06:23+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,8 +20,8 @@ msgstr ""
 msgid "Main documentation"
 msgstr "Documentation générale"
 
-msgid "Specifics Bruneau:"
-msgstr ""
+msgid "Bruneau Addendum"
+msgstr "Spécificités Bruneau"
 
 #: b89527a706dc45deac744547a3a5053e
 msgid "Welcome to Audioliz for Bruneau !"
@@ -32,4 +32,7 @@ msgstr "Bienvenue sur Audioliz pour Bruneau !"
 
 #~ msgid "Summary:"
 #~ msgstr "Résumé :"
+
+#~ msgid "Specifics Bruneau:"
+#~ msgstr ""
 
