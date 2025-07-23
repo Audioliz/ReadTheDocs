@@ -24,7 +24,7 @@ html_static_path = ['_static']
 
 # Extensions Sphinx utilisées
 extensions = [
-    'sphinxcontrib.youtube',
+    'sphinxcontrib.video',
     'sphinx.ext.intersphinx',
     'sphinx_rtd_theme',
 ]
