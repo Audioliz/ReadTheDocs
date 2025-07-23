@@ -1,16 +1,22 @@
-Documentation Audioliz
-######################
+# Documentation Audioliz
 
-Etapes pour modifier le contenu de la documenation
+## Comment modifier le contenu de la documentation ?
 
-a. Modifier la doc en anglais dans ```documentation_main```.rst.
-e. Tu recommences dans les docs clients après les avoir mises à jour
-    a. Git checkout bruneau
-    b. Git merge main
-        i. Il faut parfois résoure des conflits…
-Nouveau flux pour la traduction
-	export OPENAI_API_KEY=sk-
-	./scripts/translate.py
+### 1. En ligne (modification simple)
+
+#### 1. Créer une nouvelle branche
+Si la modification concerne plusieurs fichiers, il est préférable de créer une nouvelle branche + PR. Car ReadtheDocs reconstruite des docs à chaque commit sur main.
+
+* Branches -> new branch
+  
+  <img width="327" height="310" alt="image" src="https://github.com/user-attachments/assets/deb2e374-255c-4bc3-bf93-e8b789416c73" />
+
+#### 2. Modifier la doc en anglais
+```documentation_main``` : documentation qui concerne tous les clients
+```documentation_clients``` : documentation spécifique aux clients
+
+
+
 Pour tester
 	source .venv/bin/activate
 	uv pip install -r requirements.txt           <<<<<<<< éventuellement
