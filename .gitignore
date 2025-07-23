@@ -1,2 +1,4 @@
-# Ignore tout sauf les .pot à la racine de _build/gettext/
-_build/gettext/*/
+# Ignore tout le dossier _build sauf les fichiers .pot
+_build/
+!_build/gettext/
+!_build/gettext/*.pot

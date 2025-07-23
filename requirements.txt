@@ -1,6 +1,7 @@
-sphinx
-furo
-sphinxcontrib-youtube
-sphinx-intl
 babel
+furo
+openai
+sphinx
+sphinx-intl
 sphinx_rtd_theme
+sphinxcontrib-video
