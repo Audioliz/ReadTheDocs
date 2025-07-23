@@ -2,7 +2,7 @@
 
 ## Comment modifier le contenu de la documentation ?
 
-### 1. En ligne (modification simple)
+### En ligne (modification simple)
 
 #### 1. Créer une nouvelle branche
 Si la modification concerne plusieurs fichiers, il est préférable de créer une nouvelle branche + PR. Car ReadtheDocs reconstruite des docs à chaque commit sur main.
@@ -15,13 +15,17 @@ Si la modification concerne plusieurs fichiers, il est préférable de créer un
 ```documentation_main``` : documentation qui concerne tous les clients
 ```documentation_clients``` : documentation spécifique aux clients
 
+### En local
 
+#### 1. Pour tester
 
-Pour tester
-	source .venv/bin/activate
-	uv pip install -r requirements.txt           <<<<<<<< éventuellement
-	export READTHEDOCS_VERSION=bruneau
-	export READTHEDOCS_LANGUAGE=fr     <<<<<<<< éventuellement
-	./scripts/local_build.sh
-	cd _build/html ; python -m http.server 1700
-http://localhost:1700/
+```
+source .venv/bin/activate
+uv pip install -r requirements.txt         #  <<<<<<<< éventuellement
+export READTHEDOCS_VERSION=bruneau
+export READTHEDOCS_LANGUAGE=fr    #  <<<<<<<< éventuellement, en fonction de la langue à tester
+export OPENAI_API_KEY=xxxxx
+./scripts/local_build.sh
+cd _build/html ; python -m http.server 1700   # n'importe quel port libre
+```
+Et dans un navigateur : [http://localhost:1700/](url)
