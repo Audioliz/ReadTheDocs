@@ -75,15 +75,9 @@ for branch in "${BRANCHES[@]}"; do
     echo
 done
 
-# Retourner à la branche initiale si elle était différente de main
-if [[ "${CURRENT_BRANCH}" != "main" && -n "${CURRENT_BRANCH}" ]]; then
-    echo -e "🔄 Retour à la branche initiale: ${CURRENT_BRANCH}"
-    if git checkout "${CURRENT_BRANCH}"; then
-        echo -e "${GREEN}✅ Retour réussi à '${CURRENT_BRANCH}'${NC}"
-    else
-        echo -e "${YELLOW}⚠️  Impossible de retourner à '${CURRENT_BRANCH}'${NC}"
-    fi
-fi
+# Retourner à la branche main
+echo -e "🔄 Retour à la branche main"
+git checkout main
 
 echo
 echo -e "${BLUE}=== Fin du script ===${NC}" 
