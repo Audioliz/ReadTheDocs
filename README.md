@@ -18,7 +18,8 @@ Si la modification concerne plusieurs fichiers, il est préférable de créer un
 
 #### 3. Modifier les traductions (optionnel)
 
-Dans ```locale```.
+Il est possible de modifier les traductions temporairement dans ```locale```.
+Mais ces modifications seront écrasées lors de la prochaine traduction automatique.
 
 #### 4. Merge
 
