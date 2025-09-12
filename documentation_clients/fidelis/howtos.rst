@@ -1,8 +1,8 @@
 Howtos
 ======
 
-1. Comment utiliser le contre évaluateur
------------------------------
+1. How to use "CONTER EVALUATION" fields
+-----------------------------------------
 
 .. video:: /_static/fidelis/howtos/02-Audioliz_TUTO_Comment_utiliser_le_contre_evaluateur.mp4
   :width: 640
