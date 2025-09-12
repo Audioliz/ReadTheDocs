@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Script de préparation pour la construction de la documentation.
-Copie et nettoie les fichiers .rst.
+Copie et nettoie les fichiers .rst dans le répertoire courant.
 """
 
 import os
@@ -17,6 +17,7 @@ RESET = '\033[0m'
 
 clients_map = {
     "latest": 0, # main documentation. Not client specific.
+    "fidelis": 1,
     "bruneau": 3,
     "wonderbox": 7,
     "audioliz": 52,
