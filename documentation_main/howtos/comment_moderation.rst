@@ -4,18 +4,20 @@ Comments and Feedback
 1.How to add a comment to an analyzed record ?
 ---------------------------------------------------
 
-You can add a comment either at the level of the responses to each question or in the comment field located right after the transcript.and you need to follow the following steps: 
+Comments are important for your Audioliz technical team, in order to see what they can improve on the scorecard.
+
+You can add a comment on each question, or in the comment field located after the transcript. Once you have added a comment, you need to follow the following steps: 
 
 - Choose a status for the comment in the DEBUG-STATUS field, the status must be :
-       |$|OPEN|$| when you ask a question or leave a comment
-       |$|REPLIED|$| when someone responds to your comment
-       |$|CLOSED|$| when you have the correct answer to your comment
-- choose the Importance level of your comment: 
-       Normal
-       Medium 
-       High
+       |$|OPEN|$| when you leave a comment<br>
+       |$|REPLIED|$| when the technical team responds to your comment<br>
+       |$|CLOSED|$| when you have validated the answer from your Audioliz support team <br>
+- You can also choose the Importance level of your comment: 
+       Normal<br>
+       Medium <br>
+       High<br>
 
-(vidéo)
+
 
 2. How to find and respond to comments left on an analyzed call ?
 ---------------------------------------------------------------------
@@ -26,14 +28,6 @@ To find the comments left, click on the "DEBUG STATUS" field and select the "OPE
 - Change the "DEBUG STATUS" field to "Replied" 
 - Select the person responsible for the response in the "IN CHARGE" field.
 - Reply to the comments and questions in the "ANSWER" field.
-
-(vidéo)
-
-
-
-
-
-
 
 
 
