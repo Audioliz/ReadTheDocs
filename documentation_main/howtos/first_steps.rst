@@ -8,10 +8,11 @@ This is a tutorial on how to use Audioliz, from the very beginning to your first
 
 After every call is analyzed, you can see all the useful information about it:
 
--General information about the call: date of creation, audio file name, duration, agent, call type, called number, etc.
--The transcript of the call
--The call audio file
--Questions/responses with explanations on each response, and the possibility to listen exactly where the answers are given in the call.
+- General information about the call: date of creation, audio file name, duration, agent, call type, called number, etc.
+- The transcript of the call  
+- The call audio file  
+- Questions/responses with explanations on each response, and the possibility to listen exactly where the answers are given in the call.
+
 
 
 .. video:: /_static/call_description.mp4
