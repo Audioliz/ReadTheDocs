@@ -10,8 +10,8 @@ After every call is analyzed, you can see all the useful information about it:
 
 - General information about the call: date of creation, audio file name, duration, agent, call type, called number, etc.
 - The transcript of the call  
-- The call audio file  
-- Questions/responses with explanations on each response, and the possibility to listen exactly where the answers are given in the call.
+- The call audio file  <br>
+- Questions/responses with explanations on each response.
 
 
 
@@ -23,8 +23,9 @@ After every call is analyzed, you can see all the useful information about it:
 ---------------------
 
 To analyze the next calls, you should first load them.
+If you use a calling system that has recordings, you can connect it very easily to Audioliz. This is the best solution when you want to follow closely your production.
 
-Let's load our first call:
+But you can also load Let's load our first call:
 
 .. video:: /_static/charger_call.mp4
   :width: 640
