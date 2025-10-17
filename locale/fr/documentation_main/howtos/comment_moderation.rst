@@ -26,8 +26,8 @@ Vous devez cliquer sur le champ "commentaire", un onglet s'ouvrira où vous pour
 Pour trouver les commentaires laissés, cliquez sur le champ "DEBUG STATUS" et sélectionnez l'option "OPEN" pour afficher tous les appels analysés où un commentaire a été laissé. À ce stade, vous avez la possibilité de visualiser rapidement tous les commentaires laissés sur les appels en cliquant sur les deux flèches à côté de "👁️‍🗨️". Ou répondez aux commentaires en cliquant sur "👁️‍🗨️", en ouvrant la grille d'analyse des appels, et en suivant ces étapes :
 
 - Changez le champ "DEBUG STATUS" en "Répondu" 
-- Sélectionnez la personne responsable de la réponse dans le champ "EN CHARGE".
-- Répondez aux commentaires et aux questions dans le champ "RÉPONSE".
+- Sélectionnez la personne responsable de la réponse dans le champ "IN CHARGE".
+- Répondez aux commentaires et questions dans le champ "ANSWER".
 
 
 
@@ -43,11 +43,11 @@ Pour y remédier, nous avons mis en place une procédure parallèle du côté du
 
 - Un superviseur examine et corrige manuellement les réponses incorrectes pour des questions spécifiques.
 
-- Le superviseur doit remplir le champ **Évaluation par** avec son nom.
+- Le superviseur doit remplir le champ **Contre évaluation par** avec son nom.
 
 - Ils sont également encouragés à ajouter des commentaires expliquant les corrections effectuées.
 
-De notre côté, nous nous engageons à ajuster les questions pertinentes en fonction des commentaires des superviseurs, dans le but de minimiser l'écart entre l'analyse de l'IA et l'évaluation humaine - un objectif que nous surveillons activement à travers la page IA / HUMAIN de notre tableau de bord BI.
+De notre côté, nous nous engageons à ajuster les questions pertinentes en fonction des commentaires des superviseurs, dans le but de minimiser l'écart entre l'analyse de l'IA et l'évaluation humaine - un objectif que nous surveillons activement à travers la page IA / HUMAIN sur notre tableau de bord BI.
 
 .. image:: /_static/ecart_ia_hum.png
   :width: 600
@@ -60,7 +60,7 @@ Pour garantir la qualité et la précision des analyses basées sur l'IA, les su
 
 - Accédez à la page d'appel qui doit être examinée.
 
-- Remplissez le champ **Évaluation par** avec le nom du superviseur.
+- Remplissez le champ **Contre évaluation par** avec le nom du superviseur.
 
 .. image:: /_static/champs_a_remplir.png
   :width: 600
@@ -92,18 +92,18 @@ Cette page vous permet d'explorer les différences entre les évaluations faites
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-Ce tableau affiche, pour chaque contre-évaluateur et chaque appel, le score humain, le score de l'IA et la différence entre les deux.
-Si un contre-évaluateur (par exemple Hayat) n'apparaît pas, cela signifie qu'aucun score humain n'a été enregistré pour la période ou les filtres sélectionnés.
+Ce tableau affiche, pour chaque contre-évaluateur et chaque appel, le score humain, le score de l'IA, et la différence entre les deux.
+Si un contre-évaluateur (par exemple, Hayat) n'apparaît pas, cela signifie qu'aucun score humain n'a été enregistré pour la période ou les filtres sélectionnés.
 
 
 .. image:: /_static/Score_Table.png
   :width: 800
   :alt: Tableau des scores par contre-évaluateur
 
-2. Évolution de l'écart moyen entre les scores IA et humains
+2. Évolution de l'écart moyen entre les scores de l'IA et de l'humain
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Ce graphique montre la tendance de la différence moyenne entre les scores humains et ceux de l'IA au fil du temps (jour, semaine ou mois en fonction des filtres).
+Ce graphique montre la tendance de la différence moyenne entre les scores humains et ceux de l'IA au fil du temps (jour, semaine, ou mois en fonction des filtres).
 
 .. image:: /_static/Evolution_of_the_average_gap_between_IA_and_human_scores.png
   :width: 800
@@ -121,7 +121,7 @@ Cette visualisation présente, pour chaque question, le pourcentage de réponses
 4. Détails Appel par Appel
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Ce tableau détaillé montre l'ID de l'appel, le nom de l'agent, le contre-évaluateur, la question évaluée, la réponse humaine, la réponse de l'IA et si la réponse de l'IA était correcte ou non.
+Ce tableau détaillé montre l'ID de l'appel, le nom de l'agent, le contre-évaluateur, la question évaluée, la réponse humaine, la réponse de l'IA, et si la réponse de l'IA était correcte ou non.
 
 .. image:: /_static/Call-by-Call_Details.png
   :width: 800
