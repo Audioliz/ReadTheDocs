@@ -78,13 +78,28 @@ jobs:
         CLIENTS_JSON=$(cat scripts/clients.json)
         CLIENTS_CSV=$(echo "$CLIENTS_JSON" | jq -r '.clients | keys | join(",")')
         
-        # Détecter les changements - utiliser l'événement GitHub si disponible
+        # Détecter les changements - comparer avec le commit qui a déclenché le workflow
         if [ "${{ github.event_name }}" = "push" ]; then
-          # Pour un push, comparer avec le commit précédent
-          CHANGED_FILES=$(git diff --name-only HEAD~1 HEAD)
+          # Pour un push, utiliser les fichiers modifiés dans le commit qui a déclenché le workflow
+          CHANGED_FILES=$(git diff --name-only ${{ github.event.before }} ${{ github.event.after }})
+        elif [ "${{ github.event_name }}" = "pull_request" ]; then
+          # Pour une PR, comparer avec la base
+          CHANGED_FILES=$(git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }})
         else
-          # Pour workflow_dispatch, comparer avec le commit précédent
-          CHANGED_FILES=$(git diff --name-only HEAD~1 HEAD)
+          # Pour workflow_dispatch, chercher le dernier commit non-automatique
+          echo "🔍 Workflow dispatch - searching for last non-automated commit"
+          
+          # Chercher le dernier commit qui n'est pas un commit de traduction automatique
+          LAST_REAL_COMMIT=$(git log --oneline --grep="Auto-translate" --invert-grep -n 1 --format="%H" HEAD)
+          if [ -z "$LAST_REAL_COMMIT" ]; then
+            # Si aucun commit non-automatique trouvé, utiliser HEAD~1
+            LAST_REAL_COMMIT="HEAD~1"
+            echo "⚠️ No non-automated commit found, using HEAD~1"
+          else
+            echo "✅ Found last non-automated commit: $LAST_REAL_COMMIT"
+          fi
+          
+          CHANGED_FILES=$(git diff --name-only $LAST_REAL_COMMIT HEAD)
         fi
         
         echo "🔍 Changed files:"
