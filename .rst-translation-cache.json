@@ -1,7 +1,7 @@
 {
-  "fr:documentation_main/howtos/comment_moderation.rst": "ef5424b6f0435c7c06deb65fe346ac41efbc94154a7a582449b20bba44816b57",
+  "fr:documentation_main/howtos/comment_moderation.rst": "6c3b6721ba69d2c873c7e1078d48fc04957bb7243a93a64dbb3e92e03e122360",
   "fr:documentation_main/index.rst": "f54fd22b719f6865915c179ed9225ddf1f0d41da4bca78684ca3d15a4df6b691",
-  "fr:documentation_main/howtos/first_steps.rst": "bfe112511d60f41f995f9b7a7733d6365492efe4208cfce87ffc16237dcb0315",
+  "fr:documentation_main/howtos/first_steps.rst": "fa495679797dd978fe28454cf386ad8ffd11fb156be506b4d103d9dd259aae18",
   "fr:documentation_main/howtos/comments.rst": "840d24de97dd6178909f3138a340ddd9683df5827291174044055f2f37328920",
   "fr:documentation_main/reference/reports/dashboards.rst": "4499f084290de11a4d6033e1df309c3b8f7938a20f92dc07e03cc3ba412e4117",
   "fr:documentation_main/reference/reports/index.rst": "8532714a1325957128935ba4f318f199ea7d491d532229b23093ecd3e100889f",
@@ -24,12 +24,14 @@
   "fr:locale/fr/documentation_main/reference/calls/date_fields.rst": "85267ee53788e1f1052d492c855f3753d57d27594ff438ff6f7d11960a39bc82",
   "fr:locale/fr/documentation_main/reference/calls/search.rst": "6913514173218d09e9f658138b4450007922302bb5a24696b399469a3f3238e3",
   "fr:locale/fr/documentation_main/reference/calls/call.rst": "ab6484070efb6bcdc1bad7d259316c80e839f5641d927953278049b955f4a2e2",
-  "fr:documentation_clients/audioliz/index_addendum.rst": "e149294298f565a37aa3ca29d411ac4bbed04838cad49da930dfa46a4ee511fb",
+  "fr:documentation_clients/audioliz/index_addendum.rst": "93ec2a5d0b52a2b6e1aa6a6c7fbc42b94a205143d968e74b46623fbab7955397",
   "fr:documentation_clients/audioliz/index.rst": "ae1454f48752b6e376ca50bec50aa184c5ac5ebb528fc665bdf33876fb7db4f3",
   "fr:documentation_clients/bruneau/index_addendum.rst": "0c6f26b7faf436a28eadf8f9aee5635f3be6829aeccaec4ecf8ced34fdc0da9f",
   "fr:documentation_clients/bruneau/index.rst": "cdcca8e910d66cf19e2bcea2cf161b6f16419d62753cc91fe25e5fbd41015df9",
   "fr:documentation_clients/wonderbox/index_addendum.rst": "83255cc4fdd9824d0b51090867329ce220a5d14bcf5b31484f94dcebe912bb7f",
   "fr:documentation_clients/wonderbox/index.rst": "5544377ddb8495e2d8622e39553c5b253446a8320109b0f80823fd6a900986c6",
-  "fr:documentation_clients/fidelis/index_addendum.rst": "bdee4d450544cd23514df836c9ff0ebcaaccb65153e1474a55940c605df829ac",
-  "fr:documentation_clients/fidelis/index.rst": "02f587fa2c208f27ee3a81faa2aee36e97940c86cae0bd540dbe9d28dc11ee75"
+  "fr:documentation_clients/fidelis/index_addendum.rst": "4be18ddf81a74556bccd7059a43bd0554a41aa491b330c0686a477ab433ac00d",
+  "fr:documentation_clients/fidelis/index.rst": "02f587fa2c208f27ee3a81faa2aee36e97940c86cae0bd540dbe9d28dc11ee75",
+  "fr:documentation_clients/fidelis/howtos.rst": "ef3ecb200f3bebe1c0bfee1ef2b6a7ecf9f6ef3227e5d51d53e572a7503c334b",
+  "fr:documentation_clients/fidelis/intro.rst": "04fdbe33ca5da34cc143951dea8f9bd46f583bc16021700a9a455d47144fc986"
 }

@@ -9,4 +9,4 @@ Tutoriels
   :height: 360
 
 
-Voici comment vous faites une contre-évaluation :
+Voici comment vous réalisez une contre-évaluation :
