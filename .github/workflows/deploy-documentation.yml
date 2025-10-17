@@ -26,14 +26,9 @@ jobs:
       with:
         python-version: '3.11'
     
-    - name: Install uv
-      uses: astral-sh/setup-uv@v2
-      with:
-        version: "latest"
-    
     - name: Install dependencies
       run: |
-        uv pip install openai
+        pip install openai
     
     - name: Configure Git
       run: |
@@ -44,7 +39,7 @@ jobs:
       run: |
         echo "🌍 Step 1: Translating documentation..."
         export OPENAI_API_KEY="${{ secrets.OPENAI_API_KEY }}"
-        uv run python scripts/translate.py
+        python scripts/translate.py
       env:
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
     
