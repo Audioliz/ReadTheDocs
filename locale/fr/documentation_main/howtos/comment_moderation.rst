@@ -4,18 +4,20 @@ Commentaires et Retours
 1.Comment ajouter un commentaire à un enregistrement analysé ?
 ---------------------------------------------------
 
-Vous pouvez ajouter un commentaire soit au niveau des réponses à chaque question, soit dans le champ de commentaire situé juste après la transcription. Vous devez suivre les étapes suivantes : 
+Les commentaires sont importants pour votre équipe technique Audioliz, afin de voir ce qu'ils peuvent améliorer sur la fiche d'évaluation.
+
+Vous pouvez ajouter un commentaire sur chaque question, ou dans le champ de commentaire situé après la transcription. Une fois que vous avez ajouté un commentaire, vous devez suivre les étapes suivantes : 
 
 - Choisissez un statut pour le commentaire dans le champ DEBUG-STATUS, le statut doit être :
-       |$|OPEN|$| lorsque vous posez une question ou laissez un commentaire
-       |$|REPLIED|$| lorsque quelqu'un répond à votre commentaire
-       |$|CLOSED|$| lorsque vous avez la bonne réponse à votre commentaire
-- choisissez le niveau d'importance de votre commentaire : 
-       Normal
-       Moyen 
-       Élevé
+       |$|OPEN|$| lorsque vous laissez un commentaire<br>
+       |$|REPLIED|$| lorsque l'équipe technique répond à votre commentaire<br>
+       |$|CLOSED|$| lorsque vous avez validé la réponse de votre équipe de support Audioliz <br>
+- Vous pouvez également choisir le niveau d'importance de votre commentaire : 
+       Normal<br>
+       Moyen <br>
+       Élevé<br>
 
-(vidéo)
+
 
 2. Comment trouver et répondre aux commentaires laissés sur un appel analysé ?
 ---------------------------------------------------------------------
@@ -25,9 +27,9 @@ Pour trouver les commentaires laissés, cliquez sur le champ "DEBUG STATUS" et s
 
 - Changez le champ "DEBUG STATUS" en "Répondu" 
 - Sélectionnez la personne responsable de la réponse dans le champ "EN CHARGE".
-- Répondez aux commentaires et questions dans le champ "RÉPONSE".
+- Répondez aux commentaires et aux questions dans le champ "RÉPONSE".
 
-(vidéo)
+
 
 3. Supervision et Processus d'Ajustement des Questions
 ---------------------------------------------------------
@@ -41,9 +43,9 @@ Pour y remédier, nous avons mis en place une procédure parallèle du côté du
 
 - Un superviseur examine et corrige manuellement les réponses incorrectes pour des questions spécifiques.
 
-- Le superviseur doit remplir le champ **Contre évaluation par** avec son nom.
+- Le superviseur doit remplir le champ **Évaluation par** avec son nom.
 
-- Il est également encouragé à ajouter des commentaires expliquant les corrections effectuées.
+- Ils sont également encouragés à ajouter des commentaires expliquant les corrections effectuées.
 
 De notre côté, nous nous engageons à ajuster les questions pertinentes en fonction des commentaires des superviseurs, dans le but de minimiser l'écart entre l'analyse de l'IA et l'évaluation humaine - un objectif que nous surveillons activement à travers la page IA / HUMAIN de notre tableau de bord BI.
 
@@ -58,7 +60,7 @@ Pour garantir la qualité et la précision des analyses basées sur l'IA, les su
 
 - Accédez à la page d'appel qui doit être examinée.
 
-- Remplissez le champ **Contre évaluation par** avec le nom du superviseur.
+- Remplissez le champ **Évaluation par** avec le nom du superviseur.
 
 .. image:: /_static/champs_a_remplir.png
   :width: 600
@@ -91,17 +93,17 @@ Cette page vous permet d'explorer les différences entre les évaluations faites
 
 
 Ce tableau affiche, pour chaque contre-évaluateur et chaque appel, le score humain, le score de l'IA et la différence entre les deux.
-Si un contre-évaluateur (par exemple, Hayat) n'apparaît pas, cela signifie qu'aucun score humain n'a été enregistré pour la période ou les filtres sélectionnés.
+Si un contre-évaluateur (par exemple Hayat) n'apparaît pas, cela signifie qu'aucun score humain n'a été enregistré pour la période ou les filtres sélectionnés.
 
 
 .. image:: /_static/Score_Table.png
   :width: 800
   :alt: Tableau des scores par contre-évaluateur
 
-2. Évolution de l'écart moyen entre les scores de l'IA et de l'humain
+2. Évolution de l'écart moyen entre les scores IA et humains
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Ce graphique montre la tendance de la différence moyenne entre les scores humains et ceux de l'IA au fil du temps (jour, semaine ou mois selon les filtres).
+Ce graphique montre la tendance de la différence moyenne entre les scores humains et ceux de l'IA au fil du temps (jour, semaine ou mois en fonction des filtres).
 
 .. image:: /_static/Evolution_of_the_average_gap_between_IA_and_human_scores.png
   :width: 800
