@@ -15,12 +15,16 @@ jobs:
   deploy:
     if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.pull_request.merged == true) || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
     
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
       with:
         fetch-depth: 0  # Nécessaire pour le merge des branches
+        token: ${{ secrets.GITHUB_TOKEN }}
     
     - name: Setup Python
       uses: actions/setup-python@v4
