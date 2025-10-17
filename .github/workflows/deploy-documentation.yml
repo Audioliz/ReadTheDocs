@@ -41,15 +41,61 @@ jobs:
         git config --global user.name "GitHub Actions Bot"
         git config --global user.email "actions@github.com"
     
-    - name: Step 1 - Translate documentation
+    - name: Step 1 - Detect affected clients (before translation)
+      id: detect-clients
       run: |
-        echo "🌍 Step 1: Translating documentation..."
+        echo "🔍 Detecting affected clients..."
+        
+        # Charger la configuration des clients depuis JSON
+        CLIENTS_JSON=$(cat scripts/clients.json)
+        CLIENTS_CSV=$(echo "$CLIENTS_JSON" | jq -r '.clients | keys | join(",")')
+        
+        # Utiliser les chemins de fichiers du trigger GitHub Actions
+        CHANGED_FILES="${{ github.event.head_commit.modified }} ${{ github.event.head_commit.added }}"
+        
+        echo "🔍 Changed files: $CHANGED_FILES"
+        
+        # Détecter les changements dans documentation_main (affecte tous les clients)
+        if echo "$CHANGED_FILES" | grep -q "documentation_main/"; then
+          echo "📚 Changes detected in documentation_main - all clients affected"
+          echo "affected_clients=$CLIENTS_CSV" >> $GITHUB_OUTPUT
+          echo "needs_translation=true" >> $GITHUB_OUTPUT
+        else
+          # Détecter les changements spécifiques par client
+          affected_clients=""
+          
+          for client in $(echo "$CLIENTS_JSON" | jq -r '.clients | keys[]'); do
+            if echo "$CHANGED_FILES" | grep -q "documentation_clients/${client}/"; then
+              echo "✅ Client $client is affected"
+              affected_clients="$affected_clients,${client}"
+            fi
+          done
+          
+          # Supprimer la virgule en début si elle existe
+          affected_clients=$(echo "$affected_clients" | sed 's/^,//')
+          
+          if [ -z "$affected_clients" ]; then
+            echo "ℹ️ No client-specific changes detected"
+            echo "affected_clients=" >> $GITHUB_OUTPUT
+            echo "needs_translation=false" >> $GITHUB_OUTPUT
+          else
+            echo "🎯 Affected clients: $affected_clients"
+            echo "affected_clients=$affected_clients" >> $GITHUB_OUTPUT
+            echo "needs_translation=true" >> $GITHUB_OUTPUT
+          fi
+        fi
+
+    - name: Step 2 - Translate documentation
+      if: steps.detect-clients.outputs.needs_translation == 'true'
+      run: |
+        echo "🌍 Step 2: Translating documentation..."
         export OPENAI_API_KEY="${{ secrets.OPENAI_API_KEY }}"
         python scripts/translate.py
       env:
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
     
     - name: Check if translations were modified
+      if: steps.detect-clients.outputs.needs_translation == 'true'
       id: check-translations
       run: |
         if git diff --quiet HEAD -- locale/ .rst-translation-cache.json; then
@@ -60,86 +106,18 @@ jobs:
           echo "📝 Translation changes detected"
         fi
     
-    - name: Step 2 - Commit translations to main
+    - name: Step 3 - Commit translations to main
       if: steps.check-translations.outputs.modified == 'true'
       run: |
-        echo "💾 Step 2: Committing translations to main..."
+        echo "💾 Step 3: Committing translations to main..."
         git add locale/ .rst-translation-cache.json
         git commit -m "Auto-translate: Update translations and cache [skip ci]"
         git push origin main
-    
-    - name: Detect affected clients
-      if: steps.check-translations.outputs.modified == 'true'
-      id: detect-clients
-      run: |
-        echo "🔍 Detecting affected clients..."
-        
-        # Charger la configuration des clients depuis JSON
-        CLIENTS_JSON=$(cat scripts/clients.json)
-        CLIENTS_CSV=$(echo "$CLIENTS_JSON" | jq -r '.clients | keys | join(",")')
-        
-        # Détecter les changements - comparer avec le commit qui a déclenché le workflow
-        if [ "${{ github.event_name }}" = "push" ]; then
-          # Pour un push, utiliser les fichiers modifiés dans le commit qui a déclenché le workflow
-          CHANGED_FILES=$(git diff --name-only ${{ github.event.before }} ${{ github.event.after }})
-        elif [ "${{ github.event_name }}" = "pull_request" ]; then
-          # Pour une PR, comparer avec la base
-          CHANGED_FILES=$(git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }})
-        else
-          # Pour workflow_dispatch, chercher le dernier commit non-automatique
-          echo "🔍 Workflow dispatch - searching for last non-automated commit"
-          
-          # Chercher le dernier commit qui n'est pas un commit de traduction automatique
-          LAST_REAL_COMMIT=$(git log --oneline --grep="Auto-translate" --invert-grep -n 1 --format="%H" HEAD)
-          if [ -z "$LAST_REAL_COMMIT" ]; then
-            # Si aucun commit non-automatique trouvé, utiliser HEAD~1
-            LAST_REAL_COMMIT="HEAD~1"
-            echo "⚠️ No non-automated commit found, using HEAD~1"
-          else
-            echo "✅ Found last non-automated commit: $LAST_REAL_COMMIT"
-          fi
-          
-          CHANGED_FILES=$(git diff --name-only $LAST_REAL_COMMIT HEAD)
-        fi
-        
-        echo "🔍 Changed files:"
-        echo "$CHANGED_FILES"
-        echo "---"
-        
-        # Détecter les changements dans documentation_main (affecte tous les clients)
-        if echo "$CHANGED_FILES" | grep -q "^documentation_main/"; then
-          echo "📚 Changes detected in documentation_main - all clients affected"
-          echo "affected_clients=$CLIENTS_CSV" >> $GITHUB_OUTPUT
-        else
-          # Détecter les changements spécifiques par client
-          affected_clients=""
-          
-          for client in $(echo "$CLIENTS_JSON" | jq -r '.clients | keys[]'); do
-            echo "🔍 Checking client: $client"
-            if echo "$CHANGED_FILES" | grep -q "^documentation_clients/${client}/"; then
-              echo "✅ Client $client is affected"
-              affected_clients="$affected_clients,${client}"
-            else
-              echo "❌ Client $client is not affected"
-            fi
-          done
-          
-          # Supprimer la virgule en début si elle existe
-          affected_clients=$(echo "$affected_clients" | sed 's/^,//')
-          
-          if [ -z "$affected_clients" ]; then
-            echo "ℹ️ No client-specific changes detected"
-            echo "affected_clients=" >> $GITHUB_OUTPUT
-          else
-            echo "🎯 Affected clients: $affected_clients"
-            echo "affected_clients=$affected_clients" >> $GITHUB_OUTPUT
-          fi
-        fi
 
-    - name: Step 3 - Merge to affected client branches
+    - name: Step 4 - Merge to affected client branches
       if: steps.check-translations.outputs.modified == 'true' && steps.detect-clients.outputs.affected_clients != ''
       run: |
-        echo "🔄 Step 3: Merging to affected client branches..."
+        echo "🔄 Step 4: Merging to affected client branches..."
         
         # Convertir la liste en array
         IFS=',' read -ra CLIENTS <<< "${{ steps.detect-clients.outputs.affected_clients }}"
@@ -182,9 +160,9 @@ jobs:
         echo "🔄 Retour à la branche main"
         git checkout main
     
-    - name: Step 4 - Summary
+    - name: Step 5 - Summary
       run: |
-        echo "✅ Step 4: Deployment completed!"
+        echo "✅ Step 5: Deployment completed!"
         echo "📚 ReadTheDocs will automatically detect changes and rebuild documentation"
         
         if [ "${{ steps.check-translations.outputs.modified }}" == "true" ]; then
