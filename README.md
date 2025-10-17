@@ -43,6 +43,29 @@ Et dans un navigateur : [http://localhost:1700/](url)
 
 #### 2. Déployer
 
+##### 🚀 Automatisation (Recommandé)
+
+Le processus de déploiement est maintenant **entièrement automatisé** via GitHub Actions !
+
+**Déploiement automatique :**
+- ✅ Se déclenche automatiquement sur push/merge vers `main`
+- ✅ Traduit automatiquement la documentation
+- ✅ Commit et push automatiques
+- ✅ Merge automatique vers toutes les branches clients
+- ✅ ReadTheDocs reconstruit automatiquement
+
+**Configuration requise :**
+1. Ajouter `OPENAI_API_KEY` dans les secrets GitHub
+2. Voir [AUTOMATION_SETUP.md](AUTOMATION_SETUP.md) pour plus de détails
+
+**Déploiement manuel :**
+```bash
+export OPENAI_API_KEY="votre-cle-api"
+./scripts/deploy.sh
+```
+
+##### 🔧 Déploiement manuel (Legacy)
+
 * tester ?
 * traduire : ``` ./scripts/translate.py```
 * commit sur la branche main
