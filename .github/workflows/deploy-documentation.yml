@@ -52,7 +52,7 @@ jobs:
     - name: Check if translations were modified
       id: check-translations
       run: |
-        if git diff --quiet HEAD -- locale/; then
+        if git diff --quiet HEAD -- locale/ .rst-translation-cache.json; then
           echo "modified=false" >> $GITHUB_OUTPUT
           echo "📝 No translation changes detected"
         else
@@ -64,8 +64,8 @@ jobs:
       if: steps.check-translations.outputs.modified == 'true'
       run: |
         echo "💾 Step 2: Committing translations to main..."
-        git add locale/
-        git commit -m "Auto-translate: Update translations [skip ci]"
+        git add locale/ .rst-translation-cache.json
+        git commit -m "Auto-translate: Update translations and cache [skip ci]"
         git push origin main
     
     - name: Detect affected clients
@@ -78,8 +78,21 @@ jobs:
         CLIENTS_JSON=$(cat scripts/clients.json)
         CLIENTS_CSV=$(echo "$CLIENTS_JSON" | jq -r '.clients | keys | join(",")')
         
+        # Détecter les changements - utiliser l'événement GitHub si disponible
+        if [ "${{ github.event_name }}" = "push" ]; then
+          # Pour un push, comparer avec le commit précédent
+          CHANGED_FILES=$(git diff --name-only HEAD~1 HEAD)
+        else
+          # Pour workflow_dispatch, comparer avec le commit précédent
+          CHANGED_FILES=$(git diff --name-only HEAD~1 HEAD)
+        fi
+        
+        echo "🔍 Changed files:"
+        echo "$CHANGED_FILES"
+        echo "---"
+        
         # Détecter les changements dans documentation_main (affecte tous les clients)
-        if git diff --name-only HEAD~1 HEAD | grep -q "^documentation_main/"; then
+        if echo "$CHANGED_FILES" | grep -q "^documentation_main/"; then
           echo "📚 Changes detected in documentation_main - all clients affected"
           echo "affected_clients=$CLIENTS_CSV" >> $GITHUB_OUTPUT
         else
@@ -87,8 +100,12 @@ jobs:
           affected_clients=""
           
           for client in $(echo "$CLIENTS_JSON" | jq -r '.clients | keys[]'); do
-            if git diff --name-only HEAD~1 HEAD | grep -q "^documentation_clients/${client}/"; then
+            echo "🔍 Checking client: $client"
+            if echo "$CHANGED_FILES" | grep -q "^documentation_clients/${client}/"; then
+              echo "✅ Client $client is affected"
               affected_clients="$affected_clients,${client}"
+            else
+              echo "❌ Client $client is not affected"
             fi
           done
           

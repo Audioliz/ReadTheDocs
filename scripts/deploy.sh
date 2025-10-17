@@ -51,7 +51,7 @@ fi
 echo
 
 # Vérifier s'il y a des changements de traduction
-if git diff --quiet HEAD -- locale/; then
+if git diff --quiet HEAD -- locale/ .rst-translation-cache.json; then
     echo -e "${YELLOW}📝 Aucun changement de traduction détecté${NC}"
     echo -e "${BLUE}📋 Étape 2/4: Pas de commit nécessaire${NC}"
     echo -e "${BLUE}📋 Étape 3/4: Pas de merge nécessaire${NC}"
@@ -59,13 +59,14 @@ else
     echo -e "${BLUE}📋 Étape 2/4: Commit des traductions sur main${NC}"
     echo "----------------------------------------"
     
-    # Ajouter les fichiers de traduction
-    git add locale/
+    # Ajouter les fichiers de traduction et le cache
+    git add locale/ .rst-translation-cache.json
     
     # Commit avec un message descriptif
-    git commit -m "Auto-translate: Update translations
+    git commit -m "Auto-translate: Update translations and cache
 
 - Traduction automatique des fichiers .rst
+- Mise à jour du cache de traduction
 - Généré par le script de déploiement automatique
 - Date: $(date)"
     
