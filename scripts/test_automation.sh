@@ -1,6 +1,8 @@
 #!/bin/bash
 
-# Script de test pour valider la configuration de l'automatisation
+# Script de test pour valider la configuration du déploiement automatique
+# Peut servir pour un déploiement manuel. A voir si on le garde. Le déploiement se fait normalement via GitHub Actions.
+
 
 # Couleurs pour l'affichage
 RED='\033[0;31m'

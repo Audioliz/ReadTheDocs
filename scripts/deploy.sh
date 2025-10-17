@@ -2,6 +2,7 @@
 
 # Script de déploiement unifié pour la documentation
 # Automatise les 4 étapes du processus de déploiement
+# Peut servir pour un déploiement manuel. A voir si on le garde. Le déploiement se fait normalement via GitHub Actions.
 
 # Couleurs pour l'affichage
 RED='\033[0;31m'
