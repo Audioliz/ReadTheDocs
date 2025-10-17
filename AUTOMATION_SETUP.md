@@ -7,7 +7,7 @@ Ce document explique comment configurer et utiliser le système d'automatisation
 Le système automatise les 4 étapes suivantes :
 1. **Traduction** : Traduction automatique des fichiers .rst avec OpenAI
 2. **Commit** : Commit automatique des traductions sur la branche main
-3. **Merge** : Merge automatique vers toutes les branches clients
+3. **Merge intelligent** : Merge automatique vers seulement les branches clients affectées
 4. **Déploiement** : ReadTheDocs détecte les changements et reconstruit la documentation
 
 ## ⚙️ Configuration initiale
@@ -51,7 +51,45 @@ Le workflow se déclenche automatiquement dans ces cas :
 2. **Traduction** : Utilise OpenAI pour traduire les fichiers .rst modifiés
 3. **Commit intelligent** : Ne committe que s'il y a des changements de traduction
 4. **Merge automatique** : Synchronise toutes les branches clients avec main
-5. **Notification** : ReadTheDocs détecte les changements et reconstruit
+4. **Détection intelligente** : Détermine quels clients sont affectés par les changements
+5. **Merge sélectif** : Met à jour seulement les branches clients concernées  
+6. **Notification** : ReadTheDocs détecte les changements et reconstruit
+
+## 🧠 Logique intelligente de détection
+
+### **Détection des clients affectés**
+
+Le système détermine intelligemment quelles branches clients mettre à jour :
+
+#### **Changements dans `documentation_main/`**
+- ✅ **Affecte TOUS les clients** (documentation générale)
+- ✅ Merge vers toutes les branches : `bruneau`, `wonderbox`, `fidelis`, `audioliz`
+
+#### **Changements dans `documentation_clients/[client]/`**
+- ✅ **Affecte SEULEMENT le client concerné**
+- ✅ Exemple : Modification dans `documentation_clients/fidelis/` → Merge seulement vers `fidelis`
+
+#### **Changements dans `locale/` (traductions)**
+- ✅ **Affecte TOUS les clients** (traductions partagées)
+
+### **Exemples concrets**
+
+```bash
+# Cas 1: Modification dans documentation_main/
+git diff --name-only HEAD~1 HEAD
+# → documentation_main/howtos/new_feature.rst
+# → Merge vers TOUTES les branches clients
+
+# Cas 2: Modification spécifique à un client
+git diff --name-only HEAD~1 HEAD  
+# → documentation_clients/fidelis/specific_guide.rst
+# → Merge SEULEMENT vers fidelis
+
+# Cas 3: Traduction automatique
+git diff --name-only HEAD~1 HEAD
+# → locale/fr/documentation_main/howtos/new_feature.rst
+# → Merge vers TOUTES les branches clients
+```
 
 ## 🛠️ Utilisation manuelle
 
@@ -78,11 +116,7 @@ python scripts/translate.py
 
 ### Merge des branches seulement
 
-Pour synchroniser les branches clients :
-
-```bash
-./scripts/git_merge_client_branches.sh
-```
+**Note** : Le script de merge séparé n'existe plus. Le merge intelligent est intégré dans `./scripts/deploy.sh` et le workflow GitHub Actions.
 
 ## 📁 Structure des fichiers
 
@@ -93,7 +127,7 @@ Pour synchroniser les branches clients :
 scripts/
 ├── deploy.sh                   # Script de déploiement unifié
 ├── translate.py               # Script de traduction (modifié)
-├── git_merge_client_branches.sh # Script de merge (existant)
+├── clients.json               # Configuration centralisée des clients (JSON)
 
 documentation_main/            # Documentation principale
 documentation_clients/         # Documentation spécifique clients
@@ -105,8 +139,56 @@ locale/                       # Traductions générées automatiquement
 ### Ajouter un nouveau client
 
 1. **Créer la branche** : Créer une nouvelle branche basée sur main
-2. **Modifier le script de merge** : Ajouter le client dans `scripts/git_merge_client_branches.sh`
-3. **Configuration ReadTheDocs** : Ajouter le projet dans ReadTheDocs
+2. **Ajouter dans la configuration** : Modifier `scripts/clients.json`
+   ```json
+   {
+     "clients": {
+       "bruneau": 3,
+       "wonderbox": 7,
+       "fidelis": 1,
+       "audioliz": 52,
+       "nouveau_client": 99  // ← Une seule ligne !
+     }
+   }
+   ```
+3. **Créer la documentation** : Ajouter le dossier `documentation_clients/nouveau_client/`
+4. **Configuration ReadTheDocs** : Ajouter le projet dans ReadTheDocs
+
+**C'est tout !** L'automatisation détectera automatiquement le nouveau client.
+
+### Format de configuration JSON
+
+Le fichier `scripts/clients.json` utilise le format JSON pour être compatible avec tous les scripts :
+
+```json
+{
+  "clients": {
+    "bruneau": 3,
+    "wonderbox": 7,
+    "fidelis": 1,
+    "audioliz": 52
+  },
+  "metadata": {
+    "description": "Configuration centralisée des clients",
+    "version": "1.0",
+    "special_cases": {
+      "latest": 0
+    }
+  }
+}
+```
+
+**Structure du JSON :**
+- **`clients`** : Objet associant chaque nom de client à son ID numérique
+- **`metadata.special_cases`** : Cas spéciaux comme "latest" (ID 0)
+- **`metadata`** : Informations sur la configuration
+
+**Avantages du JSON :**
+- ✅ Compatible avec Bash (via `jq`)
+- ✅ Compatible avec Python (via `json`)
+- ✅ Compatible avec GitHub Actions
+- ✅ Format standard et lisible
+- ✅ Configuration centralisée complète
 
 ### Modifier les paramètres de traduction
 

@@ -77,13 +77,80 @@ else
     fi
     echo
 
-    echo -e "${BLUE}📋 Étape 3/4: Merge vers les branches clients${NC}"
+    echo -e "${BLUE}📋 Étape 3/4: Détection et merge vers les branches clients affectées${NC}"
     echo "----------------------------------------"
-    if ./scripts/git_merge_client_branches.sh; then
-        echo -e "${GREEN}✅ Merge vers les branches clients réussi${NC}"
+    
+    # Détecter les clients affectés
+    echo "🔍 Détection des clients affectés..."
+    
+    # Charger la configuration des clients depuis JSON
+    CLIENTS_JSON=$(cat scripts/clients.json)
+    CLIENTS_CSV=$(echo "$CLIENTS_JSON" | jq -r '.clients | keys | join(",")')
+    
+    # Détecter les changements dans documentation_main (affecte tous les clients)
+    if git diff --name-only HEAD~1 HEAD | grep -q "^documentation_main/"; then
+        echo "📚 Changements détectés dans documentation_main - tous les clients affectés"
+        AFFECTED_CLIENTS="$CLIENTS_CSV"
     else
-        echo -e "${RED}❌ Erreur lors du merge vers les branches clients${NC}"
-        exit 1
+        # Détecter les changements spécifiques par client
+        affected_clients=""
+        
+        for client in $(echo "$CLIENTS_JSON" | jq -r '.clients | keys[]'); do
+            if git diff --name-only HEAD~1 HEAD | grep -q "^documentation_clients/${client}/"; then
+                affected_clients="$affected_clients,${client}"
+            fi
+        done
+        
+        # Supprimer la virgule en début si elle existe
+        AFFECTED_CLIENTS=$(echo "$affected_clients" | sed 's/^,//')
+    fi
+    
+    if [ -z "$AFFECTED_CLIENTS" ]; then
+        echo -e "${YELLOW}ℹ️  Aucun client spécifique affecté${NC}"
+    else
+        echo -e "${BLUE}🎯 Clients affectés: $AFFECTED_CLIENTS${NC}"
+        
+        # Convertir la liste en array et traiter chaque client
+        IFS=',' read -ra CLIENTS <<< "$AFFECTED_CLIENTS"
+        
+        for client in "${CLIENTS[@]}"; do
+            echo -e "${BLUE}🔄 Traitement du client: $client${NC}"
+            
+            # Vérifier si la branche existe
+            if git show-ref --verify --quiet "refs/remotes/origin/${client}"; then
+                echo "📋 Checkout de la branche '${client}'..."
+                if git checkout "${client}"; then
+                    echo -e "${GREEN}✅ Checkout réussi de '${client}'${NC}"
+                    
+                    # Merge avec main
+                    echo "🔄 Merge de 'main' dans '${client}'..."
+                    if git merge main; then
+                        echo -e "${GREEN}✅ Merge réussi de 'main' dans '${client}'${NC}"
+                        
+                        # Push de la branche après merge réussi
+                        echo "📤 Push de la branche '${client}'..."
+                        if git push origin "${client}"; then
+                            echo -e "${GREEN}✅ Push réussi de '${client}'${NC}"
+                        else
+                            echo -e "${RED}❌ Échec du push de '${client}'${NC}"
+                        fi
+                    else
+                        echo -e "${RED}❌ Échec du merge de 'main' dans '${client}'${NC}"
+                    fi
+                else
+                    echo -e "${RED}❌ Échec du checkout de '${client}'${NC}"
+                fi
+            else
+                echo -e "${YELLOW}⚠️  La branche '${client}' n'existe pas, passage à la suivante${NC}"
+            fi
+            
+            echo "---"
+        done
+        
+        # Retourner à la branche main
+        echo "🔄 Retour à la branche main"
+        git checkout main
+        echo -e "${GREEN}✅ Merge vers les branches clients affectées réussi${NC}"
     fi
     echo
 fi

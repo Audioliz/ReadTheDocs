@@ -1,0 +1,16 @@
+{
+  "clients": {
+    "bruneau": 3,
+    "wonderbox": 7,
+    "fidelis": 1,
+    "audioliz": 52
+  },
+  "metadata": {
+    "description": "Configuration centralisée des clients pour l'automatisation de la documentation",
+    "version": "1.0",
+    "last_updated": "2024",
+    "special_cases": {
+      "latest": 0
+    }
+  }
+}

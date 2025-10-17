@@ -8,6 +8,7 @@ import os
 import sys
 import shutil
 import glob
+import json
 from pathlib import Path
 import re
 
@@ -15,13 +16,30 @@ import re
 RED = '\033[91m'
 RESET = '\033[0m'
 
-clients_map = {
-    "latest": 0, # main documentation. Not client specific.
-    "fidelis": 1,
-    "bruneau": 3,
-    "wonderbox": 7,
-    "audioliz": 52,
-}
+# Charger la configuration des clients depuis JSON
+def load_clients_config():
+    """Charge la configuration complète des clients depuis le fichier JSON"""
+    config_path = Path(__file__).parent / "clients.json"
+    try:
+        with open(config_path, 'r', encoding='utf-8') as f:
+            config = json.load(f)
+        return config
+    except (FileNotFoundError, json.JSONDecodeError, KeyError) as e:
+        print(f"❌ Erreur lors du chargement de clients.json: {e}")
+        print("💡 Vérifiez que le fichier scripts/clients.json existe et est valide")
+        sys.exit(1)
+
+# Charger la configuration complète
+CLIENTS_CONFIG = load_clients_config()
+CLIENTS = list(CLIENTS_CONFIG['clients'].keys())
+clients_map = CLIENTS_CONFIG['clients'].copy()
+
+# Ajouter les cas spéciaux
+if 'metadata' in CLIENTS_CONFIG and 'special_cases' in CLIENTS_CONFIG['metadata']:
+    clients_map.update(CLIENTS_CONFIG['metadata']['special_cases'])
+
+print(f"Clients chargés: {CLIENTS}")
+print(f"Mapping des clients: {clients_map}")
 
 # Détermine la langue et la version depuis l'environnement
 lang = os.environ.get("READTHEDOCS_LANGUAGE", "en")

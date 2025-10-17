@@ -34,6 +34,7 @@ jobs:
     - name: Install dependencies
       run: |
         pip install openai
+        sudo apt-get update && sudo apt-get install -y jq
     
     - name: Configure Git
       run: |
@@ -67,21 +68,101 @@ jobs:
         git commit -m "Auto-translate: Update translations [skip ci]"
         git push origin main
     
-    - name: Step 3 - Merge to client branches
+    - name: Detect affected clients
       if: steps.check-translations.outputs.modified == 'true'
+      id: detect-clients
       run: |
-        echo "🔄 Step 3: Merging to client branches..."
-        chmod +x scripts/git_merge_client_branches.sh
-        ./scripts/git_merge_client_branches.sh
+        echo "🔍 Detecting affected clients..."
+        
+        # Charger la configuration des clients depuis JSON
+        CLIENTS_JSON=$(cat scripts/clients.json)
+        CLIENTS_CSV=$(echo "$CLIENTS_JSON" | jq -r '.clients | keys | join(",")')
+        
+        # Détecter les changements dans documentation_main (affecte tous les clients)
+        if git diff --name-only HEAD~1 HEAD | grep -q "^documentation_main/"; then
+          echo "📚 Changes detected in documentation_main - all clients affected"
+          echo "affected_clients=$CLIENTS_CSV" >> $GITHUB_OUTPUT
+        else
+          # Détecter les changements spécifiques par client
+          affected_clients=""
+          
+          for client in $(echo "$CLIENTS_JSON" | jq -r '.clients | keys[]'); do
+            if git diff --name-only HEAD~1 HEAD | grep -q "^documentation_clients/${client}/"; then
+              affected_clients="$affected_clients,${client}"
+            fi
+          done
+          
+          # Supprimer la virgule en début si elle existe
+          affected_clients=$(echo "$affected_clients" | sed 's/^,//')
+          
+          if [ -z "$affected_clients" ]; then
+            echo "ℹ️ No client-specific changes detected"
+            echo "affected_clients=" >> $GITHUB_OUTPUT
+          else
+            echo "🎯 Affected clients: $affected_clients"
+            echo "affected_clients=$affected_clients" >> $GITHUB_OUTPUT
+          fi
+        fi
+
+    - name: Step 3 - Merge to affected client branches
+      if: steps.check-translations.outputs.modified == 'true' && steps.detect-clients.outputs.affected_clients != ''
+      run: |
+        echo "🔄 Step 3: Merging to affected client branches..."
+        
+        # Convertir la liste en array
+        IFS=',' read -ra CLIENTS <<< "${{ steps.detect-clients.outputs.affected_clients }}"
+        
+        for client in "${CLIENTS[@]}"; do
+          echo "🔄 Processing client: $client"
+          
+          # Vérifier si la branche existe
+          if git show-ref --verify --quiet "refs/remotes/origin/${client}"; then
+            echo "📋 Checkout de la branche '${client}'..."
+            if git checkout "${client}"; then
+              echo "✅ Checkout réussi de '${client}'"
+              
+              # Merge avec main
+              echo "🔄 Merge de 'main' dans '${client}'..."
+              if git merge main; then
+                echo "✅ Merge réussi de 'main' dans '${client}'"
+                
+                # Push de la branche après merge réussi
+                echo "📤 Push de la branche '${client}'..."
+                if git push origin "${client}"; then
+                  echo "✅ Push réussi de '${client}'"
+                else
+                  echo "❌ Échec du push de '${client}'"
+                fi
+              else
+                echo "❌ Échec du merge de 'main' dans '${client}'"
+              fi
+            else
+              echo "❌ Échec du checkout de '${client}'"
+            fi
+          else
+            echo "⚠️ La branche '${client}' n'existe pas, passage à la suivante"
+          fi
+          
+          echo "---"
+        done
+        
+        # Retourner à la branche main
+        echo "🔄 Retour à la branche main"
+        git checkout main
     
     - name: Step 4 - Summary
       run: |
         echo "✅ Step 4: Deployment completed!"
         echo "📚 ReadTheDocs will automatically detect changes and rebuild documentation"
-        echo "🌐 All client branches have been updated with the latest changes"
         
         if [ "${{ steps.check-translations.outputs.modified }}" == "true" ]; then
           echo "📝 Translations were updated and deployed"
+          
+          if [ "${{ steps.detect-clients.outputs.affected_clients }}" != "" ]; then
+            echo "🌐 Updated client branches: ${{ steps.detect-clients.outputs.affected_clients }}"
+          else
+            echo "ℹ️ No client branches needed updating"
+          fi
         else
           echo "📝 No translation changes - deployment skipped"
         fi
