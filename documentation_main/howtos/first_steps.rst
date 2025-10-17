@@ -10,7 +10,7 @@ After every call is analyzed, you can see all the useful information about it:
 
 - General information about the call: date of creation, audio file name, duration, agent, call type, called number, etc.
 - The transcript of the call  
-- The call audio file  <br>
+- The call audio file
 - Questions/responses with explanations on each response.
 
 
