@@ -50,10 +50,12 @@ jobs:
         CLIENTS_JSON=$(cat scripts/clients.json)
         CLIENTS_CSV=$(echo "$CLIENTS_JSON" | jq -r '.clients | keys | join(",")')
         
-        # Utiliser les chemins de fichiers du trigger GitHub Actions
-        CHANGED_FILES="${{ github.event.head_commit.modified }} ${{ github.event.head_commit.added }}"
+        # Détecter les fichiers modifiés avec git diff (plus fiable)
+        CHANGED_FILES=$(git diff --name-only HEAD~1 HEAD)
         
-        echo "🔍 Changed files: $CHANGED_FILES"
+        echo "🔍 Changed files:"
+        echo "$CHANGED_FILES"
+        echo "---"
         
         # Détecter les changements dans documentation_main (affecte tous les clients)
         if echo "$CHANGED_FILES" | grep -q "documentation_main/"; then
