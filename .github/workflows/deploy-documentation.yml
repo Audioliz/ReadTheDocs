@@ -1,0 +1,87 @@
+name: Deploy Documentation
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'documentation_main/**'
+      - 'documentation_clients/**'
+  pull_request:
+    types: [closed]
+    branches: [ main ]
+
+jobs:
+  deploy:
+    if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.pull_request.merged == true)
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0  # Nécessaire pour le merge des branches
+    
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: Install uv
+      uses: astral-sh/setup-uv@v2
+      with:
+        version: "latest"
+    
+    - name: Install dependencies
+      run: |
+        uv pip install openai
+    
+    - name: Configure Git
+      run: |
+        git config --global user.name "GitHub Actions Bot"
+        git config --global user.email "actions@github.com"
+    
+    - name: Step 1 - Translate documentation
+      run: |
+        echo "🌍 Step 1: Translating documentation..."
+        export OPENAI_API_KEY="${{ secrets.OPENAI_API_KEY }}"
+        uv run python scripts/translate.py
+      env:
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+    
+    - name: Check if translations were modified
+      id: check-translations
+      run: |
+        if git diff --quiet HEAD -- locale/; then
+          echo "modified=false" >> $GITHUB_OUTPUT
+          echo "📝 No translation changes detected"
+        else
+          echo "modified=true" >> $GITHUB_OUTPUT
+          echo "📝 Translation changes detected"
+        fi
+    
+    - name: Step 2 - Commit translations to main
+      if: steps.check-translations.outputs.modified == 'true'
+      run: |
+        echo "💾 Step 2: Committing translations to main..."
+        git add locale/
+        git commit -m "Auto-translate: Update translations [skip ci]"
+        git push origin main
+    
+    - name: Step 3 - Merge to client branches
+      if: steps.check-translations.outputs.modified == 'true'
+      run: |
+        echo "🔄 Step 3: Merging to client branches..."
+        chmod +x scripts/git_merge_client_branches.sh
+        ./scripts/git_merge_client_branches.sh
+    
+    - name: Step 4 - Summary
+      run: |
+        echo "✅ Step 4: Deployment completed!"
+        echo "📚 ReadTheDocs will automatically detect changes and rebuild documentation"
+        echo "🌐 All client branches have been updated with the latest changes"
+        
+        if [ "${{ steps.check-translations.outputs.modified }}" == "true" ]; then
+          echo "📝 Translations were updated and deployed"
+        else
+          echo "📝 No translation changes - deployment skipped"
+        fi

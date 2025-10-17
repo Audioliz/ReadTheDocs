@@ -25,7 +25,7 @@ MODEL = "gpt-4"
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 CACHE_FILE = Path(".rst-translation-cache.json")
 DRY_RUN = False  # ⬅️ Active le mode simulation ici
-MAX_NB_FILES_TRANSLATED = 10
+MAX_NB_FILES_TRANSLATED = 50  # Augmenté pour l'automatisation
 
 # # list of directories to translate : ROOT_DIR -> target_dir (relative to <TARGET_BASE>/<lang>/)
 # location_map = {

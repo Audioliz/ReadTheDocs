@@ -1,0 +1,29 @@
+# Configuration centralisée pour les workflows GitHub Actions
+# Ce fichier contient les paramètres partagés entre différents workflows
+
+# Branches clients supportées
+client_branches:
+  - bruneau
+  - wonderbox
+  - fidelis
+  - audioliz
+
+# Langues supportées pour la traduction
+supported_languages:
+  - fr
+
+# Modèle OpenAI utilisé pour la traduction
+openai_model: "gpt-4"
+
+# Nombre maximum de fichiers traduits par exécution
+max_translation_files: 50
+
+# Dossiers surveillés pour les changements
+monitored_paths:
+  - "documentation_main/**"
+  - "documentation_clients/**"
+
+# Configuration ReadTheDocs
+readthedocs:
+  auto_build: true
+  skip_ci_commits: true
