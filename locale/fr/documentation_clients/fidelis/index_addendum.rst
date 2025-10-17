@@ -2,5 +2,5 @@
    :caption: |$|Fidelis|$|
    :maxdepth: 2
 
-   /client/index.rst
+   /client/intro.rst
    /client/howtos.rst
