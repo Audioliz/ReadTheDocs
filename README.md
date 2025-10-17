@@ -2,33 +2,26 @@
 
 ## Comment modifier le contenu de la documentation ?
 
-### En ligne
-Les modifications en ligne ne sont pas traduites automatiquement, ni propagées aux versions clients. Ce sera fait lors des prochaines modifications par un développeur (modification en mode "local", cf ci-dessous).
+Il y a 2 façons de modifier la documentation : en ligne et en local. Pour des modifications ponctuelles, on peut le faire en ligne.
+Les modifications sont automatiquement traduites et propagées aux versions clients.
 
-#### 1. Créer une nouvelle branche
+### En ligne
+Il suffit de modifier la documentation en anglais. 
+ - ```documentation_main``` : documentation qui concerne tous les clients
+ - ```documentation_clients``` : documentation spécifique aux clients
+
+#### Utiliser une branche
 Si la modification concerne plusieurs fichiers, il est préférable de créer une nouvelle branche + PR. Car ReadtheDocs reconstruit des docs à chaque commit sur main.
 
 * Branches -> new branch
   
-  <img width="327" height="310" alt="image" src="https://github.com/user-attachments/assets/deb2e374-255c-4bc3-bf93-e8b789416c73" />
-
-#### 2. Modifier la doc en anglais
-```documentation_main``` : documentation qui concerne tous les clients
-```documentation_clients``` : documentation spécifique aux clients
-
-#### 3. Modifier les traductions (optionnel)
-
-Il est possible de modifier les traductions temporairement dans ```locale```.
-Mais ces modifications seront écrasées lors de la prochaine traduction automatique.
-
-#### 4. Merge
-
+  <img width="150" height="150" alt="image" src="https://github.com/user-attachments/assets/deb2e374-255c-4bc3-bf93-e8b789416c73" />
 * Créer un Pull Request.
 * Squash merge
   
 ### En local
 
-#### 1. Tester
+Cela nécessite d'installer le projet sur son ordinateur. Mais ça peut devenir nécessaire si on veut faire des modifications plus importantes : tables des matières, nouveaux clients, ajout d'images et de vidéo, ...
 
 ```
 source .venv/bin/activate
@@ -41,35 +34,7 @@ cd _build/html ; python -m http.server 1700   # n'importe quel port libre
 ```
 Et dans un navigateur : [http://localhost:1700/](url)
 
-#### 2. Déployer
-
-##### 🚀 Automatisation (Recommandé)
-
-Le processus de déploiement est maintenant **entièrement automatisé** via GitHub Actions !
-
-**Déploiement automatique :**
-- ✅ Se déclenche automatiquement sur push/merge vers `main`
-- ✅ Traduit automatiquement la documentation
-- ✅ Commit et push automatiques
-- ✅ Merge automatique vers toutes les branches clients
-- ✅ ReadTheDocs reconstruit automatiquement
-
-**Configuration requise :**
-1. Ajouter `OPENAI_API_KEY` dans les secrets GitHub
-2. Voir [AUTOMATION_SETUP.md](AUTOMATION_SETUP.md) pour plus de détails
-
-**Déploiement manuel :**
-```bash
-export OPENAI_API_KEY="votre-cle-api"
-./scripts/deploy.sh
-```
-
-##### 🔧 Déploiement manuel (Legacy)
-
-* tester ?
-* traduire : ``` ./scripts/translate.py```
-* commit sur la branche main
-* ./scripts/git_merge_client_branches.sh 
+Au moment du commit, le déploiement se fait tout seul : traductions et merge vers les branches clients.
 
 ## Ajouter un nouveau client
 
@@ -80,19 +45,10 @@ Les branches clients doivent toujours être identiques à ```main```. Elles sont
 
 ### 2. documentation/clients
  * Ajouter un dossier ```nouveau_client``` en s'inspirant des autres clients.
- * Ajouter le nouveau client dans ```scripts/git_merge_client_branches.sh``` 
- * Eventuellement ajouter une ligne dans ```clients_map```, dans ```pre_build.py```. C'est utile pour écrire des parties spécifiques à ce client directement dans la doc commune.
+ * Ajouter le nouveau client dans ```scripts/clients.json``` 
 
 ### 3. ReadTheDocs
 Ajouter une version de ce client dans chaque projet ReadTheDocs. Il y a un projet par langue.
-
-## Stack
-
-* **reStructuredText** : markup langage utilisé pour rédiger le contenu
-* **sphinx** : génére la doc à partir de reStructuredText
-* **ReadTheDocs** : héberge la documentation
-
-La traduction est faite automatiquement, par un LLM.
 
 ## Rédaction du contenu
 
@@ -108,3 +64,19 @@ Supprimer les mots qui n'apportent pas d'information. Exemple : préférer "Meta
 ### 3. Autres
 
 * **|$|** : Le contenu entouré par ces balises n'est pas traduit
+
+## Dev
+
+### stack
+* **GitHub** : Une branche par client. Elle contiennent toutes la même chose. Mais ReadTheDocs a besoin d'une branche par client. Il faut toujours préférer modifier la branche main. Car le worklow de déploiement merge depuis main vers les autres branches. 
+* **reStructuredText** : markup langage utilisé pour rédiger le contenu
+* **sphinx** : génére la doc à partir de reStructuredText
+* **ReadTheDocs** : héberge la documentation. Un projet par langue. Dans chaque projet il y a une version par client, et la version principale : latest
+
+### Déploiement automatique
+* **GitHub Actions** : Execute le workflow ```deploy-documentation.yaml```. La traduction est faite automatiquement, par un LLM.
+* **ReadTheDocs** : repère qu'il y a eu un changement sur une branche. Les versions (une par langue = une par projet RTD) construisent leur version statique en executant
+* **pre_build.sh** : copie le contenu utile dans le répertoire racine. C'est lui qui sera utilisé par RTD pour construire la doc
+* **Post_build.sh** : nettoie les fichiers et dossiers créés par pre_build.sh. Sert uniquement pour l'env de travail local.
+
+
