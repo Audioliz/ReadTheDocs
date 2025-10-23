@@ -22,7 +22,7 @@ Après chaque appel analysé, vous pouvez voir toutes les informations utiles à
 2. Comment charger un appel
 ---------------------------
 
-Pour analyser les appels suivants, vous devez d'abord les charger.
+Pour analyser les prochains appels, vous devez d'abord les charger.
 Si vous utilisez un système d'appel qui a des enregistrements, vous pouvez le connecter très facilement à Audioliz. C'est la meilleure solution lorsque vous voulez suivre de près votre production.
 
 Mais vous pouvez aussi charger vos appels manuellement, via l'interface Audioliz. Chargeons notre premier appel :
