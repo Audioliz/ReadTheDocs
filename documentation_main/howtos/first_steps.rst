@@ -34,7 +34,7 @@ But you can also load your calls manually, via the Audioliz interface. Let's loa
 3. Re-run a call analysis
 -------------------------
 
-If you change a question in the scorecard, and you want to re run an analysis on a call, here's how to do it:
+If you change a question in the scorecard, and you want to re run an analysis on a call, here's how to do it :
 
 .. video:: /_static/rerun.mp4
   :width: 640
