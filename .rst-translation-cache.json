@@ -1,7 +1,7 @@
 {
   "fr:documentation_main/howtos/comment_moderation.rst": "6c3b6721ba69d2c873c7e1078d48fc04957bb7243a93a64dbb3e92e03e122360",
   "fr:documentation_main/index.rst": "f54fd22b719f6865915c179ed9225ddf1f0d41da4bca78684ca3d15a4df6b691",
-  "fr:documentation_main/howtos/first_steps.rst": "fa495679797dd978fe28454cf386ad8ffd11fb156be506b4d103d9dd259aae18",
+  "fr:documentation_main/howtos/first_steps.rst": "3a966c2fe79b65338a8bbfbadc3e4cee95adea3389a7b2ebedb0e4ebe775526f",
   "fr:documentation_main/howtos/comments.rst": "840d24de97dd6178909f3138a340ddd9683df5827291174044055f2f37328920",
   "fr:documentation_main/reference/reports/dashboards.rst": "4499f084290de11a4d6033e1df309c3b8f7938a20f92dc07e03cc3ba412e4117",
   "fr:documentation_main/reference/reports/index.rst": "8532714a1325957128935ba4f318f199ea7d491d532229b23093ecd3e100889f",
@@ -33,5 +33,6 @@
   "fr:documentation_clients/fidelis/index_addendum.rst": "4be18ddf81a74556bccd7059a43bd0554a41aa491b330c0686a477ab433ac00d",
   "fr:documentation_clients/fidelis/index.rst": "02f587fa2c208f27ee3a81faa2aee36e97940c86cae0bd540dbe9d28dc11ee75",
   "fr:documentation_clients/fidelis/howtos.rst": "ef3ecb200f3bebe1c0bfee1ef2b6a7ecf9f6ef3227e5d51d53e572a7503c334b",
-  "fr:documentation_clients/fidelis/intro.rst": "18f831e43e930e81e5685e69f987c75a95b0c860a83654de8c325e47c45d7427"
+  "fr:documentation_clients/fidelis/intro.rst": "fdc553bec7edc33474231c28e50b0bd6ab136b42cc061d716e5254b245a337b1",
+  "fr:documentation_main/reference/calls/load.rst": "ec086af439548c05fdef043c34dc662e5fc8c984f730c1cd44e01e2e8f36dd04"
 }
